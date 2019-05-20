@@ -2,7 +2,8 @@ let numberOfClicks = 0;
 const enemy = '#enemy';
 const enemyMas = [];
 enemyMas[0] = {
-    background: '#FF00DCFF'
+    background: 'url(enemy`s/Вор.png) 100% 100% no-repeat',
+    backgroundSize: 'cover'
 };
 enemyMas[1] = {
     background: '#B200FFFF'
@@ -33,6 +34,11 @@ enemyMas[9] = {
 };
 enemyMas[10] = {
     background: '#3F3F3FFF'
+};
+const groundMas = [];
+groundMas[0] = {
+    background: 'url(еnemy`s/Вор.png) 100% 100% no-repeat',
+    backgroundSize: 'cover'
 };
 
 function begin() {
@@ -74,6 +80,7 @@ function click() {
     };
     if (numberOfClicks == 1) {
         $(enemy).css(enemyMas[0]);
+        $('#ground').css(groundMas[0]);
         console.log(numberOfClicks + ' click')
     }
     if (numberOfClicks == 10) {
