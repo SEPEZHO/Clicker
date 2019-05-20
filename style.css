@@ -1,99 +1,104 @@
 * {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  transition: 0.5s;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
 }
-
 header {
-  position: absolute;
-  top: 0;
-  left: 50vw;
-  width: 50vw;
-  height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    width: 50vw;
+    height: 50vh;
+    background: none;
 }
-
 #menu {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    justify-content: space-between;
 }
-
-#subMenu{
- position: relative;
- width: 100%;
- height: 90%;
- background: none;
+#subMenu {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background: none;
 }
-
 #inventory, #shop, #settings {
-  position: relative;
-  width: 30%;
-  height: 100%;
-  color: white;
-  background: black;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    color: white;
+    background: black;
+    border-radius: 0.15em;
+    box-shadow: 0.25vh 0.25vw 0.8em black;
 }
-
-#subInventory{
-  position: relative;
-  width: 65%;
-  height: 0%;
-  background: green;
+#subInventory {
+    position: relative;
+    width: 65%;
+    height: 0%;
+    background: green;
+    overflow: hidden;
 }
-#subShop{ 
-  position: relative;
-  width: 65%;
-  height: 0%;
-  left: 17.5%;
-  background: red;
+#subShop {
+    position: relative;
+    width: 65%;
+    height: 0%;
+    left: 17.5%;
+    background: red;
+    overflow: hidden;
 }
-#subSettings{
-  position: relative;
-  width: 65%;
-  height: 0%;
-  left: 35%;
-  color: white;
-  background: blue;
+#subSettings {
+    position: relative;
+    width: 65%;
+    height: 0%;
+    left: 35%;
+    color: white;
+    background: blue;
+    overflow: hidden;
 }
 main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50vw;
-  height: 100vh;
-  background: rgb(218, 218, 218);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background: rgb(218, 218, 218);
 }
-
 #enemy {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  width: 25vw;
-  height: 25vw;
-  color: white;
-  background: black;
-  margin-bottom: 15%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 25vw;
+    height: 25vw;
+    color: white;
+    background: black;
+    margin-bottom: 15%;
+    transform: translate(-50%, -50%);
 }
-
 #ground {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 20%;
-  color: white;
-  background: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    color: white;
+    background: black;
 }
-
 footer {
-  position: absolute;
-  left: 50vw;
-  bottom: 0;
-  width: 50vw;
-  height: 50vh;
-  background: grey;
-  color: white;
+    position: absolute;
+    left: 50vw;
+    bottom: 0;
+    width: 50vw;
+    height: 50vh;
+    background: grey;
+    color: white;
+}
+#oflineFarmInv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    color: black;
 }
