@@ -1,3 +1,6 @@
+<!-- Begin: 19.05.2019 -->
+<!-- End: __.__.____ -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -8,14 +11,13 @@
   <title>Clicker</title>
   <link rel="stylesheet" href="style.css">
   <script src='JavaScript/jquery-v3.4.1.js'></script>
-  <script type="text/javascript" src="JavaScript/script.js">
-
-  </script>
+  <script type="text/javascript" src="JavaScript/EnemyScript.js"></script>
+  <script type="text/javascript" src="JavaScript/script.js"></script>
 </head>
-<body onload="begin()">
+<body onload="begin(), menuAnim()">
   <header>
     <section id="menu">
-      <div id="inventory">
+      <div id="inventory" class="inve">
         INVENTORY
       </div>
       <div id="shop">
@@ -25,9 +27,22 @@
         SETTINGS
       </div>
     </section>
+    <section id="subMenu">
+      <div id="subInventory" class="inve">
+        
+      </div>
+      <div id="subShop">
+        
+      </div>
+      <div id="subSettings">
+        
+      </div>
+    </section>
   </header>
   <main>
     <div id="enemy">
+      <p id='numberOfClicks'></p>
+      <p id='level'></p>
     </div>
     <div id="ground">
       GROUND
