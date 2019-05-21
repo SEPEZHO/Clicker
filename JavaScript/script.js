@@ -1,29 +1,43 @@
 const inventory = [];
 
 function shopItem() {
-    $('#secondMouse').click(buy);
+    $('#secondMouse').click(buySecMouse);
+    $('#secondClick').click(buySecClick);
+
     setInterval(inventorySecondMouse, 1000);
 }
 
-function buy() {
+function buySecMouse() {
     if (numberOfClicks >= 10) {
         inventory.push('secondMouse');
         numberOfClicks -= 10;
-        rloadNumber();
-        inventoryPush();
+        reloadNumber();
+        $("#secondMouse").clone().appendTo($('#oflineFarmInv'));
+        
+    }
+}
+function buySecClick() {
+    if (numberOfClicks >= 50) {
+        inventory.push('SadSecondClick');
+        numberOfClicks -= 50;
+        reloadNumber();
+        $("#secondClick").clone().appendTo($('#oflineFarmInv'));
+        
     }
 }
 
-function inventoryPush() {
-    console.log('asd')
-    if (inventory.includes('secondMouse') == true) {
-        $("#secondMouse").clone().appendTo($('#oflineFarmInv'));
-    }
-}
+
 
 function inventorySecondMouse() {
     if (inventory.includes('secondMouse') == true) {
         numberOfClicks++;
-        rloadNumber();
+        reloadNumber();
     }
 }
+// function inventoryPush() {
+//     console.log('asd')
+//     if (inventory.includes('secondMouse') == true) {
+//     }
+//     if (inventory.includes('SadSecondClick') == true) {
+//     }
+// }

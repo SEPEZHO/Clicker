@@ -126,10 +126,19 @@ footer {
     color: black;
 }
 #secondMouse {
-    position: absolute;
+    position: relative;
     width: 5vw;
     height: 5vw;
     background: url(Enemy`s/SecMouse.png) 100% no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+#secondClick {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    background: url(Enemy`s/SadSecClick.png) 100% no-repeat;
     background-size: cover;
     color: black;
     text-align: center;

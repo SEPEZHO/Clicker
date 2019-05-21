@@ -50,10 +50,10 @@ groundMas[1] = {
 };
 
 function begin() {
-    $(enemy).mousemove(click);
+    $(enemy).click(click);
 }
 
-function rloadNumber() {
+function reloadNumber() {
     if (numberOfClicks != numberOfClicksOld) {
         numberOfClicksOld = numberOfClicks;
         $('#numberOfClicks').text(numberOfClicksOld);
@@ -61,10 +61,10 @@ function rloadNumber() {
 }
 
 function click() {
-    numberOfClicks1++;
-    if (numberOfClicks1 % 35 == 0) {
-        numberOfClicks++
-    }
+    // numberOfClicks1++;
+    // if (numberOfClicks1 % 35 == 0) {
+        numberOfClicksAdd();
+    // }
     if (numberOfClicks >= 0 && numberOfClicks < 9) {
         $('#level').text('level: 1')
     };
@@ -141,5 +141,15 @@ function click() {
         $(enemy).css(enemyMas[10]);
         console.log(numberOfClicks + ' click')
     }
-    rloadNumber();
+    reloadNumber();
+}
+
+function numberOfClicksAdd(){
+	numberOfClicks++;
+
+	if (inventory.includes('SadSecondClick') == true) {
+		console.log('fasdf')
+        numberOfClicks++;
+        reloadNumber();
+    }
 }
