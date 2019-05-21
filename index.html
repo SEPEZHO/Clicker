@@ -16,12 +16,14 @@
                         </script>
                         <script src="JavaScript/MenuScript.js" type="text/javascript">
                         </script>
+                        <script src="JavaScript/script.js" type="text/javascript">
+                        </script>
                     </link>
                 </meta>
             </meta>
         </meta>
     </head>
-    <body onload="begin(), menuAnim()">
+    <body onload="begin(), menuAnim(), shopItem()">
         <header>
             <section id="menu">
                 <div id="inventory">
@@ -53,12 +55,13 @@
             </section>
         </header>
         <main>
-            <div id="numberOfClicks"></div>
-            <div id="level"></div>
+            <div id="numberOfClicks">
+            </div>
+            <div id="level">
+            </div>
             <div id="enemy">
-              <div id="window">
-                
-              </div>
+                <div id="window">
+                </div>
             </div>
             <div id="ground">
                 GROUND
@@ -70,6 +73,9 @@
             </section>
             <section id="ItemShop">
                 ItemShop
+                <div id="secondMouse">
+                  HappySecMouse
+                </div>
             </section>
             <section id="TheSettings">
                 TheSettings

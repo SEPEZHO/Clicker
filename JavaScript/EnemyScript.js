@@ -1,6 +1,8 @@
 let numberOfClicks = 0;
+let numberOfClicks1 = 0;
+let numberOfClicksOld = 0;
 const enemy = '#enemy';
-const ground ='#ground';
+const ground = '#ground';
 const enemyMas = [];
 enemyMas[0] = {
     background: 'url(enemy`s/Вор.png) 100% no-repeat',
@@ -47,14 +49,22 @@ groundMas[1] = {
     backgroundSize: '100%',
 };
 
-
 function begin() {
-    $(enemy).click(click)
+    $(enemy).mousemove(click);
+}
+
+function rloadNumber() {
+    if (numberOfClicks != numberOfClicksOld) {
+        numberOfClicksOld = numberOfClicks;
+        $('#numberOfClicks').text(numberOfClicksOld);
+    }
 }
 
 function click() {
-    numberOfClicks++;
-    $('#numberOfClicks').text(numberOfClicks);
+    numberOfClicks1++;
+    if (numberOfClicks1 % 35 == 0) {
+        numberOfClicks++
+    }
     if (numberOfClicks >= 0 && numberOfClicks < 9) {
         $('#level').text('level: 1')
     };
@@ -131,4 +141,5 @@ function click() {
         $(enemy).css(enemyMas[10]);
         console.log(numberOfClicks + ' click')
     }
+    rloadNumber();
 }

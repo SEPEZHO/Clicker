@@ -94,7 +94,6 @@ main {
     height: 20%;
     color: white;
     background: black;
-    
 }
 footer {
     position: absolute;
@@ -112,6 +111,13 @@ footer {
     background: green;
     color: black;
 }
+#TheSettings {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    color: white;
+}
 #ItemShop {
     position: absolute;
     width: 100%;
@@ -119,10 +125,12 @@ footer {
     background: red;
     color: black;
 }
-#TheSettings {
+#secondMouse {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background: blue;
-    color: white;
+    width: 5vw;
+    height: 5vw;
+    background: url(Enemy`s/SecMouse.png) 100% no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
 }

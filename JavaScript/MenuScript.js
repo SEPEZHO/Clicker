@@ -85,27 +85,30 @@ function endSettingsAnimate() {
 function subInvetoryLink() {
     $('#subInvetoryLink').click(subInventoryLinkDo);
     $('#oflineFarmInv').hide();
+    if (inventory.indexOf('secondMouse') == true) {}
 }
 
 function subInventoryLinkDo() {
-	$("footer > section:not('#oflineFarmInv')").hide();
+    $("footer > section:not('#oflineFarmInv')").hide();
     $('#oflineFarmInv').show();
 }
+
 function subShopLink() {
     $('#subShopLink').click(subShopLinkDo);
     $('#ItemShop').hide();
 }
 
 function subShopLinkDo() {
-	$("footer > section:not('#ItemShop')").hide();
+    $("footer > section:not('#ItemShop')").hide();
     $('#ItemShop').show();
 }
+
 function subSettingsLink() {
     $('#subSettingsLink').click(subSettingsLinkDo);
     $('#TheSettings').hide();
 }
 
 function subSettingsLinkDo() {
-	$("footer > section:not('#TheSettings')").hide();
+    $("footer > section:not('#TheSettings')").hide();
     $('#TheSettings').show();
 }
