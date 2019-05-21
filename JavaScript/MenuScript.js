@@ -6,6 +6,8 @@ function menuAnim() {
     $('#settings').click(beginSettingsAnimate);
     $('#subSettings').mouseleave(endSettingsAnimate);
     subInvetoryLink();
+    subShopLink();
+    subSettingsLink();
 }
 
 function beginInventoryAnimate() {
@@ -86,5 +88,24 @@ function subInvetoryLink() {
 }
 
 function subInventoryLinkDo() {
-    $('#oflineFarmInv').toggle('slow', "linear");
+	$("footer > section:not('#oflineFarmInv')").hide();
+    $('#oflineFarmInv').show();
+}
+function subShopLink() {
+    $('#subShopLink').click(subShopLinkDo);
+    $('#ItemShop').hide();
+}
+
+function subShopLinkDo() {
+	$("footer > section:not('#ItemShop')").hide();
+    $('#ItemShop').show();
+}
+function subSettingsLink() {
+    $('#subSettingsLink').click(subSettingsLinkDo);
+    $('#TheSettings').hide();
+}
+
+function subSettingsLinkDo() {
+	$("footer > section:not('#TheSettings')").hide();
+    $('#TheSettings').show();
 }
