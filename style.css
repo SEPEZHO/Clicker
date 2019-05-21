@@ -24,6 +24,7 @@ header {
     width: 100%;
     height: 90%;
     background: none;
+    overflow: hidden;
 }
 #inventory, #shop, #settings {
     position: relative;
@@ -76,6 +77,14 @@ main {
     background: black;
     margin-bottom: 15%;
     transform: translate(-50%, -50%);
+}
+#window {
+    position: relative;
+    width: 106%;
+    height: 106%;
+    transform: translate(-3%, -3%);
+    background: url(Enemy`s/Window.png) 100% no-repeat;
+    background-size: cover;
 }
 #ground {
     position: absolute;
