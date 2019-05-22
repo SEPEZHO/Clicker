@@ -1,6 +1,6 @@
 let numberOfClicks = 0;
-let numberOfClicks1 = 0;
-let numberOfClicksOld = 0;
+// let numberOfClicks1 = 0;
+// let numberOfClicksOld = 0;
 const enemy = '#enemy';
 const ground = '#ground';
 const enemyMas = [];
@@ -66,7 +66,7 @@ function click() {
     // if (($.getScript("itemScript.js", sadSecondClickAdd())) == false) {} else {
     //     sadSecondClickAdd()
     // };
-    eval(sadSecondClickAdd);
+    eval(secClickAdd);
     reloadNumber();
     // }
 }
@@ -162,5 +162,3 @@ function levelChange() {
         return;
     };
 }
-
-function numberOfClicksAdd() {}

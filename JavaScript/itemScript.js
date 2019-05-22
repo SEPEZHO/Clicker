@@ -1,40 +1,40 @@
 const inventory = [];
-let sadSecondClickAdd = false;
+let secClickAdd = false;
 
 function shopItem() {
-    $('#secondMouse').click(buySecMouse);
-    $('#secondClick').click(buySecClick);
+    $('#itemSecondMouse').click(buySecMouse);
+    $('#itemSecondClick').click(buySecClick);
 }
 
 function buySecMouse() {
     if (numberOfClicks >= 10) {
-        inventory.push('secondMouse');
+        inventory.push('itemSecondMouse');
         numberOfClicks -= 10;
-        reloadNumber();
-        $("#secondMouse").clone().appendTo($('#oflineFarmInv'));
+        $("#itemSecondMouse").clone().appendTo($('#inventory'));
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
-    if (inventory.includes('secondMouse') == true) {
+    if (inventory.includes('itemSecondMouse') == true) {
         setInterval(function() {
             numberOfClicks++;
             reloadNumber();
         }, 1000);
     }
+    reloadNumber();
 }
 
 function buySecClick() {
-    if (numberOfClicks >= 1) {
-        inventory.push('SadSecondClick');
-        numberOfClicks -= 1;
-        reloadNumber();
-        $("#secondClick").clone().appendTo($('#oflineFarmInv'));
+    if (numberOfClicks >= 50) {
+        inventory.push('itemSecondClick');
+        numberOfClicks -= 50;
+        $("#itemSecondClick").clone().appendTo($('#inventory'));
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
-    sadSecondClickAdd = "numberOfClicks++;";
+    secClickAdd = "numberOfClicks++;";
+    reloadNumber();
 }
 // function inventorySecondMouse() {
 //     if (inventory.includes('secondMouse') == true) {

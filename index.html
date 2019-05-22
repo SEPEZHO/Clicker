@@ -26,13 +26,13 @@
     <body onload="begin(), menuAnim(), shopItem()">
         <header>
             <section id="menu">
-                <div id="inventory">
+                <div id="menuInventory">
                     INVENTORY
                 </div>
-                <div id="shop">
+                <div id="menuShop">
                     SHOP
                 </div>
-                <div id="settings">
+                <div id="menuSettings">
                     SETTINGS
                 </div>
             </section>
@@ -68,19 +68,32 @@
             </div>
         </main>
         <footer>
-            <section id="oflineFarmInv">
+            <section id="inventory">
                 OflineFarmInv
             </section>
-            <section id="ItemShop">
-                ItemShop
-                <div id="secondMouse">
-                    HappySecMouse
+            <section id="shop">
+                ItemShop.
+                <div id="itemSecondMouse">
+                    <span class="itemId">
+                        HappySecMouse
+                    </span>
+                    <span class="itemCost">
+                        Ценник в 10 грвень
+                    </span>
+                    <img alt="" class="itemPicture" src="Enemy`s/SecMouse.png">
+                    </img>
                 </div>
-                <div id="secondClick">
-                    SadSecondClick
+                <div id="itemSecondClick">
+                    <span class="itemId">
+                        SadSecondClick
+                    </span>
+                    <span class="itemCost">
+                        Ценник в 50 грвень
+                    </span>
+                    <img alt="" class="itemPicture" src="Enemy`s/SadSecClick.png">
                 </div>
             </section>
-            <section id="TheSettings">
+            <section id="settings">
                 TheSettings
             </section>
         </footer>
