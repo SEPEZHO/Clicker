@@ -54,102 +54,113 @@ function begin() {
 }
 
 function reloadNumber() {
-    if (numberOfClicks != numberOfClicksOld) {
-        numberOfClicksOld = numberOfClicks;
-        $('#numberOfClicks').text(numberOfClicksOld);
-    }
+    $('#numberOfClicks').text(numberOfClicks);
+    levelChange();
+    backgroundChange();
 }
 
 function click() {
     // numberOfClicks1++;
     // if (numberOfClicks1 % 35 == 0) {
-        numberOfClicksAdd();
+    numberOfClicks++;
+    // if (($.getScript("itemScript.js", sadSecondClickAdd())) == false) {} else {
+    //     sadSecondClickAdd()
+    // };
+    eval(sadSecondClickAdd);
+    reloadNumber();
     // }
-    if (numberOfClicks >= 0 && numberOfClicks < 9) {
-        $('#level').text('level: 1')
-    };
-    if (numberOfClicks >= 10 && numberOfClicks < 99) {
-        $('#level').text('level: 2')
-    };
-    if (numberOfClicks >= 100 && numberOfClicks < 249) {
-        $('#level').text('level: 3')
-    };
-    if (numberOfClicks >= 250 && numberOfClicks < 499) {
-        $('#level').text('level: 4')
-    };
-    if (numberOfClicks >= 500 && numberOfClicks < 999) {
-        $('#level').text('level: 5')
-    };
-    if (numberOfClicks >= 1000 && numberOfClicks < 1999) {
-        $('#level').text('level: 6')
-    };
-    if (numberOfClicks >= 2000 && numberOfClicks < 3499) {
-        $('#level').text('level: 7')
-    };
-    if (numberOfClicks >= 3500 && numberOfClicks < 4999) {
-        $('#level').text('level: 8')
-    };
-    if (numberOfClicks >= 5000 && numberOfClicks < 6999) {
-        $('#level').text('level: 9')
-    };
-    if (numberOfClicks >= 7000 && numberOfClicks < 9999) {
-        $('#level').text('level: 10')
-    };
+}
+
+function backgroundChange() {
     if (numberOfClicks == 1) {
         $(enemy).css(enemyMas[0]);
         $(ground).css(groundMas[0]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 10) {
         $(enemy).css(enemyMas[1]);
         $(ground).css(groundMas[1]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 100) {
         $(enemy).css(enemyMas[2]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 250) {
         $(enemy).css(enemyMas[3]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 500) {
         $(enemy).css(enemyMas[4]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 1000) {
         $(enemy).css(enemyMas[5]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 2000) {
         $(enemy).css(enemyMas[6]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 3500) {
         $(enemy).css(enemyMas[7]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 5000) {
         $(enemy).css(enemyMas[8]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 7000) {
         $(enemy).css(enemyMas[9]);
-        console.log(numberOfClicks + ' click')
+        return;
     }
     if (numberOfClicks == 10000) {
         $(enemy).css(enemyMas[10]);
-        console.log(numberOfClicks + ' click')
-    }
-    reloadNumber();
-}
-
-function numberOfClicksAdd(){
-	numberOfClicks++;
-
-	if (inventory.includes('SadSecondClick') == true) {
-		console.log('fasdf')
-        numberOfClicks++;
-        reloadNumber();
+        return;
     }
 }
+
+function levelChange() {
+    if (numberOfClicks >= 0 && numberOfClicks < 9) {
+        $('#level').text('level: 1')
+        return;
+    };
+    if (numberOfClicks >= 10 && numberOfClicks < 99) {
+        $('#level').text('level: 2')
+        return;
+    };
+    if (numberOfClicks >= 100 && numberOfClicks < 249) {
+        $('#level').text('level: 3')
+        return;
+    };
+    if (numberOfClicks >= 250 && numberOfClicks < 499) {
+        $('#level').text('level: 4')
+        return
+    };
+    if (numberOfClicks >= 500 && numberOfClicks < 999) {
+        $('#level').text('level: 5')
+        return;
+    };
+    if (numberOfClicks >= 1000 && numberOfClicks < 1999) {
+        $('#level').text('level: 6')
+        return;
+    };
+    if (numberOfClicks >= 2000 && numberOfClicks < 3499) {
+        $('#level').text('level: 7')
+        return;
+    };
+    if (numberOfClicks >= 3500 && numberOfClicks < 4999) {
+        $('#level').text('level: 8')
+        return;
+    };
+    if (numberOfClicks >= 5000 && numberOfClicks < 6999) {
+        $('#level').text('level: 9')
+        return;
+    };
+    if (numberOfClicks >= 7000 && numberOfClicks < 9999) {
+        $('#level').text('level: 10')
+        return;
+    };
+}
+
+function numberOfClicksAdd() {}

@@ -1,114 +1,118 @@
+var time = 50;
+
 function menuAnim() {
     $('#inventory').click(beginInventoryAnimate);
-    $('#subInventory').mouseleave(endInventoryAnimate);
     $('#shop').click(beginShopAnimate);
-    $('#subShop').mouseleave(endShopAnimate);
     $('#settings').click(beginSettingsAnimate);
-    $('#subSettings').mouseleave(endSettingsAnimate);
-    subInvetoryLink();
-    subShopLink();
-    subSettingsLink();
+    $('#ItemShop').hide();
+    $('#oflineFarmInv').hide();
+    $('#TheSettings').hide();
 }
 
 function beginInventoryAnimate() {
+    subInvetoryLink();
+    endShopAnimate();
+    endSettingsAnimate();
     $('#subInventory').css({
-        zIndex: 2
+        zIndex: 4
     })
     $('#subInventory').animate({
         height: '100%'
     }, {
-        duration: 10
+        duration: time
     })
-    endShopAnimate();
-    endSettingsAnimate();
+    $('#subInventory').mouseleave(endInventoryAnimate);
 }
 
 function endInventoryAnimate() {
     $('#subInventory').css({
-        zIndex: 0
+        zIndex: 3
     })
     $('#subInventory').animate({
         height: '0%'
     }, {
-        duration: 10
+        duration: time
     })
 }
 
 function beginShopAnimate() {
+    subShopLink();
+    endInventoryAnimate();
+    endSettingsAnimate();
     $('#subShop').css({
-        zIndex: 2
+        zIndex: 4
     })
     $('#subShop').animate({
         height: '100%'
     }, {
-        duration: 10
+        duration: time
     })
-    endInventoryAnimate();
-    endSettingsAnimate();
+    $('#subShop').mouseleave(endShopAnimate);
 }
 
 function endShopAnimate() {
     $('#subShop').css({
-        zIndex: 0
+        zIndex: 2
     })
     $('#subShop').animate({
         height: '0%'
     }, {
-        duration: 10
+        duration: time
     })
 }
 
 function beginSettingsAnimate() {
+    subSettingsLink();
+    endInventoryAnimate();
+    endShopAnimate();
     $('#subSettings').css({
-        zIndex: 2
+        zIndex: 4
     })
     $('#subSettings').animate({
         height: '100%'
     }, {
-        duration: 10
+        duration: time
     })
-    endInventoryAnimate();
-    endShopAnimate();
+    $('#subSettings').mouseleave(endSettingsAnimate);
 }
 
 function endSettingsAnimate() {
     $('#subSettings').css({
-        zIndex: 0
+        zIndex: 1
     })
     $('#subSettings').animate({
         height: '0%'
     }, {
-        duration: 10
+        duration: time
     })
 }
 
 function subInvetoryLink() {
-    $('#subInvetoryLink').click(subInventoryLinkDo);
-    $('#oflineFarmInv').hide();
-    if (inventory.indexOf('secondMouse') == true) {}
-}
-
-function subInventoryLinkDo() {
-    $("footer > section:not('#oflineFarmInv')").hide();
-    $('#oflineFarmInv').show();
+    $('#subInvetoryLink').click(function() {
+        $("footer > section:not('#oflineFarmInv')").hide();
+        $('#oflineFarmInv').show();
+    });
+    $('#oflineFarmInv').mouseleave(function() {
+        $('#oflineFarmInv').hide();
+    })
 }
 
 function subShopLink() {
-    $('#subShopLink').click(subShopLinkDo);
-    $('#ItemShop').hide();
-}
-
-function subShopLinkDo() {
-    $("footer > section:not('#ItemShop')").hide();
-    $('#ItemShop').show();
+    $('#subShopLink').click(function() {
+        $("footer > section:not('#ItemShop')").hide();
+        $('#ItemShop').show();
+    });
+    $('#ItemShop').mouseleave(function() {
+        $('#ItemShop').hide();
+    })
 }
 
 function subSettingsLink() {
-    $('#subSettingsLink').click(subSettingsLinkDo);
-    $('#TheSettings').hide();
-}
-
-function subSettingsLinkDo() {
-    $("footer > section:not('#TheSettings')").hide();
-    $('#TheSettings').show();
+    $('#subSettingsLink').click(function() {
+        $("footer > section:not('#TheSettings')").hide();
+        $('#TheSettings').show();
+    });
+    $('#TheSettings').mouseleave(function() {
+        $('#TheSettings').hide();
+    })
 }
