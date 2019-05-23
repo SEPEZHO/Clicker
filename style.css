@@ -8,12 +8,12 @@ header {
     top: 0;
     left: 50vw;
     width: 50vw;
-    height: 50vh;
+    height: 35vh;
     background: none;
 }
 #menu {
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-wrap: wrap;
     background: none;
@@ -22,7 +22,7 @@ header {
 #subMenu {
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 85%;
     background: none;
     overflow: hidden;
 }
@@ -103,33 +103,61 @@ footer {
     left: 50vw;
     bottom: 0;
     width: 50vw;
-    height: 50vh;
+    height: 65vh;
     background: grey;
     color: white;
     overflow: hidden;
 }
-#inventory {
+#description {
     position: absolute;
     width: 100%;
+    height: 20%;
+    background: green;
+    color: black;
+}
+.itemDescriptionAll {
+    width: 100%;
     height: 100%;
+}
+.itemDescriptionName {
+    position: absolute;
+}
+.itemDescriptionCost {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -100%);
+}
+.itemDescription {
+    position: absolute;
+    top: 0;
+    left: 35%;
+
+}
+.itemDescriptionPicture {
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-right: 1vw;
+}
+#inventory, #settings, #shop {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+}
+#inventory {
     background: green;
     color: black;
 }
 #settings {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: blue;
     color: white;
 }
 #shop {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: red;
     color: black;
 }
-#itemSecondMouse, #itemSecondClick{
+#itemSecondMouse, #itemSecondClick {
     position: relative;
     width: 25%;
     height: 15%;

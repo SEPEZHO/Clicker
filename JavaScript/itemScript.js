@@ -4,13 +4,16 @@ let secClickAdd = false;
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
     $('#itemSecondClick').click(buySecClick);
+    itemSecondMouseDescription();
+    itemSecondClickDescription();
 }
 
 function buySecMouse() {
     if (numberOfClicks >= 10) {
         inventory.push('itemSecondMouse');
         numberOfClicks -= 10;
-        $("#itemSecondMouse").clone().appendTo($('#inventory'));
+        clone = $("#itemSecondMouse").clone();
+        $("#inventory").append(clone);
     } else {
         alert('нет деняк, но вы держитесь');
         return;
@@ -22,6 +25,7 @@ function buySecMouse() {
         }, 1000);
     }
     reloadNumber();
+    itemSecondMouseDescription();
 }
 
 function buySecClick() {
@@ -35,6 +39,27 @@ function buySecClick() {
     }
     secClickAdd = "numberOfClicks++;";
     reloadNumber();
+    itemSecondClickDescription();
+}
+
+function itemSecondMouseDescription() {
+    $('#itemSecondMouseDescription').hide();
+    $('.itemSecondMouseClass').mouseover(function() {
+        $('#itemSecondMouseDescription').show();
+    });
+    $('.itemSecondMouseClass').mouseleave(function() {
+        $('#itemSecondMouseDescription').hide();
+    });
+}
+
+function itemSecondClickDescription() {
+    $('#itemSecondClickDescription').hide();
+    $('.itemSecondClickClass').mouseover(function() {
+        $('#itemSecondClickDescription').show();
+    });
+    $('.itemSecondClickClass').mouseleave(function() {
+        $('#itemSecondClickDescription').hide();
+    });
 }
 // function inventorySecondMouse() {
 //     if (inventory.includes('secondMouse') == true) {

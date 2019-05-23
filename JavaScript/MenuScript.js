@@ -13,18 +13,23 @@ function beginInventoryAnimate() {
     subInvetoryLink();
     endShopAnimate();
     endSettingsAnimate();
+    $('#subInventory').stop();
     $('#subInventory').css({
         zIndex: 4
     })
     $('#subInventory').animate({
         height: '100%'
     }, {
-        duration: time
+        duration: time,
+        complete: function() {
+            $('#subInventory').mouseleave(endInventoryAnimate);
+        }
     })
-    $('#subInventory').mouseleave(endInventoryAnimate);
 }
 
 function endInventoryAnimate() {
+    console.log('asd');
+    $('#subInventory').stop();
     $('#subInventory').css({
         zIndex: 3
     })
@@ -39,18 +44,22 @@ function beginShopAnimate() {
     subShopLink();
     endInventoryAnimate();
     endSettingsAnimate();
+    $('#subShop').stop();
     $('#subShop').css({
         zIndex: 4
     })
     $('#subShop').animate({
         height: '100%'
     }, {
-        duration: time
+        duration: time,
+        complete: function() {
+            $('#subShop').mouseleave(endShopAnimate);
+        }
     })
-    $('#subShop').mouseleave(endShopAnimate);
 }
 
 function endShopAnimate() {
+    $('#subShop').stop();
     $('#subShop').css({
         zIndex: 2
     })
@@ -65,18 +74,22 @@ function beginSettingsAnimate() {
     subSettingsLink();
     endInventoryAnimate();
     endShopAnimate();
+    $('#subSettings').stop();
     $('#subSettings').css({
         zIndex: 4
     })
     $('#subSettings').animate({
         height: '100%'
     }, {
-        duration: time
+        duration: time,
+        complete: function() {
+            $('#subSettings').mouseleave(endSettingsAnimate);
+        }
     })
-    $('#subSettings').mouseleave(endSettingsAnimate);
 }
 
 function endSettingsAnimate() {
+    $('#subSettings').stop();
     $('#subSettings').css({
         zIndex: 1
     })
@@ -89,7 +102,7 @@ function endSettingsAnimate() {
 
 function subInvetoryLink() {
     $('#subInvetoryLink').click(function() {
-        $("footer > section:not('#inventory')").hide();
+        $("footer > section:not('#description')").hide();
         $('#inventory').show();
     });
     $('#inventory').mouseleave(function() {
@@ -99,7 +112,7 @@ function subInvetoryLink() {
 
 function subShopLink() {
     $('#subShopLink').click(function() {
-        $("footer > section:not('#shop')").hide();
+        $("footer > section:not('#description')").hide();
         $('#shop').show();
     });
     $('#shop').mouseleave(function() {
@@ -109,7 +122,7 @@ function subShopLink() {
 
 function subSettingsLink() {
     $('#subSettingsLink').click(function() {
-        $("footer > section:not('#settings')").hide();
+        $("footer > section:not('#description')").hide();
         $('#settings').show();
     });
     $('#settings').mouseleave(function() {
