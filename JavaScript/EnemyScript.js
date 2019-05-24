@@ -51,6 +51,7 @@ groundMas[1] = {
 
 function begin() {
     $(enemy).click(click);
+    enemyBox();
 }
 
 function reloadNumber() {
@@ -161,4 +162,22 @@ function levelChange() {
         $('#level').text('level: 10')
         return;
     };
+}
+
+function enemyBox() {
+    box = $('#enemyBox');
+    box.mousemove(startRotate);
+    box.mouseleave(stopRotate);
+
+    function startRotate(event) {
+        let boxItem = this.querySelector('#enemy'),
+            halfHeight = boxItem.offsetHeight / 2,
+            halfWidth = boxItem.offsetWidth / 2;
+        boxItem.style.transform = 'rotatex(' + -(event.offsetY - halfHeight) / 8 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 8 + 'deg)';
+    }
+
+    function stopRotate(event) {
+        let boxItem = this.querySelector('#enemy');
+        boxItem.style.transform = 'rotate(0)';
+    }
 }
