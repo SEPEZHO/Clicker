@@ -37,7 +37,7 @@ function buySecClick() {
         alert('нет деняк, но вы держитесь');
         return;
     }
-    secClickAdd = "numberOfClicks++;";
+    clickPerOne++;
     reloadNumber();
     itemSecondClickDescription();
 }
