@@ -28,7 +28,6 @@ function beginInventoryAnimate() {
 }
 
 function endInventoryAnimate() {
-    console.log('asd');
     $('#subInventory').stop();
     $('#subInventory').css({
         zIndex: 3

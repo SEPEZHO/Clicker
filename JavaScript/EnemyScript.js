@@ -1,7 +1,7 @@
 let numberOfClicks = 0;
 clickPerOne = 1;
-// let numberOfClicks1 = 0;
-// let numberOfClicksOld = 0;
+let numberOfClicks1 = 0;
+let numberOfClicksOld = 0;
 const enemy = '#enemy';
 const ground = '#ground';
 const enemyMas = [];
@@ -51,7 +51,7 @@ groundMas[1] = {
 };
 
 function begin() {
-    $(enemy).click(click);
+    $(enemy).mousemove(click);
     enemyBox();
 }
 
@@ -62,26 +62,20 @@ function reloadNumber() {
 }
 
 function click() {
-    // numberOfClicks1++;
-    // if (numberOfClicks1 % 35 == 0) {
-    numberOfClicks+=clickPerOne;
-
-    // if (($.getScript("itemScript.js", sadSecondClickAdd())) == false) {} else {
-    //     sadSecondClickAdd()
-    // };
-    eval(secClickAdd);
-    reloadNumber();
-    dps();
-    // }
+    numberOfClicks1++;
+    if (numberOfClicks1 % 20 == 0) {
+        numberOfClicks += clickPerOne;
+        dps();
+        reloadNumber();
+    }
 }
 
 function dps() {
     var cloneDPS = $('#damagePS');
-    var text = "<span id='clone'>+"+clickPerOne+"</span>";
+    var text = "<span id='clone'>+" + clickPerOne + "</span>";
     cloneDPS.append(text);
     $('#clone').css({
         position: 'absolute'
-
     });
     $('#clone').animate({
         top: '-100px',
@@ -89,7 +83,6 @@ function dps() {
     }, {
         duration: 500,
         start: function() {
-        	console.log('asdads')
             $("#clone").removeAttr("id");
         }
     });

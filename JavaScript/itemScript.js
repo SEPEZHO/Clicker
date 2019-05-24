@@ -20,8 +20,9 @@ function buySecMouse() {
     }
     if (inventory.includes('itemSecondMouse') == true) {
         setInterval(function() {
-            numberOfClicks++;
+            numberOfClicks+=clickPerOne;
             reloadNumber();
+            dps(); // <-----
         }, 1000);
     }
     reloadNumber();
