@@ -1,199 +1,290 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
-    transition: 0.5s;
+
+    transition: .5s;
 }
-::selection {
+::-moz-selection
+{
     background: transparent;
 }
-header {
+::selection
+{
+    background: transparent;
+}
+header
+{
     position: absolute;
     top: 0;
     left: 50vw;
+
     width: 50vw;
     height: 35vh;
+
     background: none;
 }
-#menu {
+#menu
+{
+    display: flex;
+
     width: 100%;
     height: 15%;
-    display: flex;
-    flex-wrap: wrap;
+
     background: none;
+
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-#subMenu {
+#subMenu
+{
     position: relative;
+
+    overflow: hidden;
+
     width: 100%;
     height: 85%;
+
     background: none;
-    overflow: hidden;
 }
-#menuInventory, #menuShop, #menuSettings {
+#menuInventory,
+#menuShop,
+#menuSettings
+{
     position: relative;
+
     width: 30%;
     height: 100%;
+
     color: white;
+    border-radius: .15em;
     background: black;
-    border-radius: 0.15em;
-    box-shadow: 0.25vh 0.25vw 0.8em black;
+    box-shadow: .25vh .25vw .8em black;
 }
-#subInventory {
+#subInventory
+{
     position: absolute;
-    width: 65%;
-    height: 0%;
     z-index: 3;
-    background: black;
-    color: white;
+
     overflow: hidden;
-}
-#subShop {
-    position: absolute;
+
     width: 65%;
-    height: 0%;
-    left: 17.5%;
+    height: 0;
+
+    color: white;
+    background: black;
+}
+#subShop
+{
+    position: absolute;
     z-index: 2;
-    background: black;
-    color: white;
+    left: 17.5%;
+
     overflow: hidden;
-}
-#subSettings {
-    position: absolute;
+
     width: 65%;
-    height: 0%;
-    left: 35%;
-    z-index: 1;
+    height: 0;
+
     color: white;
     background: black;
-    overflow: hidden;
 }
-main {
+#subSettings
+{
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+
+    overflow: hidden;
+
+    width: 65%;
+    height: 0;
+
+    color: white;
+    background: black;
+}
+main
+{
     position: absolute;
     top: 0;
     left: 0;
+
     width: 50vw;
     height: 100vh;
-    background: #dbccc1;
+
     outline: 2px solid black;
     outline-offset: -2px;
+    background: #dbccc1;
 }
-#damagePS {
+#damagePS
+{
     position: absolute;
-    width: 100%;
     top: -4vh;
+
+    width: 100%;
 }
-#enemy {
+#enemy
+{
     width: 100%;
     height: 100%;
-    color: white;
     margin-bottom: 15%;
-    transition: transform .2s ease;
+
+    transition: -webkit-transform .2s ease;
+    transition:         transform .2s ease;
+    transition:         transform .2s ease, -webkit-transform .2s ease;
+
+    color: white;
 }
-#enemyBox {
+#enemyBox
+{
     position: absolute;
     top: 40%;
     left: 50%;
+
     width: 25vw;
     height: 25vw;
-    transform: translate(-50%, -50%);
-    perspective: 1000px;
+
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
     border: border-box;
+
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
     flex: wrap;
-    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
 }
-#window {
+#window
+{
     position: relative;
+
     width: 106%;
     height: 106%;
-    transform: translate(-3%, -3%);
+
+    -webkit-transform: translate(-3%, -3%);
+            transform: translate(-3%, -3%);
+
     background: url(Enemy`s/Window.png) 100% no-repeat;
     background-size: cover;
 }
-#ground {
+#ground
+{
     position: absolute;
-    left: 0;
     bottom: 0;
+    left: 0;
+
     width: 100%;
     height: 20%;
+
     color: white;
 }
-footer {
+footer
+{
     position: absolute;
-    left: 50vw;
     bottom: 0;
+    left: 50vw;
+
+    overflow: hidden;
+
     width: 50vw;
     height: 65vh;
-    background: #dbccc1;
+
     color: white;
-    overflow: hidden;
+    background: #dbccc1;
 }
-#description {
+#description
+{
     position: absolute;
+
     width: 100%;
     height: 20%;
-    background: none;
+    padding: 1px;
+
     color: black;
     outline: 1px solid black;
     outline-offset: -1px;
-    outline-left-width: 0px;
-    padding: 1px;
+    background: none;
+
+    outline-left-width: 0;
 }
-.itemDescriptionAll {
+.itemDescriptionAll
+{
     width: 100%;
     height: 100%;
 }
-.itemDescriptionName {
+.itemDescriptionName
+{
     position: absolute;
 }
-.itemDescriptionCost {
+.itemDescriptionCost
+{
     position: absolute;
     top: 50%;
-    transform: translate(0, -100%);
+
+    -webkit-transform: translate(0, -100%);
+            transform: translate(0, -100%);
 }
-.itemDescription {
+.itemDescription
+{
     position: absolute;
     top: 0;
     left: 35%;
 }
-.itemDescriptionPicture {
+.itemDescriptionPicture
+{
+    float: left;
+
     width: auto;
     height: 100%;
-    float: left;
     margin-right: 1vw;
 }
-.firstAppend {
+.firstAppend
+{
     position: absolute;
-    bottom: -1vh;
     right: -1vw;
+    bottom: -1vh;
 }
-#inventory, #settings, #shop {
+#inventory,
+#settings,
+#shop
+{
     position: absolute;
+    top: 20%;
+
     width: 100%;
     height: 80%;
-    top: 20%;
-    background: none;
+
     color: black;
+    background: none;
 }
-#itemSecondMouse, #itemSecondClick {
+#itemSecondMouse,
+#itemSecondClick
+{
     position: relative;
+
     width: 25%;
     height: 15%;
-    color: black;
     margin: 5px;
+
+    color: black;
     border: 2px solid black;
 }
-.itemPicture {
+.itemPicture
+{
     position: absolute;
     right: 0;
+
     width: auto;
     height: 100%;
 }
-.itemId {
+.itemId
+{
     position: absolute;
     top: 0;
     left: 0;
 }
-.itemCost {
+.itemCost
+{
     position: absolute;
     bottom: 0;
     left: 0;

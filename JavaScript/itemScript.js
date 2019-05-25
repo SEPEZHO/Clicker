@@ -7,22 +7,21 @@ function shopItem() {
     itemSecondMouseDescription();
     itemSecondClickDescription();
 }
-var firstAppend = 0;
-
+let firstAppendForSecMouse = 0;
+let firstAppendForSecClick = 0;
 function buySecMouse() {
     if (numberOfClicks >= 10) {
         inventory.push('itemSecondMouse');
         numberOfClicks -= 10;
-        if (firstAppend == 0) {
-            firstAppend++;
-            console.log(firstAppend);
+        if (firstAppendForSecMouse == 0) {
+            firstAppendForSecMouse++;
             clone = $("#itemSecondMouse").clone();
             $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
             $("#inventory").append(clone);
         } else {
-            firstAppend++;
+            firstAppendForSecMouse++;
             $("#secondMouseFirstAppend").empty();
-            $('#secondMouseFirstAppend').append('x' + firstAppend);
+            $('#secondMouseFirstAppend').append('x' + firstAppendForSecMouse);
         }
     } else {
         alert('нет деняк, но вы держитесь');
@@ -41,7 +40,16 @@ function buySecClick() {
     if (numberOfClicks >= 50) {
         inventory.push('itemSecondClick');
         numberOfClicks -= 50;
-        $("#itemSecondClick").clone().appendTo($('#inventory'));
+        if (firstAppendForSecClick == 0) {
+            firstAppendForSecClick++;
+            clone = $("#itemSecondClick").clone();
+            $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
+            $("#inventory").append(clone);
+        } else {
+            firstAppendForSecClick++;
+            $("#secondClickFirstAppend").empty();
+            $('#secondClickFirstAppend').append('x' + firstAppendForSecClick);
+        }
     } else {
         alert('нет деняк, но вы держитесь');
         return;
