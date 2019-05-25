@@ -7,22 +7,30 @@ function shopItem() {
     itemSecondMouseDescription();
     itemSecondClickDescription();
 }
+var firstAppend = 0;
 
 function buySecMouse() {
     if (numberOfClicks >= 10) {
         inventory.push('itemSecondMouse');
         numberOfClicks -= 10;
-        clone = $("#itemSecondMouse").clone();
-        $("#inventory").append(clone);
+        if (firstAppend == 0) {
+            firstAppend++;
+            console.log(firstAppend);
+            clone = $("#itemSecondMouse").clone();
+            $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
+            $("#inventory").append(clone);
+        } else {
+            firstAppend++;
+            $("#secondMouseFirstAppend").empty();
+            $('#secondMouseFirstAppend').append('x' + firstAppend);
+        }
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
     if (inventory.includes('itemSecondMouse') == true) {
         setInterval(function() {
-            numberOfClicks+=clickPerOne;
-            reloadNumber();
-            dps(); // <-----
+            click(); // <-----
         }, 1000);
     }
     reloadNumber();

@@ -77,10 +77,10 @@ main {
     outline: 2px solid black;
     outline-offset: -2px;
 }
-#damagePS{
+#damagePS {
     position: absolute;
-    top: 20%;
-    left: 50%;
+    width: 100%;
+    top: -4vh;
 }
 #enemy {
     width: 100%;
@@ -160,6 +160,11 @@ footer {
     height: 100%;
     float: left;
     margin-right: 1vw;
+}
+.firstAppend {
+    position: absolute;
+    bottom: -1vh;
+    right: -1vw;
 }
 #inventory, #settings, #shop {
     position: absolute;
