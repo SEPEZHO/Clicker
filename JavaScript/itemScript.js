@@ -1,5 +1,7 @@
 const inventory = [];
 let secClickAdd = false;
+let firstAppendForSecMouse = 0;
+let firstAppendForSecClick = 0;
 
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
@@ -7,19 +9,17 @@ function shopItem() {
     itemSecondMouseDescription();
     itemSecondClickDescription();
 }
-let firstAppendForSecMouse = 0;
-let firstAppendForSecClick = 0;
+
 function buySecMouse() {
     if (numberOfClicks >= 10) {
         inventory.push('itemSecondMouse');
         numberOfClicks -= 10;
         if (firstAppendForSecMouse == 0) {
-            firstAppendForSecMouse++;
             clone = $("#itemSecondMouse").clone();
             $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
             $("#inventory").append(clone);
+            itemSecondMouseDescription();
         } else {
-            firstAppendForSecMouse++;
             $("#secondMouseFirstAppend").empty();
             $('#secondMouseFirstAppend').append('x' + firstAppendForSecMouse);
         }
@@ -29,11 +29,11 @@ function buySecMouse() {
     }
     if (inventory.includes('itemSecondMouse') == true) {
         setInterval(function() {
-            click(); // <-----
+            click();
         }, 1000);
     }
+    firstAppendForSecMouse++;
     reloadNumber();
-    itemSecondMouseDescription();
 }
 
 function buySecClick() {
@@ -41,12 +41,11 @@ function buySecClick() {
         inventory.push('itemSecondClick');
         numberOfClicks -= 50;
         if (firstAppendForSecClick == 0) {
-            firstAppendForSecClick++;
             clone = $("#itemSecondClick").clone();
             $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
             $("#inventory").append(clone);
+            itemSecondClickDescription();
         } else {
-            firstAppendForSecClick++;
             $("#secondClickFirstAppend").empty();
             $('#secondClickFirstAppend').append('x' + firstAppendForSecClick);
         }
@@ -54,9 +53,9 @@ function buySecClick() {
         alert('нет деняк, но вы держитесь');
         return;
     }
+    firstAppendForSecClick++;
     clickPerOne++;
     reloadNumber();
-    itemSecondClickDescription();
 }
 
 function itemSecondMouseDescription() {
@@ -78,16 +77,3 @@ function itemSecondClickDescription() {
         $('#itemSecondClickDescription').hide();
     });
 }
-// function inventorySecondMouse() {
-//     if (inventory.includes('secondMouse') == true) {
-//         numberOfClicks++;
-//         reloadNumber();
-//     }
-// }
-// function inventoryPush() {
-//     console.log('asd')
-//     if (inventory.includes('secondMouse') == true) {
-//     }
-//     if (inventory.includes('SadSecondClick') == true) {
-//     }
-// }

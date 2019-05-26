@@ -1,7 +1,5 @@
 let numberOfClicks = 0;
 let clickPerOne = 1;
-// let numberOfClicks1 = 0;
-// let numberOfClicksOld = 0;
 const enemy = '#enemy';
 const ground = '#ground';
 const enemyMas = [];
@@ -53,136 +51,40 @@ groundMas[1] = {
 function begin() {
     $(enemy).click(click);
     enemyBox();
+    shopItem();
+    menuAnim();
 }
 
 function reloadNumber() {
     $('#numberOfClicks').text(numberOfClicks);
     levelChange();
-    backgroundChange();
 }
 
 function click() {
-    // numberOfClicks1++;
-    // if (numberOfClicks1 % 20 == 0) {
     numberOfClicks += clickPerOne;
     dps();
     reloadNumber();
-    // }
 }
 
 function dps() {
-    let text = "<span id='clone'>+" + clickPerOne + "</span>";
-    $('#damagePS').append(text);
-    let rand = Math.random() * (101 - 0) + 101;
-    rand -= 105;
+    let text = "<span id='clone' class='spanClickPerOne'>+" + clickPerOne + "</span>";
+    $('#enemy').append(text);
+    let rand = Math.random() * (95 - 0);
     $('#clone').css({
-        position: 'absolute',
         left: rand + '%'
     });
     $('#clone').animate({
-        top: '-10vh',
-        opacity: 0
+        top: '-20vh',
+        opacity: -1
     }, {
-        duration: 1000,
+        duration: 2000,
         start: function() {
             $("#clone").attr("id", "oldClone");
         },
         complete: function() {
-            $("#oldClone").remove()
+            $("#oldClone").remove();
         }
     });
-}
-
-function backgroundChange() {
-    if (numberOfClicks == 1) {
-        $(enemy).css(enemyMas[0]);
-        $(ground).css(groundMas[0]);
-        return;
-    }
-    if (numberOfClicks == 10) {
-        $(enemy).css(enemyMas[1]);
-        $(ground).css(groundMas[1]);
-        return;
-    }
-    if (numberOfClicks == 100) {
-        $(enemy).css(enemyMas[2]);
-        return;
-    }
-    if (numberOfClicks == 250) {
-        $(enemy).css(enemyMas[3]);
-        return;
-    }
-    if (numberOfClicks == 500) {
-        $(enemy).css(enemyMas[4]);
-        return;
-    }
-    if (numberOfClicks == 1000) {
-        $(enemy).css(enemyMas[5]);
-        return;
-    }
-    if (numberOfClicks == 2000) {
-        $(enemy).css(enemyMas[6]);
-        return;
-    }
-    if (numberOfClicks == 3500) {
-        $(enemy).css(enemyMas[7]);
-        return;
-    }
-    if (numberOfClicks == 5000) {
-        $(enemy).css(enemyMas[8]);
-        return;
-    }
-    if (numberOfClicks == 7000) {
-        $(enemy).css(enemyMas[9]);
-        return;
-    }
-    if (numberOfClicks == 10000) {
-        $(enemy).css(enemyMas[10]);
-        return;
-    }
-}
-
-function levelChange() {
-    if (numberOfClicks >= 0 && numberOfClicks < 9) {
-        $('#level').text('level: 1')
-        return;
-    };
-    if (numberOfClicks >= 10 && numberOfClicks < 99) {
-        $('#level').text('level: 2')
-        return;
-    };
-    if (numberOfClicks >= 100 && numberOfClicks < 249) {
-        $('#level').text('level: 3')
-        return;
-    };
-    if (numberOfClicks >= 250 && numberOfClicks < 499) {
-        $('#level').text('level: 4')
-        return
-    };
-    if (numberOfClicks >= 500 && numberOfClicks < 999) {
-        $('#level').text('level: 5')
-        return;
-    };
-    if (numberOfClicks >= 1000 && numberOfClicks < 1999) {
-        $('#level').text('level: 6')
-        return;
-    };
-    if (numberOfClicks >= 2000 && numberOfClicks < 3499) {
-        $('#level').text('level: 7')
-        return;
-    };
-    if (numberOfClicks >= 3500 && numberOfClicks < 4999) {
-        $('#level').text('level: 8')
-        return;
-    };
-    if (numberOfClicks >= 5000 && numberOfClicks < 6999) {
-        $('#level').text('level: 9')
-        return;
-    };
-    if (numberOfClicks >= 7000 && numberOfClicks < 9999) {
-        $('#level').text('level: 10')
-        return;
-    };
 }
 
 function enemyBox() {
@@ -194,7 +96,7 @@ function enemyBox() {
         let boxItem = this.querySelector('#enemy'),
             halfHeight = boxItem.offsetHeight / 2,
             halfWidth = boxItem.offsetWidth / 2;
-        boxItem.style.transform = 'rotatex(' + -(event.offsetY - halfHeight) / 8 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 8 + 'deg)';
+        boxItem.style.transform = 'rotatex(' + -(event.offsetY - halfHeight) / 15 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 15 + 'deg)';
     }
 
     function stopRotate(event) {
@@ -202,3 +104,59 @@ function enemyBox() {
         boxItem.style.transform = 'rotate(0)';
     }
 }
+
+function levelChange() {
+    if (numberOfClicks >= 0 && numberOfClicks < 9) {
+        $(enemy).css(enemyMas[0]);
+        $(ground).css(groundMas[0]);
+        $('#level').text('level: 1')
+        return;
+    };
+    if (numberOfClicks >= 10 && numberOfClicks < 99) {
+        $(enemy).css(enemyMas[1]);
+        $(ground).css(groundMas[1]);
+        $('#level').text('level: 2')
+        return;
+    };
+    if (numberOfClicks >= 100 && numberOfClicks < 249) {
+        $(enemy).css(enemyMas[2]);
+        $('#level').text('level: 3')
+        return;
+    };
+    if (numberOfClicks >= 250 && numberOfClicks < 499) {
+        $(enemy).css(enemyMas[3]);
+        $('#level').text('level: 4')
+        return
+    };
+    if (numberOfClicks >= 500 && numberOfClicks < 999) {
+        $(enemy).css(enemyMas[4]);
+        $('#level').text('level: 5')
+        return;
+    };
+    if (numberOfClicks >= 1000 && numberOfClicks < 1999) {
+        $(enemy).css(enemyMas[5]);
+        $('#level').text('level: 6')
+        return;
+    };
+    if (numberOfClicks >= 2000 && numberOfClicks < 3499) {
+        $(enemy).css(enemyMas[6]);
+        $('#level').text('level: 7')
+        return;
+    };
+    if (numberOfClicks >= 3500 && numberOfClicks < 4999) {
+        $(enemy).css(enemyMas[7]);
+        $('#level').text('level: 8')
+        return;
+    };
+    if (numberOfClicks >= 5000 && numberOfClicks < 6999) {
+        $(enemy).css(enemyMas[8]);
+        $('#level').text('level: 9')
+        return;
+    };
+    if (numberOfClicks >= 7000 && numberOfClicks < 9999) {
+        $(enemy).css(enemyMas[9]);
+        $('#level').text('level: 10')
+        return;
+    };
+}
+

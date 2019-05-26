@@ -13,6 +13,10 @@
 {
     background: transparent;
 }
+body
+{
+    font-size: 1em;
+}
 header
 {
     position: absolute;
@@ -115,22 +119,17 @@ main
     outline-offset: -2px;
     background: #dbccc1;
 }
-#damagePS
-{
-    position: absolute;
-    top: -4vh;
 
-    width: 100%;
-}
 #enemy
 {
     width: 100%;
     height: 100%;
     margin-bottom: 15%;
 
-    transition: -webkit-transform .2s ease;
-    transition:         transform .2s ease;
-    transition:         transform .2s ease, -webkit-transform .2s ease;
+    transition: -webkit-transform .2s;
+    transition:         transform .2s;
+    transition:         transform .2s, -webkit-transform .2s;
+    transition:         transform .2s, -webkit-transform .2s;
 
     color: white;
 }
@@ -153,6 +152,11 @@ main
     flex: wrap;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
+}
+.spanClickPerOne
+{
+    position: absolute;
+    top: -15%;
 }
 #window
 {
