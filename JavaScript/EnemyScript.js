@@ -53,6 +53,7 @@ function begin() {
     enemyBox();
     shopItem();
     menuAnim();
+    settingsBegin();
 }
 
 function reloadNumber() {
