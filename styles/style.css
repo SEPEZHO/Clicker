@@ -168,7 +168,8 @@ main
     -webkit-transform: translate(-3%, -3%);
             transform: translate(-3%, -3%);
 
-    background: url(Enemy`s/Window.png) 100% no-repeat;
+    outline: 1px solid black;
+    /*background: url(enemy`s/window.png) 100% no-repeat;*/
     background-size: cover;
 }
 #ground

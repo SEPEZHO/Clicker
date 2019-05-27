@@ -3,6 +3,7 @@ let secClickAdd = false;
 let firstAppendForSecMouse = 0;
 let firstAppendForSecClick = 0;
 let costForItemSecondMouse = 10;
+let costForItemSecondClick = 50;
 
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
@@ -15,14 +16,14 @@ function buySecMouse() {
     if (numberOfClicks >= costForItemSecondMouse) {
         inventory.push('itemSecondMouse');
         numberOfClicks -= costForItemSecondMouse;
-        costForItemSecondMouse = (costForItemSecondMouse*1.5).toFixed();
+        costForItemSecondMouse = (costForItemSecondMouse * 1.5).toFixed();
+        $('.costForItemSecondMouse').empty();
+        $('.costForItemSecondMouse').append(costForItemSecondMouse);
         if (firstAppendForSecMouse == 0) {
             clone = $("#itemSecondMouse").clone();
             $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
             $("#inventory").append(clone);
             itemSecondMouseDescription();
-           $('.costForItemSecondMouse').empty();
-           $('.costForItemSecondMouse').append(costForItemSecondMouse);
         } else {
             $("#secondMouseFirstAppend").empty();
             $('#secondMouseFirstAppend').append('x' + firstAppendForSecMouse);
@@ -41,9 +42,12 @@ function buySecMouse() {
 }
 
 function buySecClick() {
-    if (numberOfClicks >= 50) {
+    if (numberOfClicks >= costForItemSecondClick) {
         inventory.push('itemSecondClick');
-        numberOfClicks -= 50;
+        numberOfClicks -= costForItemSecondClick;
+        costForItemSecondClick = (costForItemSecondClick * 1.5).toFixed();
+        $('.costForItemSecondClick').empty();
+        $('.costForItemSecondClick').append(costForItemSecondClick);
         if (firstAppendForSecClick == 0) {
             clone = $("#itemSecondClick").clone();
             $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
