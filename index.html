@@ -27,7 +27,7 @@
             </meta>
         </meta>
     </head>
-    <body onload="begin()">
+    <body onload="begin(), settingsBegin()">
         <header>
             <section id="menu">
                 <div id="menuInventory">
@@ -161,7 +161,11 @@
                     <br>
                         <br>
                             <br>
-                                <input type="checkbox">
+                                <input type="checkbox" id="bigDig" onclick='settingsBegin()'>
+                                </input>
+                                 <input type="checkbox">
+                                </input>
+                                 <input type="checkbox">
                                 </input>
                             </br>
                         </br>

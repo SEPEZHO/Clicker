@@ -49,11 +49,10 @@ groundMas[1] = {
 };
 
 function begin() {
-    $(enemy).click(click);
+    clickChangeSett();
     enemyBox();
     shopItem();
     menuAnim();
-    settingsBegin();
 }
 
 function reloadNumber() {
