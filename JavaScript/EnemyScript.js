@@ -48,8 +48,8 @@ groundMas[1] = {
     backgroundSize: '100%',
 };
 
-function begin() {
-    clickChangeSett();
+function begin(someThing) {
+    someThing();
     enemyBox();
     shopItem();
     menuAnim();
