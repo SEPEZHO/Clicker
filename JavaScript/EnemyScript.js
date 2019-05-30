@@ -4,11 +4,11 @@ const enemy = '#enemy';
 const ground = '#ground';
 const enemyMas = [];
 enemyMas[0] = {
-    background: 'url(enemy`s/Вор.png) 100% no-repeat',
+    background: 'url(enemy`s/Slime.png) 100% no-repeat',
     backgroundSize: 'cover'
 };
 enemyMas[1] = {
-    background: 'url(enemy`s/космонавт.png) 100% no-repeat',
+    background: 'url(enemy`s/Laptop.png) 100% no-repeat',
     backgroundSize: 'cover'
 };
 enemyMas[2] = {
@@ -48,8 +48,7 @@ groundMas[1] = {
     backgroundSize: '100%',
 };
 
-function begin(someThing) {
-    someThing();
+function begin() {
     enemyBox();
     shopItem();
     menuAnim();
