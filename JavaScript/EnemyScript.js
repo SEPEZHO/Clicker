@@ -47,9 +47,10 @@ groundMas[1] = {
     background: 'url(enemy`s/space.png) no-repeat',
     backgroundSize: '100%',
 };
+$(document).ready(begin);
 
 function begin() {
-    enemyBox();
+    settingsBegin();
     shopItem();
     menuAnim();
 }
