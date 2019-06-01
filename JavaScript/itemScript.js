@@ -2,12 +2,15 @@ const inventory = [];
 let secClickAdd = false;
 let firstAppendForSecMouse = 0;
 let firstAppendForSecClick = 0;
-let costForItemSecondMouse = 10;
-let costForItemSecondClick = 50;
-
+let firstAppendForPerComp = 0;
+var costForItemSecondMouse = 10;
+var costForItemSecondClick = 50;
+var costForItemPerComp = 1;
+var kritFunc1 = () => {return};
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
     $('#itemSecondClick').click(buySecClick);
+    $('#itemPersonalComp').click(buyPerComp);
     itemSecondMouseDescription();
     itemSecondClickDescription();
 }
@@ -68,6 +71,44 @@ function buySecClick() {
     }
 }
 
+function buyPerComp() {
+    if (numberOfClicks >= costForItemPerComp) {
+        inventory.push('itemPersonalComp');
+        numberOfClicks -= costForItemPerComp;
+        reloadNumber();
+        costForItemPerComp = (costForItemPerComp * 1.5).toFixed();
+        $('.costForItemPerComp').empty();
+        $('.costForItemPerComp').append(costForItemPerComp);
+        if (firstAppendForPerComp == 0) {
+            clone = $("#itemPersonalComp").clone();
+            $(clone).append('<span class="firstAppend" id="personalCompAppend"> </span>');
+            $("#inventory").append(clone);
+            itemSecondClickDescription();
+            firstAppendForPerComp++;
+        } else {
+            firstAppendForPerComp++;
+            $("#personalCompAppend").empty();
+            $('#personalCompAppend').append('x' + firstAppendForPerComp);
+        }
+        // kritFunc2(kritFunc1);
+        // var kritFunc1 = () => {
+        //     var randKrit = Math.random() * (10 - 0);
+        // if (randKrit == 10) {
+        //     var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
+        //     krit = krit.toFixed();
+            
+        //         var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
+        //         krit = krit.toFixed();
+        //     }
+        // }
+    } else {
+        alert('нет деняк, но вы держитесь');
+        return;
+    }
+}
+// function kritFunc2(kritFunc1){
+//     kritFunc1();
+// }
 function itemSecondMouseDescription() {
     $('#itemSecondMouseDescription').hide();
     $('.itemSecondMouseClass').mouseover(function() {

@@ -263,7 +263,8 @@ footer
     background: none;
 }
 #itemSecondMouse,
-#itemSecondClick
+#itemSecondClick,
+#itemPersonalComp
 {
     position: relative;
 

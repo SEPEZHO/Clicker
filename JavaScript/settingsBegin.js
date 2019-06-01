@@ -1,6 +1,8 @@
+var stopEnemyBox;
+
 function settingsBegin() {
-    transformOnOrOff();
     clickOrMousemove()
+    transformOnOrOff();
 }
 
 function clickOrMousemove() {
@@ -22,12 +24,11 @@ function clickOrMousemove() {
     }
 }
 
-function transformOnOrOff() {
+function transformOnOrOff(argument) {
     if ($("#transformOnOrOff").is(":checked")) {
-        console.log('1');
         enemyBox();
     } else {
-        console.log('2');
-        enemyBox().off();
+        console.log('adsads')
+        $('#enemyBox').unbind();
     }
 }
