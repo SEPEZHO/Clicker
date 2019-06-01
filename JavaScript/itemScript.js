@@ -89,26 +89,25 @@ function buyPerComp() {
             firstAppendForPerComp++;
             $("#personalCompAppend").empty();
             $('#personalCompAppend').append('x' + firstAppendForPerComp);
+        }var clickPerOneOld
+         kritFunc1 = () => {
+            var randKrit = Math.random() * (10 - 0);
+        if (randKrit == 10) {
+            var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
+            krit = krit.toFixed();
+            console.log(krit);
+         clickPerOneOld = clickPerOne;
+            clickPerOne = krit;
+            }
         }
-        // kritFunc2(kritFunc1);
-        // var kritFunc1 = () => {
-        //     var randKrit = Math.random() * (10 - 0);
-        // if (randKrit == 10) {
-        //     var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
-        //     krit = krit.toFixed();
-            
-        //         var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
-        //         krit = krit.toFixed();
-        //     }
-        // }
+        click(kritFunc1);
+        clickPerOne = clickPerOneOld;
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
 }
-// function kritFunc2(kritFunc1){
-//     kritFunc1();
-// }
+
 function itemSecondMouseDescription() {
     $('#itemSecondMouseDescription').hide();
     $('.itemSecondMouseClass').mouseover(function() {

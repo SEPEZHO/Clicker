@@ -61,7 +61,7 @@ function reloadNumber() {
 }
 
 function click(krit) {
-    // krit()
+     // krit()
     // kritFunc2(kritFunc1 );
     numberOfClicks += clickPerOne;
     dps();
@@ -90,10 +90,9 @@ function dps() {
 }
 
 function enemyBox() {
-        box = $('#enemyBox');
-        box.mousemove(startRotate);
-        box.mouseleave(stopRotate);
-     
+    let box = $('#enemyBox');
+    box.mousemove(startRotate);
+    box.mouseleave(stopRotate);
 
     function startRotate(event) {
         let boxItem = this.querySelector('#enemy'),
