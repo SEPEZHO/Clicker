@@ -6,13 +6,17 @@ let firstAppendForPerComp = 0;
 var costForItemSecondMouse = 10;
 var costForItemSecondClick = 50;
 var costForItemPerComp = 1;
-var kritFunc1 = () => {return};
+var kritFunc1 = () => {
+    return
+};
+
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
     $('#itemSecondClick').click(buySecClick);
     $('#itemPersonalComp').click(buyPerComp);
     itemSecondMouseDescription();
     itemSecondClickDescription();
+    itemPersonalCompDescription();
 }
 
 function buySecMouse() {
@@ -83,29 +87,34 @@ function buyPerComp() {
             clone = $("#itemPersonalComp").clone();
             $(clone).append('<span class="firstAppend" id="personalCompAppend"> </span>');
             $("#inventory").append(clone);
-            itemSecondClickDescription();
+            itemPersonalCompDescription();
             firstAppendForPerComp++;
         } else {
             firstAppendForPerComp++;
             $("#personalCompAppend").empty();
             $('#personalCompAppend').append('x' + firstAppendForPerComp);
-        }var clickPerOneOld
-         kritFunc1 = () => {
-            var randKrit = Math.random() * (10 - 0);
-        if (randKrit == 10) {
-            var krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
-            krit = krit.toFixed();
-            console.log(krit);
-         clickPerOneOld = clickPerOne;
-            clickPerOne = krit;
-            }
         }
-        click(kritFunc1);
-        clickPerOne = clickPerOneOld;
+        $('#enemy').unbind();
+        $('#enemy').click(as);
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
+}
+let clickPerOneOld = clickPerOne;
+
+function as() {
+    let randKrit = Math.random() * (11 - 1);
+    randKrit = randKrit.toFixed();
+    console.log(randKrit)
+    if (randKrit == 10) {
+        console.log('asdad');
+        let krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
+        krit = krit.toFixed();
+        clickPerOne = krit;
+    }
+    click();
+    clickPerOne = clickPerOneOld;
 }
 
 function itemSecondMouseDescription() {
@@ -125,5 +134,15 @@ function itemSecondClickDescription() {
     });
     $('.itemSecondClickClass').mouseleave(function() {
         $('#itemSecondClickDescription').hide();
+    });
+}
+
+function itemPersonalCompDescription() {
+    $('#itemPersonalCompDescription').hide();
+    $('.itemPersonalCompClass').mouseover(function() {
+        $('#itemPersonalCompDescription').show();
+    });
+    $('.itemPersonalCompClass').mouseleave(function() {
+        $('#itemPersonalCompDescription').hide();
     });
 }

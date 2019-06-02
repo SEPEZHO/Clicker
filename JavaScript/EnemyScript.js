@@ -60,8 +60,8 @@ function reloadNumber() {
     levelChange();
 }
 
-function click(krit) {
-     // krit()
+function click() {
+    // krit()
     // kritFunc2(kritFunc1 );
     numberOfClicks += clickPerOne;
     dps();
