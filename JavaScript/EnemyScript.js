@@ -61,8 +61,6 @@ function reloadNumber() {
 }
 
 function click() {
-    // krit()
-    // kritFunc2(kritFunc1 );
     numberOfClicks += clickPerOne;
     dps();
     reloadNumber();

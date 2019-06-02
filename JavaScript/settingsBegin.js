@@ -28,7 +28,6 @@ function transformOnOrOff(argument) {
     if ($("#transformOnOrOff").is(":checked")) {
         enemyBox();
     } else {
-        console.log('adsads')
         $('#enemyBox').unbind();
     }
 }

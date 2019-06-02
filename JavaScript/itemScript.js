@@ -101,20 +101,19 @@ function buyPerComp() {
         return;
     }
 }
-let clickPerOneOld = clickPerOne;
 
 function as() {
-    let randKrit = Math.random() * (11 - 1);
-    randKrit = randKrit.toFixed();
-    console.log(randKrit)
+ let randKrit = Math.floor((Math.random() * 10) + 1);
+    console.log(randKrit);
     if (randKrit == 10) {
-        console.log('asdad');
-        let krit = Math.random() * (clickPerOne * 10 - clickPerOne * 1);
-        krit = krit.toFixed();
+        let clickPerOneOld = clickPerOne;
+        let  krit = Math.floor((Math.random() * (clickPerOne*10)) + (clickPerOne));
         clickPerOne = krit;
+        click();
+        clickPerOne = clickPerOneOld;
+    } else {
+        click();
     }
-    click();
-    clickPerOne = clickPerOneOld;
 }
 
 function itemSecondMouseDescription() {
