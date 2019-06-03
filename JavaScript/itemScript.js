@@ -6,9 +6,6 @@ let firstAppendForPerComp = 0;
 var costForItemSecondMouse = 10;
 var costForItemSecondClick = 50;
 var costForItemPerComp = 1;
-var kritFunc1 = () => {
-    return
-};
 
 function shopItem() {
     $('#itemSecondMouse').click(buySecMouse);
@@ -24,8 +21,7 @@ function buySecMouse() {
         inventory.push('itemSecondMouse');
         numberOfClicks -= costForItemSecondMouse;
         costForItemSecondMouse = (costForItemSecondMouse * 1.5).toFixed();
-        $('.costForItemSecondMouse').empty();
-        $('.costForItemSecondMouse').append(costForItemSecondMouse);
+        $('.costForItemSecondMouse').text(costForItemSecondMouse);
         if (firstAppendForSecMouse == 0) {
             clone = $("#itemSecondMouse").clone();
             $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
@@ -34,13 +30,16 @@ function buySecMouse() {
             firstAppendForSecMouse++;
         } else {
             firstAppendForSecMouse++;
-            $("#secondMouseFirstAppend").empty();
-            $('#secondMouseFirstAppend').append('x' + firstAppendForSecMouse);
+            $('#secondMouseFirstAppend').text('x' + firstAppendForSecMouse);
         }
         reloadNumber();
         if (inventory.includes('itemSecondMouse') == true) {
             setInterval(function() {
-                click();
+                if (inventory.includes('itemPersonalComp') == true) {
+                    clickWithPC();
+                } else {
+                    click();
+                }
             }, 1000);
         }
     } else {
@@ -54,8 +53,7 @@ function buySecClick() {
         inventory.push('itemSecondClick');
         numberOfClicks -= costForItemSecondClick;
         costForItemSecondClick = (costForItemSecondClick * 1.5).toFixed();
-        $('.costForItemSecondClick').empty();
-        $('.costForItemSecondClick').append(costForItemSecondClick);
+        $('.costForItemSecondClick').text(costForItemSecondClick);
         if (firstAppendForSecClick == 0) {
             clone = $("#itemSecondClick").clone();
             $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
@@ -65,7 +63,7 @@ function buySecClick() {
         } else {
             firstAppendForSecClick++;
             $("#secondClickFirstAppend").empty();
-            $('#secondClickFirstAppend').append('x' + firstAppendForSecClick);
+            $('#secondClickFirstAppend').text('x' + firstAppendForSecClick);
         }
         clickPerOne++;
         reloadNumber();
@@ -81,8 +79,7 @@ function buyPerComp() {
         numberOfClicks -= costForItemPerComp;
         reloadNumber();
         costForItemPerComp = (costForItemPerComp * 1.5).toFixed();
-        $('.costForItemPerComp').empty();
-        $('.costForItemPerComp').append(costForItemPerComp);
+        $('.costForItemPersonalComp').text(costForItemPerComp);
         if (firstAppendForPerComp == 0) {
             clone = $("#itemPersonalComp").clone();
             $(clone).append('<span class="firstAppend" id="personalCompAppend"> </span>');
@@ -91,23 +88,21 @@ function buyPerComp() {
             firstAppendForPerComp++;
         } else {
             firstAppendForPerComp++;
-            $("#personalCompAppend").empty();
-            $('#personalCompAppend').append('x' + firstAppendForPerComp);
+            $('#personalCompAppend').text('x' + firstAppendForPerComp);
         }
         $('#enemy').unbind();
-        $('#enemy').click(as);
+        $('#enemy').click(clickWithPC);
     } else {
         alert('нет деняк, но вы держитесь');
         return;
     }
 }
 
-function as() {
- let randKrit = Math.floor((Math.random() * 10) + 1);
-    console.log(randKrit);
+function clickWithPC() {
+    let randKrit = Math.floor((Math.random() * 10) + 1);
     if (randKrit == 10) {
         let clickPerOneOld = clickPerOne;
-        let  krit = Math.floor((Math.random() * (clickPerOne*10)) + (clickPerOne));
+        let krit = Math.floor((Math.random() * (clickPerOne * 10)) + (clickPerOne));
         clickPerOne = krit;
         click();
         clickPerOne = clickPerOneOld;

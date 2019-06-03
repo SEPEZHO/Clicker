@@ -47,12 +47,14 @@ groundMas[1] = {
     background: 'url(enemy`s/space.png) no-repeat',
     backgroundSize: '100%',
 };
+
 $(document).ready(begin);
 
 function begin() {
     settingsBegin();
     shopItem();
     menuAnim();
+    beginClick();
 }
 
 function reloadNumber() {
@@ -64,6 +66,36 @@ function click() {
     numberOfClicks += clickPerOne;
     dps();
     reloadNumber();
+}
+
+function beginClick() {
+    if (inventory.includes('itemPersonalComp') == true) {
+        $('#enemy').click(clickWithPC);
+        if ($("#clickOrMousemove").is(":checked")) {
+            $('#enemy').unbind('click');
+            let oldClick = 0;
+            $('#enemy').mousemove(function() {
+                oldClick++;
+                if (oldClick == 50) {
+                    oldClick = 0;
+                    clickWithPC();
+                }
+            })
+        }
+    } else {
+        $('#enemy').click(click);
+        if ($("#clickOrMousemove").is(":checked")) {
+            $('#enemy').unbind('click');
+            let oldClick = 0;
+            $('#enemy').mousemove(function() {
+                oldClick++;
+                if (oldClick == 50) {
+                    oldClick = 0;
+                    click();
+                }
+            })
+        }
+    }
 }
 
 function dps() {

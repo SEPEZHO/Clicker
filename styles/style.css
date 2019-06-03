@@ -74,7 +74,7 @@ header
 
     width: 65%;
     height: 0;
-
+ 
     color: white;
     background: black;
 }
@@ -117,7 +117,7 @@ main
 
     outline: 2px solid black;
     outline-offset: -2px;
-    background: #dbccc1;
+    background: none;
 }
 
 #enemy
@@ -157,6 +157,7 @@ main
 {
     position: absolute;
     top: -15%;
+    color: black;
 }
 #window
 {
@@ -195,7 +196,7 @@ footer
     height: 65vh;
 
     color: white;
-    background: #dbccc1;
+    background: none;
 }
 #description
 {
