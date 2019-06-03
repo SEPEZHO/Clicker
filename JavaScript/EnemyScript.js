@@ -76,11 +76,13 @@ function beginClick() {
             let oldClick = 0;
             $('#enemy').mousemove(function() {
                 oldClick++;
-                if (oldClick == 50) {
+                if (oldClick == 10) {
                     oldClick = 0;
                     clickWithPC();
                 }
             })
+        }else{
+            $('#enemy').unbind('mousemove')
         }
     } else {
         $('#enemy').click(click);
@@ -89,11 +91,13 @@ function beginClick() {
             let oldClick = 0;
             $('#enemy').mousemove(function() {
                 oldClick++;
-                if (oldClick == 50) {
+                if (oldClick == 10) {
                     oldClick = 0;
                     click();
                 }
             })
+        }else{
+            $('#enemy').unbind('mousemove')
         }
     }
 }
