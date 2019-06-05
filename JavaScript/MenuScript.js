@@ -22,7 +22,7 @@ function beginInventoryAnimate() {
     }, {
         duration: time,
         complete: function() {
-            $('#subInventory').mouseleave(endInventoryAnimate);
+            $('#subInventory').click(endInventoryAnimate);
         }
     })
 }
@@ -52,7 +52,7 @@ function beginShopAnimate() {
     }, {
         duration: time,
         complete: function() {
-            $('#subShop').mouseleave(endShopAnimate);
+            $('#subShop').click(endShopAnimate);
         }
     })
 }
@@ -82,7 +82,7 @@ function beginSettingsAnimate() {
     }, {
         duration: time,
         complete: function() {
-            $('#subSettings').mouseleave(endSettingsAnimate);
+            $('#subSettings').click(endSettingsAnimate);
         }
     })
 }
@@ -104,7 +104,7 @@ function subInvetoryLink() {
         $("footer > section:not('#description')").hide();
         $('#inventory').show();
     });
-    $('#inventory').mouseleave(function() {
+    $('.exit').click(function() {
         $('#inventory').hide();
     })
 }
@@ -114,7 +114,7 @@ function subShopLink() {
         $("footer > section:not('#description')").hide();
         $('#shop').show();
     });
-    $('#shop').mouseleave(function() {
+    $('.exit').click(function() {
         $('#shop').hide();
     })
 }
@@ -124,7 +124,7 @@ function subSettingsLink() {
         $("footer > section:not('#description')").hide();
         $('#settings').show();
     });
-    $('#settings').mouseleave(function() {
+    $('.exit').click(function() {
         $('#settings').hide();
     })
 }
