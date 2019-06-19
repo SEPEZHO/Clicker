@@ -55,6 +55,7 @@ function begin() {
     shopItem();
     menuAnim();
     beginClick();
+    beginForm();
 }
 
 function reloadNumber() {
