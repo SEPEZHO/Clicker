@@ -147,6 +147,7 @@
 
       </form>
     </div>
+    <div id='regulations'></div>
 
 <div id='signIn' class='button'>Войти</div>
 <div id='sendMail' class='button'>Отправить отзыв</div>
@@ -180,14 +181,31 @@
   </main>
   <footer>
     <section id="description">
-      <div class="itemDescriptionAll" id="itemSecondMouseDescription">
+
+       <div class="itemDescriptionAll" id="itemScrollDescription">
+        <img alt="" class="itemDescriptionPicture" src="../Enemy`s/Scroll.png">
+        <span class="itemDescriptionName">
+          Scroll
+        </span>
+        <span class="itemDescriptionCost">
+          Цена Free
+        </span>
+        <span class="itemDescription">
+          Странного вида бумажка, которую всунули в DNS при покупке пк.
+          <hr>
+          Хранит в себе тайны великих мудрецов - full stack developers.
+        </span>
+      </img>
+    </div>
+
+      <div class="itemDescriptionAll" id="itemUphoneDescription">
         <img alt="" class="itemDescriptionPicture" src="../Enemy`s/MobilePhone.png">
         <span class="itemDescriptionName">
           Uphone
         </span>
         <span class="itemDescriptionCost">
           Цена
-          <span class="costForItemSecondMouse">
+          <span class="costForItemUphone">
             100
           </span>
           NOC
@@ -199,14 +217,14 @@
         </span>
       </img>
     </div>
-    <div class="itemDescriptionAll" id="itemSecondClickDescription">
+    <div class="itemDescriptionAll" id="itemWinbookAirDescription">
       <img alt="" class="itemDescriptionPicture" src="../Enemy`s/Laptop.png">
       <span class="itemDescriptionName">
         WinBook Air
       </span>
       <span class="itemDescriptionCost">
         Цена
-        <span class="costForItemSecondClick">
+        <span class="costForItemWinbookAir">
           500
         </span>
         NOC
@@ -218,14 +236,14 @@
       </span>
     </img>
   </div>
-  <div class="itemDescriptionAll" id="itemPersonalCompDescription">
-    <img alt="" class="itemDescriptionPicture" src="../Enemy`s/PersonalComp.png">
+  <div class="itemDescriptionAll" id="itemWinProDescription">
+    <img alt="" class="itemDescriptionPicture" src="../Enemy`s/WinPro.png">
     <span class="itemDescriptionName">
       Win Pro
     </span>
     <span class="itemDescriptionCost">
       Ценник в
-      <span class="costForItemPersonalComp">
+      <span class="costForItemWinPro">
         1000
       </span>
       NOC
@@ -247,13 +265,24 @@
   ItemShop.
   <div class="exit">
   </div>
-  <div class="itemSecondMouseClass items" id="itemSecondMouse">
+  
+  <div class="itemScrollClass items" id="itemScroll">
+    <span class="itemId">
+      Scroll
+    </span>
+    <span class="itemCost">
+      Цена Free
+    </span>
+    <img alt="" class="itemPicture" src="../Enemy`s/Scroll.png">
+  </img>
+</div>
+<div class="itemUphoneClass items" id="itemUphone">
     <span class="itemId">
       Uphone
     </span>
     <span class="itemCost">
       Цена
-      <span class="costForItemSecondMouse">
+      <span class="costForItemUphone">
         100
       </span>
       NOC
@@ -261,13 +290,13 @@
     <img alt="" class="itemPicture" src="../Enemy`s/MobilePhone.png">
   </img>
 </div>
-<div class="itemSecondClickClass items" id="itemSecondClick">
+<div class="itemWinbookAirClass items" id="itemWinbookAir">
   <span class="itemId">
     WinBook Air
   </span>
   <span class="itemCost">
     Цена
-    <span class="costForItemSecondClick">
+    <span class="costForItemWinbookAir">
       500
     </span>
     NOC
@@ -275,18 +304,18 @@
   <img alt="" class="itemPicture" src="../Enemy`s/Laptop.png">
 </img>
 </div>
-<div class="itemPersonalCompClass items" id="itemPersonalComp">
+<div class="itemWinProClass items" id="itemWinPro">
   <span class="itemId">
     Win Pro
   </span>
   <span class="itemCost">
     Ценa
-    <span class="costForItemPersonalComp">
+    <span class="costForItemWinPro">
       1000
     </span>
     NOC
   </span>
-  <img alt="" class="itemPicture" src="../Enemy`s/PersonalComp.png">
+  <img alt="" class="itemPicture" src="../Enemy`s/WinPro.png">
 </img>
 </div>
 </section>
@@ -307,6 +336,7 @@
 </div>
 </section>
 </footer>
+
 </body>
 
 </html>

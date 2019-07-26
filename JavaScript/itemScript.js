@@ -1,154 +1,180 @@
 var inventory = {
-  itemSecondMouse: 0,
-  itemSecondClick: 0,
-  itemPersonalComp: 0,
+    itemScroll: 0,
+    itemUphone: 0,
+    itemWinbookAir: 0,
+    itemWinPro: 0,
 };
-let secClickAdd = false;
-let firstAppendForSecMouse = true;
-let firstAppendForSecClick = true;
-let firstAppendForPerComp = true;
-var costForItemSecondMouse = 100;
-var costForItemSecondClick = 500;
-var costForItemPerComp = 1000;
+let WinbookAirAdd = false;
+let firstAppendForUphone = true;
+let firstAppendForWinbookAir = true;
+let firstAppendForWinPro = true;
+var costForItemUphone = 100;
+var costForItemWinbookAir = 500;
+var costForItemWinPro = 1000;
 
 function shopItem() {
-  $('#itemSecondMouse').click(buySecMouse);
-  $('#itemSecondClick').click(buySecClick);
-  $('#itemPersonalComp').click(buyPerComp);
-  itemSecondMouseDescription();
-  itemSecondClickDescription();
-  itemPersonalCompDescription();
+    $('#itemUphone').click(buyUphone);
+    $('#itemScroll').click(buyScroll);
+    $('#itemWinbookAir').click(buyWinbookAir);
+    $('#itemWinPro').click(buyWinPro);
+    itemScrollDescription();
+    itemUphoneDescription();
+    itemWinbookAirDescription();
+    itemWinProDescription();
 }
 
-function buySecMouse() {
-  console.log('asdasdasd');
-  if (numberOfClicks >= costForItemSecondMouse) {
-    inventory.itemSecondMouse++;
-    numberOfClicks -= costForItemSecondMouse;
-    costForItemSecondMouse = (costForItemSecondMouse * 1.5).toFixed();
-    $('.costForItemSecondMouse').text(costForItemSecondMouse);
-    if (firstAppendForSecMouse) {
-      clone = $("#itemSecondMouse").clone();
-      $(clone).append('<span class="firstAppend" id="secondMouseFirstAppend"> </span>');
-      $("#inventory").append(clone);
-      itemSecondMouseDescription();
-      firstAppendForSecMouse = false;
+function buyScroll() {
+    inventory.itemScroll = 1;
+    $("#inventory").append($("#itemScroll"));
+    $('#itemScroll').unbind('click').click(() => {
+        $('body').append('<div id="filter"></div>');
+        $('#filter').css({ position: 'absolute', background: 'black', width: '100vw', height: '100vh', opacity: 0.75, zIndex: 2, display: 'block' });
+        var text = "Ну шо, чувачек, фрилансер, да? Так иди и фрилансируй при помощи рутинных кликов ради достижения определенной задачи. А после сливай их в магазине на новыйы Uphone или что там сейчас у молодежи модно. <hr> Включи консоль, там прикольно инфа выводится. <hr> Советую играть с пк.";
+        $('#regulations').html(text).show();
+        $('#filter').click(() => {
+            $('#filter').remove();
+            $('#regulations').hide();
+        });
+    })
+}
+
+function buyUphone() {
+    if (numberOfClicks >= costForItemUphone) {
+        inventory.itemUphone++;
+        numberOfClicks -= costForItemUphone;
+        costForItemUphone = (costForItemUphone * 1.5).toFixed();
+        $('.costForItemUphone').text(costForItemUphone);
+        if (firstAppendForUphone) {
+            clone = $("#itemUphone").clone();
+            $(clone).append('<span class="firstAppend" id="UphoneFirstAppend"> </span>');
+            $("#inventory").append(clone);
+            itemUphoneDescription();
+            firstAppendForUphone = false;
+        } else {
+            $('#UphoneFirstAppend').text('x' + inventory.itemUphone);
+        }
+        includeItemUphone();
+        reloadNumber();
     } else {
-      $('#secondMouseFirstAppend').text('x' + inventory.itemSecondMouse);
+        alert('нет деняк, но вы держитесь');
+        return;
     }
-    includeItemSecMouse();
-    reloadNumber();
-  } else {
-    alert('нет деняк, но вы держитесь');
-    return;
-  }
 }
 
-function includeItemSecMouse(){
-  setInterval(()=>{
-    if (inventory.itemPersonalComp != 0) {
-      clickWithPC();
+function includeItemUphone() {
+    setInterval(() => {
+        if (inventory.itemWinPro != 0) {
+            clickWithPC();
+        } else {
+            click();
+        }
+    }, 1000);
+}
+
+
+function buyWinbookAir() {
+    if (numberOfClicks >= costForItemWinbookAir) {
+        inventory.itemWinbookAir++;
+        numberOfClicks -= costForItemWinbookAir;
+        costForItemWinbookAir = (costForItemWinbookAir * 1.5).toFixed();
+        $('.costForItemWinbookAir').text(costForItemWinbookAir);
+        if (firstAppendForWinbookAir) {
+            clone = $("#itemWinbookAir").clone();
+            $(clone).append('<span class="firstAppend" id="WinbookAirFirstAppend"> </span>');
+            $("#inventory").append(clone);
+            itemWinbookAirDescription();
+            firstAppendForWinbookAir = false;
+        } else {
+            $('#WinbookAirFirstAppend').text('x' + inventory.itemWinbookAir);
+        }
+        includeItemWinbookAir();
+        reloadNumber();
     } else {
-      click();
+        alert('нет деняк, но вы держитесь');
+        return;
     }
-  }, 1000);
 }
 
+function includeItemWinbookAir() {
+    clickPerOne++;
+}
 
-function buySecClick() {
-  console.log('asdasdasd1');
-  if (numberOfClicks >= costForItemSecondClick) {
-    inventory.itemSecondClick++;
-    numberOfClicks -= costForItemSecondClick;
-    costForItemSecondClick = (costForItemSecondClick * 1.5).toFixed();
-    $('.costForItemSecondClick').text(costForItemSecondClick);
-    if (firstAppendForSecClick) {
-      clone = $("#itemSecondClick").clone();
-      $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
-      $("#inventory").append(clone);
-      itemSecondClickDescription();
-      firstAppendForSecClick = false;
+function buyWinPro() {
+    if (numberOfClicks >= costForItemWinPro) {
+        inventory.itemWinPro++;
+        numberOfClicks -= costForItemWinPro;
+        costForItemWinPro = (costForItemWinPro * 1.5).toFixed();
+        $('.costForItemWinPro').text(costForItemWinPro);
+        if (firstAppendForWinPro) {
+            clone = $("#itemWinPro").clone();
+            $(clone).append('<span class="firstAppend" id="WinProAppend"> </span>');
+            $("#inventory").append(clone);
+            firstAppendForWinPro = false;
+            includeItemWinPro();
+        } else {
+            $('#WinProAppend').text('x' + inventory.itemWinPro);
+        }
+        reloadNumber();
     } else {
-      $('#secondClickFirstAppend').text('x' + inventory.itemSecondClick);
+        alert('нет деняк, но вы держитесь');
+        return;
     }
-    includeItemSecClick();
-    reloadNumber();
-  } else {
-    alert('нет деняк, но вы держитесь');
-    return;
-  }
 }
 
-function includeItemSecClick(){
-  clickPerOne++;
+function includeItemWinPro() {
+    $('#enemy').unbind();
+    $('#enemy').click(clickWithPC);
 }
 
-function buyPerComp() {
-  if (numberOfClicks >= costForItemPerComp) {
-    inventory.itemPersonalComp++;
-    numberOfClicks -= costForItemPerComp;
-    costForItemPerComp = (costForItemPerComp * 1.5).toFixed();
-    $('.costForItemPersonalComp').text(costForItemPerComp);
-    if (firstAppendForPerComp) {
-      clone = $("#itemPersonalComp").clone();
-      $(clone).append('<span class="firstAppend" id="personalCompAppend"> </span>');
-      $("#inventory").append(clone);
-      itemPersonalCompDescription();
-      firstAppendForPerComp = false;
-      includeItemPerComp();
-    } else {
-      $('#personalCompAppend').text('x' + inventory.itemPersonalComp);
-    }
-    reloadNumber();
-  } else {
-    alert('нет деняк, но вы держитесь');
-    return;
-  }
-}
-
-function includeItemPerComp(){
-  $('#enemy').unbind();
-  $('#enemy').click(clickWithPC);
-}
 function clickWithPC() {
-  let randKrit = Math.floor((Math.random() * 10) + 1);
-  if (randKrit == 10) {
-    let clickPerOneOld = clickPerOne;
-    let krit = (Math.floor((Math.random() * (clickPerOne * 10)) + (clickPerOne)))*inventory.itemPersonalComp;
-    clickPerOne = krit;
-    click();
-    clickPerOne = clickPerOneOld;
-  } else {
-    click();
-  }
+    let randKrit = Math.floor((Math.random() * 10) + 1);
+    if (randKrit == 10) {
+        let clickPerOneOld = clickPerOne;
+        let krit = (Math.floor((Math.random() * (clickPerOne * 10)) + (clickPerOne))) * inventory.itemWinPro;
+        clickPerOne = krit;
+        click();
+        clickPerOne = clickPerOneOld;
+    } else {
+        click();
+    }
 }
 
-function itemSecondMouseDescription() {
-  $('#itemSecondMouseDescription').hide();
-  $('.itemSecondMouseClass').mouseover(function() {
-    $('#itemSecondMouseDescription').show();
-  });
-  $('.itemSecondMouseClass').mouseleave(function() {
-    $('#itemSecondMouseDescription').hide();
-  });
+function itemScrollDescription() {
+    $('#itemScrollDescription').hide();
+    $('.itemScrollClass').mouseover(function() {
+        $('#itemScrollDescription').show();
+    });
+    $('.itemScrollClass').mouseleave(function() {
+        $('#itemScrollDescription').hide();
+    });
 }
 
-function itemSecondClickDescription() {
-  $('#itemSecondClickDescription').hide();
-  $('.itemSecondClickClass').mouseover(function() {
-    $('#itemSecondClickDescription').show();
-  });
-  $('.itemSecondClickClass').mouseleave(function() {
-    $('#itemSecondClickDescription').hide();
-  });
+function itemUphoneDescription() {
+    $('#itemUphoneDescription').hide();
+    $('.itemUphoneClass').mouseover(function() {
+        $('#itemUphoneDescription').show();
+    });
+    $('.itemUphoneClass').mouseleave(function() {
+        $('#itemUphoneDescription').hide();
+    });
 }
 
-function itemPersonalCompDescription() {
-  $('#itemPersonalCompDescription').hide();
-  $('.itemPersonalCompClass').mouseover(function() {
-    $('#itemPersonalCompDescription').show();
-  });
-  $('.itemPersonalCompClass').mouseleave(function() {
-    $('#itemPersonalCompDescription').hide();
-  });
+function itemWinbookAirDescription() {
+    $('#itemWinbookAirDescription').hide();
+    $('.itemWinbookAirClass').mouseover(function() {
+        $('#itemWinbookAirDescription').show();
+    });
+    $('.itemWinbookAirClass').mouseleave(function() {
+        $('#itemWinbookAirDescription').hide();
+    });
+}
+
+function itemWinProDescription() {
+    $('#itemWinProDescription').hide();
+    $('.itemWinProClass').mouseover(function() {
+        $('#itemWinProDescription').show();
+    });
+    $('.itemWinProClass').mouseleave(function() {
+        $('#itemWinProDescription').hide();
+    });
 }

@@ -18,7 +18,7 @@ function transformOnOrOff() {
 }
 
 function beginClick() {
-  if (inventory.itemPersonalComp != 0) {
+  if (inventory.itemWinPro != 0) {
     $('#enemy').click(clickWithPC);
     setArr.mousemove = 'off';
     if ($("#clickOrMousemove").is(":checked")) {

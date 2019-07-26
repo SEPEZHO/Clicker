@@ -8,16 +8,19 @@ function logFunc(login,numCl,inv,settings){
   settings = JSON.parse(settings);
   console.log(settings);
 
-  if(inventory.itemSecondMouse != 0 ){
-    loginForItemSecMouse();
+  if(inventory.itemScroll != 0 ){
+    buyScroll();
+  }
+  if(inventory.itemUphone != 0 ){
+    loginForItemUphone();
   }
 
-  if(inventory.itemSecondClick != 0){
-    loginForItemSecClick();
+  if(inventory.itemWinbookAir != 0){
+    loginForItemWinbookAir();
   }
 
-  if(inventory.itemPersonalComp != 0){
-    loginForItemPersonalComp();
+  if(inventory.itemWinPro != 0){
+    loginForItemWinPro();
   }
 
   if(settings.transform == 'on'){
@@ -33,45 +36,45 @@ function logFunc(login,numCl,inv,settings){
   reloadNumber();
 }
 
-function loginForItemSecMouse(){
-  firstAppendForSecMouse = false;
-  clone = $('#itemSecondMouse').clone().appendTo('#inventory');
+function loginForItemUphone(){
+  firstAppendForUphone = false;
+  clone = $('#itemUphone').clone().appendTo('#inventory');
   clone.removeAttr('id');
-  $(clone).append("<span class='firstAppend' id='secondMouseFirstAppend'> </span>");
-  $('#secondMouseFirstAppend').text('x' + inventory.itemSecondMouse);
-  for (var i = 0; i <= inventory.itemSecondMouse; i++){
-    costForItemSecondMouse = (costForItemSecondMouse * 1.5).toFixed();
-    includeItemSecMouse();
+  $(clone).append("<span class='firstAppend' id='UphoneFirstAppend'> </span>");
+  $('#UphoneFirstAppend').text('x' + inventory.itemUphone);
+  for (var i = 0; i <= inventory.itemUphone; i++){
+    costForItemUphone = (costForItemUphone * 1.5).toFixed();
+    includeItemUphone();
   }
-  $('.costForItemSecondMouse').text(costForItemSecondMouse);
-  itemSecondMouseDescription();
+  $('.costForItemUphone').text(costForItemUphone);
+  itemUphoneDescription();
 }
 
-function loginForItemSecClick(){
-  clone = $("#itemSecondClick").clone().appendTo('#inventory');
+function loginForItemWinbookAir(){
+  clone = $("#itemWinbookAir").clone().appendTo('#inventory');
   clone.removeAttr('id');
-  $(clone).append('<span class="firstAppend" id="secondClickFirstAppend"> </span>');
-  $('#secondClickFirstAppend').text('x' + inventory.itemSecondClick);
-  for (var ii = 0; ii <= inventory.itemSecondClick; ii++){
-    costForItemSecondClick = (costForItemSecondClick * 1.5).toFixed();
-    includeItemSecClick();
+  $(clone).append('<span class="firstAppend" id="WinbookAirFirstAppend"> </span>');
+  $('#WinbookAirFirstAppend').text('x' + inventory.itemWinbookAir);
+  for (var ii = 0; ii <= inventory.itemWinbookAir; ii++){
+    costForItemWinbookAir = (costForItemWinbookAir * 1.5).toFixed();
+    includeItemWinbookAir();
   }
-  $('.costForItemSecondClick').text(costForItemSecondClick);
-  $('#secondClickFirstAppend').unbind();
-  itemSecondClickDescription();
-  firstAppendForSecClick = false;
+  $('.costForItemWinbookAir').text(costForItemWinbookAir);
+  $('#WinbookAirFirstAppend').unbind();
+  itemWinbookAirDescription();
+  firstAppendForWinbookAir = false;
 }
 
-function loginForItemPersonalComp(){
-  firstAppendForPerComp = false;
-  clone = $('#itemPersonalComp').clone().appendTo('#inventory');
+function loginForItemWinPro(){
+  firstAppendForWinPro = false;
+  clone = $('#itemWinPro').clone().appendTo('#inventory');
   clone.removeAttr('id');
-  $(clone).append("<span class='firstAppend' id='personalCompAppend'> </span>");
-  itemPersonalCompDescription();
-  $('#personalCompAppend').text('x' + inventory.itemPersonalComp);
-  includeItemPerComp();
-  for (var iii = 0; iii <= inventory.itemPersonalComp; iii++){
-    costForItemPerComp = (costForItemPerComp * 1.5).toFixed();
+  $(clone).append("<span class='firstAppend' id='WinProAppend'> </span>");
+  itemWinProDescription();
+  $('#WinProAppend').text('x' + inventory.itemWinPro);
+  includeItemWinPro();
+  for (var iii = 0; iii <= inventory.itemWinPro; iii++){
+    costForItemWinPro = (costForItemWinPro * 1.5).toFixed();
   }
-  $('.costForItemPersonalComp').text(costForItemPerComp);
+  $('.costForItemWinPro').text(costForItemWinPro);
 }
