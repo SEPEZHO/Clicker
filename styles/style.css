@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+}
+::-moz-selection {
+  background: transparent;
+}
+::selection {
+  background: transparent;
+}
+body{
+  font-size: 0.85vw;
+}
+
+#loginExit, #regExit, #sendMailExit{
+  position: relative;
+  color: white;
+  right: 0;
+}
+
+label{
+  color: white;
+}
+#textReg{
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#linkReg{
+  color: #999999;
+}
+#login, #registration, #sendMailForm{
+  display: none;
+  position: absolute;
+  top: 45vh;
+  left: 50vw;
+  width: 20vw;
+  transform: translate(-50%, -50%);
+}
+
+.button{
+  border:1px solid black;
+  color: black;
+  border-radius: 0.25vw;
+  margin: 1vh;
+  width: 7vw;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover{
+  background: black;
+  color: white;
+  box-shadow: 5px 5px black;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+.errors{
+  color: #999999;
+}
+.link{
+  text-decoration: none;
+  color: #edb545;
+}
+.link:hover, a:active {
+  text-decoration: none;
+  color: #ba8212;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  width: 50vw;
+  height: 35vh;
+  background: none;
+}
+.exit {
+  position: absolute;
+  margin-top: 0.3vh;
+  margin-right: 0.1vw;
+  top: 0;
+  right: 0;
+  width: 1.4vw;
+  height: 1.4vw;
+  background: url(../Enemy`s/Exit.png) 100% no-repeat;
+  background-size: cover;
+}
+#menu {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#subMenu {
+  position: relative;
+  width: 100%;
+  height: 85%;
+  background: none;
+}
+#menuInventory, #menuShop, #menuSettings {
+  top: 1vh;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 0.25vw;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menuInventory:hover, #menuShop:hover, #menuSettings:hover {
+  color: white;
+  background: black;
+  box-shadow: 5px 5px black;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+#subInventory {
+  width: 60%;
+  left: 1%;
+  top: 10%;
+}
+#subShop {
+  left: 33.5%;
+  top: 30%;
+  width: 45%;
+}
+#subSettings {
+  left: 58.5%;
+  width: 40%;
+  top: 50%;
+}
+
+#subInventory,#subShop,#subSettings{
+  /* transition: 0.6s; */
+  border: 1px solid black;
+  background: white;
+  border-radius: 0.3vw;
+  position: absolute;
+  overflow: hidden;
+  height: 0;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+#subInventory:hover,#subShop:hover,#subSettings:hover {
+  box-shadow:
+  10px 10px black;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  /* outline: 2px solid black; */
+  /* outline-offset: -2px; */
+  background: none;
+}
+#enemy {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15%;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  color: white;
+}
+#numberOfClicks, #level, #dps{
+  border: 1px solid black;
+  border-radius: 0.25vw;
+  padding: 0.5vw;
+}
+
+#numberOfClicks:hover, #level:hover, #dps:hover{
+  background: black;
+    box-shadow:
+    5px 5px black;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  color: white;
+}
+
+#info{
+  position: absolute;
+  width: 25vw;
+  top: 2.5vh;
+  left: 12.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#helthPoint{
+  position: absolute;
+  top: 9.5vh;
+  width: 50%;
+  left: 25%;
+}
+
+#hpBar{
+  height: 1vh;
+  border-radius: 1vw;
+  overflow: hidden;
+  background: white;
+  border: 1px solid black;
+  box-shadow:
+  3px 3px black;
+  }
+
+#helthPoint:hover #hpBar{
+  /* border: 1px solid white; */
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  background: black;
+  box-shadow:
+  6px 6px black;
+}
+
+#helthPoint:hover #hp{
+  background: white;
+}
+
+#hp{
+  height: 100%;
+  width: 0;
+  background: black;
+}
+#damage{
+  position: absolute;
+  top: -2vh;
+  color: black;
+}
+
+#enemyBox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 25vw;
+  height: 25vw;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: border-box;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  flex: wrap;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.spanClickPerOne {
+  position: absolute;
+  top: -15%;
+  color: black;
+}
+#window {
+  position: relative;
+  width: 106%;
+  height: 106%;
+  -webkit-transform: translate(-3%, -3%);
+  transform: translate(-3%, -3%);
+  /* outline: 1px solid black; */
+  background: url(../Enemy`s/Window.png) 100% no-repeat;
+  background-size: cover;
+}
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50vw;
+  overflow: hidden;
+  width: 50vw;
+  height: 65vh;
+  color: white;
+  background: none;
+}
+#inventory, #settings, #shop {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 80%;
+  color: black;
+  background: none;
+}
+#description {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  padding: 1px;
+  color: black;
+  background: none;
+}
+.itemDescriptionAll {
+  width: 100%;
+  height: 100%;
+}
+.itemDescriptionName {
+  position: absolute;
+  left: 15%;
+}
+.itemDescriptionCost {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  -webkit-transform: translate(0, -100%);
+  transform: translate(0, -100%);
+}
+.itemDescription {
+  position: absolute;
+  left: 35%;
+}
+.itemDescriptionPicture {
+  float: left;
+  width: auto;
+  height: 100%;
+}
+.firstAppend {
+  position: absolute;
+  right: -1vw;
+  bottom: -1vh;
+}
+
+.items{
+  position: relative;
+  padding-left: 1vw;
+  width: 25%;
+  height: 15%;
+  margin: 5px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.25vw;
+  background-color: white;
+}
+.items:hover{
+  filter: brightness(85%);
+  box-shadow: 5px 5px black;
+  transform: translateX(-5px);
+}
+.itemPicture {
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 100%;
+}
+.itemCost {
+  position: absolute;
+  left: 0.5vw;
+  bottom: 0.3vh;
+}
+.itemId {
+  position: absolute;
+  left: 0.5vw;
+  top: 0.3vh;
+}
