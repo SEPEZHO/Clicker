@@ -128,3 +128,14 @@ function subSettingsLink() {
     $('#settings').hide();
   })
 }
+
+function cAlert(text){
+  clearTimeout(timeForAlert);
+  $('#cAlert').text(text);
+  $('#cAlert').css({height: '7vh', borderWidth: '1px'});
+  var timeForAlert = setTimeout(()=>{$('#cAlert').css({height: '0vh', borderWidth: '0px'})},7000);
+  $('#cAlert').click(()=>{
+  clearTimeout(timeForAlert);
+  $('#cAlert').css({height: '0vh', borderWidth: '0px'});
+  })
+}

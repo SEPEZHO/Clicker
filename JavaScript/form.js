@@ -1,35 +1,26 @@
+//Подключаю все функции в этом файле
 function beginForm() {
-    $(document).keydown(function(e) {
-        if (e.keyCode === 27) {
-            var code = prompt('Читы?');
-            if (code == 'root') {
-                numberOfClicks += 10000;
-            } else if (isNumber(code)) {
-                numberOfClicks += parseInt(code);
-            } else {
-                numberOfClicks += 0;
-                alert('Введи или число или "root". Удачи.');
-            }
-            reloadNumber();
-        }
-    });
+    ajaxA();
+    buttonReady();
+    sendMailToDev();
 }
 
-function isNumber(n) { return /^-?[\d.]+(?:e-?\d+)?$/.test(n); }
-
+//функция при нажатии на кнопку войти
 function buttonReady() {
     $("#signIn").click(() => {
         $('body').append('<div id="filter"></div>');
         $('#filter').css({ position: 'absolute', background: 'black', width: '100vw', height: '100vh', opacity: 0.75, zIndex: 2, display: 'block' });
         $('#login').show().css({ top: "50vh", zIndex: 3 });
-        $('#loginExit').click(() => {
+        $('#cAlert').css({ height: '0vh', borderWidth: '0px' })
+        $('#filter').click(() => {
             $('#login').css({ top: "45vh", display: 'none' });
             $('#filter').hide(250);
         })
         $('#linkReg').click(() => {
             $('#login').css({ top: "45vh", display: 'none' });
+            cAlert('Советую ввести свой настоящий email.');
             $('#registration').show().css({ top: "50vh", zIndex: 3 });
-            $('#regExit').click(() => {
+            $('#filter').click(() => {
                 $('#filter').hide(250);
                 $('#registration').css({ top: "45vh", display: 'none' });
             })
@@ -37,23 +28,21 @@ function buttonReady() {
     })
 }
 
+//ф-я при нажатии на кнопку отправить отзыв
 function sendMailToDev() {
     $("#sendMail").click(() => {
         $('body').append('<div id="filter"></div>');
         $('#filter').css({ position: 'absolute', background: 'black', width: '100vw', height: '100vh', opacity: 0.75, zIndex: 2, display: 'block' });
         $('#sendMailForm').show().css({ top: "50vh", zIndex: 3 });
-        $('#sendMailExit').click(() => {
+        $('#cAlert').css({ height: '0vh', borderWidth: '0px' })
+        $('#filter').click(() => {
             $('#sendMailForm').css({ top: "45vh", display: 'none' }).hide();
             $('#filter').hide(250);
         })
     })
 }
 
-
-var isLog = false;
-var login;
-var id;
-
+//ОООООООчень большая функция с отправкой ajax запросов к серверу для рагистрации/логина/сохранения данных (по порядку)
 function ajaxA() {
     $('#submitLogin').click(() => {
         if (!isLog) {
@@ -106,7 +95,7 @@ function ajaxA() {
                 })
             }
         } else {
-            alert('Вы уже вошли в аккаунт.');
+            cAlert('Вы уже вошли в аккаунт.');
         }
     })
 
@@ -139,6 +128,7 @@ function ajaxA() {
                 $('#error_pass1Reg').empty();
                 $('#error_pass2Reg').empty();
             }
+
             if (!error) {
                 var inv = JSON.stringify(inventory);
                 var arr = JSON.stringify(setArr);
@@ -167,9 +157,10 @@ function ajaxA() {
                         console.log('Error_pass: ' + responce.error_pass);
                         console.log('<------------------------------>');
 
+
                         if (responce.error_mail == '' && responce.error_login == '' && responce.error_pass == '') {
                             isLog = true;
-                            alert('Вы успешно зарегестрированны, ' + loginReg);
+                            cAlert('Вы успешно зарегестрированны, ' + loginReg);
                             $('#registration').css({ top: "45vh" }).hide();
                             $('#filter').remove();
                         } else {
@@ -189,7 +180,7 @@ function ajaxA() {
                 })
             }
         } else {
-            alert('Вы уже вошли в аккаунт.');
+            cAlert('Вы уже вошли в аккаунт.');
         }
     })
 
@@ -213,16 +204,18 @@ function ajaxA() {
                     console.log('Is UPDATE:' + responce.done);
                     console.log('<------------------------------>');
                     if (responce.done == 'done') {
-                        alert('Данные успешно сохранены');
+                        cAlert('Данные успешно сохранены');
                     } else {
-                        alert('Прооизошла ошибка при сохранении данных.')
+                        cAlert('Прооизошла ошибка при сохранении данных.')
                     }
                 },
-                error: () => { console.log('ERROR');
-                alert('Произошла ошибка при отправке данных игры.') }
+                error: () => {
+                    console.log('ERROR');
+                    cAlert('Произошла ошибка при отправке данных игры.')
+                }
             })
         } else {
-            alert('Вам следует войти или зарегестрироваться.')
+            cAlert('Вам следует войти или зарегестрироваться.')
         }
     })
 
@@ -236,6 +229,7 @@ function ajaxA() {
             error = true;
             $('#error_mailSnd').text('Введите email');
         } else if (!(mailSnd.indexOf('@') >= 0)) {
+            error = true;
             $('#error_mailSnd').text('Email должен содержать "@"');
         } else { $('#error_mailSnd').empty(); }
 
@@ -272,7 +266,7 @@ function ajaxA() {
                     console.log('<------------------------------>');
 
                     if (responce.done == 'Done') {
-                        alert('Вы успешно отправили почту разработчику.');
+                        cAlert('Вы успешно отправили почту разработчику.');
                         $('#sendMailForm').css({ top: "45vh" }).hide();
                         $('#filter').remove();
                     } else {
@@ -290,3 +284,22 @@ function ajaxA() {
         }
     })
 }
+
+//Чит код на escape если нажать
+$(document).keydown(function(e) {
+    if (e.keyCode === 27) {
+        var code = prompt('Читы?');
+        if (code == 'root') {
+            numberOfClicks += 10000;
+        } else if (isNumber(code)) {
+            numberOfClicks += parseInt(code);
+        } else {
+            numberOfClicks += 0;
+            cAlert('Введи или число или "root". Удачи.');
+        }
+        reloadNumber();
+    }
+});
+
+//Проверка на число (взял с инета)
+function isNumber(n) { return /^-?[\d.]+(?:e-?\d+)?$/.test(n); }

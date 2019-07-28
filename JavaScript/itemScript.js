@@ -56,7 +56,7 @@ function buyUphone() {
         includeItemUphone();
         reloadNumber();
     } else {
-        alert('нет деняк, но вы держитесь');
+        cAlert('нет деняк, но вы держитесь');
         return;
     }
 }
@@ -90,7 +90,7 @@ function buyWinbookAir() {
         includeItemWinbookAir();
         reloadNumber();
     } else {
-        alert('нет деняк, но вы держитесь');
+        cAlert('нет деняк, но вы держитесь');
         return;
     }
 }
@@ -116,7 +116,7 @@ function buyWinPro() {
         }
         reloadNumber();
     } else {
-        alert('нет деняк, но вы держитесь');
+        cAlert('нет деняк, но вы держитесь');
         return;
     }
 }

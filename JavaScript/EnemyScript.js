@@ -1,176 +1,172 @@
 let numberOfClicks = 0;
 let clickPerOne = 1;
-const enemy = '#enemy';
-const ground = '#ground';
-const enemyMas = [];
-enemyMas[0] = {
-  background: 'url(../Enemy`s/Slime.png) 100% no-repeat',
-  backgroundSize: 'cover'
-};
-enemyMas[1] = {
-  background: 'url(../Enemy`s/Laptop.png) 100% no-repeat',
-  backgroundSize: 'cover'
-};
-enemyMas[2] = {
-  background: '#4800FFFF'
-};
-enemyMas[3] = {
-  background: '#0094FFFF'
-};
-enemyMas[4] = {
-  background: '#00FFFFFF'
-};
-enemyMas[5] = {
-  background: '#00FF21FF'
-};
-enemyMas[6] = {
-  background: '#B6FF00FF'
-};
-enemyMas[7] = {
-  background: '#FFD800FF'
-};
-enemyMas[8] = {
-  background: '#FF6A00FF'
-};
-enemyMas[9] = {
-  background: '#FF0000FF'
-};
-enemyMas[10] = {
-  background: '#3F3F3FFF'
-};
-const groundMas = [];
-groundMas[0] = {
-  background: 'url(../Enemy`s/ground.png) no-repeat',
-  backgroundSize: '100%',
-};
-groundMas[1] = {
-  background: 'url(../Enemy`s/space.png) no-repeat',
-  backgroundSize: '100%',
-};
+var numClick = 0;
+var damage = 0;
+var lvl = 1
+//глобальные переменные из form.js
+var isLog = false;
+var login;
+var id;
 
+// Подключаю все функции во всех файлах
 $(document).ready(begin);
 
 function begin() {
-  settingsBegin();
-  shopItem();
-  menuAnim();
-  beginForm();
-  dps();
-  ajaxA();
-  buttonReady();
-  sendMailToDev();
-  levelChange();
+    settingsBegin();
+    shopItem();
+    menuAnim();
+    beginForm();
+    dps();
+    levelChange();
+    chatBegin();
 }
 
+// Обновление уровней и текста и картинок и тд
 function reloadNumber() {
-  $('#numberOfClicks').text('NOC: ' + numberOfClicks);
-  levelChange();
+    $('#numberOfClicks').text('NOC: ' + numberOfClicks);
+    levelChange();
 }
 
+// Осн. функция клика
 function click() {
-  numberOfClicks += clickPerOne;
-  $('#damage').text('+' + clickPerOne);
-  damage+=clickPerOne;
-  reloadNumber();
+    numberOfClicks += clickPerOne;
+    $('#damage').text('+' + clickPerOne);
+    damage += clickPerOne;
+    reloadNumber();
 }
 
-
-var numClick = 0;
-function hp(min,max){
-  var num = max-min;
-  var numCl = numberOfClicks-min;
-  numClick = (numCl/num)*100;
-  if(numClick >= 100){
-    numClick = 0;
-  }
-  $('#hp').width(numClick+"%");
-  $('#damage').css({left:numClick+"%"});
+//Мой гениальный хп бар
+function hp(min, max) {
+    var num = max - min;
+    var numCl = numberOfClicks - min;
+    numClick = (numCl / num) * 100;
+    if (numClick >= 100) {
+        numClick = 0;
+    }
+    $('#hp').width(numClick + "%");
+    $('#damage').css({ left: numClick + "%" });
 }
 
-var damage = 0;
-function dps(){
-  window.setInterval(()=>{$('#dps').text('Dps: '+ damage);damage = 0}, 1000);
+//Обновление дпс каждую сек.
+function dps() {
+    window.setInterval(() => {
+        $('#dps').text('Dps: ' + damage);
+        damage = 0
+    }, 1000);
 }
 
+//Скрипт поворота enemy (нашел на ютубе)
 function enemyBox() {
-  let box = $('#enemyBox');
-  box.mousemove(startRotate);
-  box.mouseleave(stopRotate);
+    let box = $('#enemyBox');
+    box.mousemove(startRotate);
+    box.mouseleave(stopRotate);
 
-  function startRotate(event) {
-    let boxItem = this.querySelector('#enemy'),
-    halfHeight = boxItem.offsetHeight / 2,
-    halfWidth = boxItem.offsetWidth / 2;
-    boxItem.style.transform = 'rotatex(' + -(event.offsetY - halfHeight) / 15 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 15 + 'deg)';
-  }
+    function startRotate(event) {
+        let boxItem = this.querySelector('#enemy'),
+            halfHeight = boxItem.offsetHeight / 2,
+            halfWidth = boxItem.offsetWidth / 2;
+        boxItem.style.transform = 'rotatex(' + -(event.offsetY - halfHeight) / 15 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 15 + 'deg)';
+    }
 
-  function stopRotate(event) {
-    let boxItem = this.querySelector('#enemy');
-    boxItem.style.transform = 'rotate(0)';
-  }
+    function stopRotate(event) {
+        let boxItem = this.querySelector('#enemy');
+        boxItem.style.transform = 'rotate(0)';
+    }
 }
-
+//Собственно сам switch для уровней 
 function levelChange() {
-  if (numberOfClicks >= 0 && numberOfClicks < 100) {
-    $(enemy).css(enemyMas[0]);
-    $(ground).css(groundMas[0]);
-    $('#level').text('level: 1')
-    hp(0,100);
-    return;
-  };
-  if (numberOfClicks >= 100 && numberOfClicks < 500) {
-    $(enemy).css(enemyMas[1]);
-    $(ground).css(groundMas[1]);
-    $('#level').text('level: 2')
-    hp(100,500);
-    return;
-  };
-  if (numberOfClicks >= 501 && numberOfClicks < 1000) {
-    $(enemy).css(enemyMas[2]);
-    $('#level').text('level: 3')
-    hp(500,1000);
-    return;
-  };
-  if (numberOfClicks >= 1001 && numberOfClicks < 2000) {
-    $(enemy).css(enemyMas[3]);
-    $('#level').text('level: 4')
-    hp(1000,2000);
-    return
-  };
-  if (numberOfClicks >= 2001 && numberOfClicks < 4000) {
-    $(enemy).css(enemyMas[4]);
-    $('#level').text('level: 5')
-    hp(2000,4000);
-    return;
-  };
-  if (numberOfClicks >= 4001 && numberOfClicks < 8000) {
-    $(enemy).css(enemyMas[5]);
-    $('#level').text('level: 6')
-    hp(4000,8000);
-    return;
-  };
-  if (numberOfClicks >= 8001 && numberOfClicks < 16000) {
-    $(enemy).css(enemyMas[6]);
-    $('#level').text('level: 7')
-    hp(8000,16000);
-    return;
-  };
-  if (numberOfClicks >= 16001 && numberOfClicks < 32000) {
-    $(enemy).css(enemyMas[7]);
-    $('#level').text('level: 8')
-    hp(16000,32000);
-    return;
-  };
-  if (numberOfClicks >= 32001 && numberOfClicks < 64000) {
-    $(enemy).css(enemyMas[8]);
-    $('#level').text('level: 9')
-    hp(32000,64000);
-    return;
-  };
-  if (numberOfClicks >= 64001 && numberOfClicks < 128000) {
-    $(enemy).css(enemyMas[9]);
-    $('#level').text('level: 10')
-    hp(64000,128000);
-    return;
-  };
+    switch (true) {
+        case numberOfClicks < 100:
+            // первый лвл меняется картинка enemy
+            $('#enemy').css({
+                background: 'url(../Enemy`s/Slime.png) 100% no-repeat',
+                backgroundSize: 'cover'
+            });
+            //меняется background
+            $('#ground').css({
+                background: 'url(../Enemy`s/ground.png) no-repeat',
+                backgroundSize: '100%',
+            });
+            //меняется надпись уровня
+            lvl = 1;
+            $('#level').text('level: ' + lvl);
+            //вызов функции хп бара
+            hp(0, 100);
+            break;
+        case numberOfClicks < 500:
+            $('#enemy').css({
+                background: 'url(../Enemy`s/Laptop.png) 100% no-repeat',
+                backgroundSize: 'cover'
+            });
+            $('#ground').css({
+                background: 'url(../Enemy`s/space.png) no-repeat',
+                backgroundSize: '100%',
+            });
+            lvl = 2;
+            $('#level').text('level: ' + lvl);
+            hp(100, 500);
+            break;
+        case numberOfClicks < 1000:
+            var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 3;
+            $('#level').text('level: ' + lvl);
+            hp(500, 1000);
+            break;
+        case numberOfClicks < 2000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 4;
+            $('#level').text('level: ' + lvl);
+            hp(1000, 2000);
+            break;
+        case numberOfClicks < 4000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 5;
+            $('#level').text('level: ' + lvl);
+            hp(2000, 4000);
+            break;
+        case numberOfClicks < 8000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 6;
+            $('#level').text('level: ' + lvl);
+            hp(4000, 8000);
+            break;
+        case numberOfClicks < 16000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 7;
+            $('#level').text('level: ' + lvl);
+            hp(8000, 16000);
+            break;
+        case numberOfClicks < 32000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 8;
+            $('#level').text('level: ' + lvl);
+            hp(16000, 32000);
+            break;
+        case numberOfClicks < 64000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 9;
+            $('#level').text('level: ' + lvl);
+            hp(32000, 64000);
+            break;
+        case numberOfClicks < 128000:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 10;
+            $('#level').text('level: ' + lvl);
+            hp(64000, 128000);
+            break;
+        default:
+            var color = '#' + 25..toString(16) + 130..toString(16) + 210..toString(16);
+            $('#enemy').css({ background: color });
+            lvl = 'OVER999';
+            $('#level').text('level: ' + lvl);
+            break;
+    }
 }
