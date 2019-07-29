@@ -17,10 +17,10 @@ class chat{
 	}
 
 	public function newConnectionACK($client_ip_address){
-		$message = 'New client, ip: '. $client_ip_address;
+		$date = date("H:i:s");
 		$messageArray = [
-			'message' => $message,
-			'type' => "newConnectionACK"
+			'type' => "Conect",
+			'time' => $date
 		];
 		$ask=$this->seal(json_encode($messageArray));
 		return $ask;
@@ -32,7 +32,7 @@ class chat{
 
 		if($length <=125){
 			$header = pack('CC', $b1, $length);
-		}elseif($length < 65536){
+		}else if($length < 65536){
 			$header = pack('CCn', $b1, 126, $length);
 		}else{
 			$header = pack('CCNN', $b1, 127, $length);
@@ -47,6 +47,48 @@ class chat{
 			@socket_write($clientSocket, $message, $messageLength);
 		}
 		return true;
+	}
+
+	public function unseal($socketData){
+		$length = ord($socketData[1]) & 127;
+
+		if($length == 126){
+			$mask = substr($socketData, 4, 4);
+			$data = substr($socketData, 8);
+		}else if($length == 127){
+			$mask = substr($socketData, 10, 4);
+			$data = substr($socketData, 14);
+		}else{
+			$mask = substr($socketData, 2, 4);
+			$data = substr($socketData, 6);
+		}
+		$socketStr = "";
+		for($i=0; $i < strlen($data); $i++){
+			$socketStr .= $data[$i] ^ $mask[$i%4]; 
+		}
+		return $socketStr;
+	}
+	public function createChatMeassage($username, $lvl, $messageStr){
+		$date = date("H:i:s");
+		$messageArray = [
+			'login' => $username,
+			'lvl' => $lvl,
+			'time' => $date,
+			'message'=> $messageStr,
+			'type' => 'mess'
+		];
+		return $this->seal(json_encode($messageArray));
+
+	}
+	public function newDisconectedACK($client_ip_address){
+		$date = date("H:i:s");
+
+		$messageArray = [
+			'type' => "Disconect",
+			'time' => $date
+		];
+		$ask=$this->seal(json_encode($messageArray));
+		return $ask;
 	}
 }
 ?>

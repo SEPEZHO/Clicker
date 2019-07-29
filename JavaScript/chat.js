@@ -9,11 +9,9 @@ function chatBegin() {
     });
 
     var socket = new WebSocket('ws://localhost:8080/clicker 8.2.4/php/chat.php');
-
     socket.onopen = function() {
         message("Соединение установлено.");
     };
-
     socket.onclose = function(event) {
         if (event.wasClean) {
             message('Соединение закрыто чисто');
@@ -22,22 +20,19 @@ function chatBegin() {
         }
         message('Код: ' + event.code + ' причина: ' + event.reason);
     };
-
     socket.onmessage = function(event) {
         var data = JSON.parse(event.data);
-        message("Получены данные " + data.type + '/' + data.message);
-        //+ '/' + data.lvl + '/' + data.login + '/' + data.time
+        if (data.type == 'mess') {
+            message(data.time + '|' + data.login + '(' + data.lvl + ')|' + data.message);
+        }else{
+            message(data.time + '|' + data.type);
+        }
     };
-
     socket.onerror = function(error) {
         message("Ошибка " + error.message);
     };
 
-
-
-
     $('#chatButtonSnd').click(() => {
-        isLog = true;
         if (isLog) {
             var error = false;
             var chatTextSnd = $('#chatTextSnd').val();
@@ -51,32 +46,13 @@ function chatBegin() {
                 $('#error_text').empty();
             }
             if (!error) {
-
-                message(chatTextSnd);
-
-                //     $.ajax({
-                //         type: 'POST',
-                //         url: '../php/chat.php',
-                //         dataType: 'json',
-                //         cache: false,
-                //         data: {
-                //             login: login,
-                //             lvl: lvl,
-                //             message: chatTextSnd
-                //         },
-                //         success: (responce) => {
-                //             console.log('DONE');
-                //             console.log('Is snd:' + responce.snd);
-                //             console.log('<------------------------------>');
-                //             if (responce.snd != 'done') {
-                //                 cAlert('Прооизошла ошибка при отправке сообщения.')
-                //             }
-                //         },
-                //         error: () => {
-                //             console.log('ERROR');
-                //             cAlert('Произошла неизвестная ошибка.')
-                //         }
-                //     })
+                var chatTextSndObj = {
+                    chat_user: login,
+                    chat_lvl: lvl,
+                    chat_message: chatTextSnd
+                };
+                $('#chatTextSnd').val('');
+                socket.send(JSON.stringify(chatTextSndObj));
             }
         } else {
             cAlert('Вам следует войти или зарегестрироваться.')
@@ -86,5 +62,4 @@ function chatBegin() {
 
 function message(text) {
     $('#messageBox').append('<div>' + text + '</div>');
-    //<div id ="chatMessLog">' + login + '</div><div id ="chatMessLvl">' + lvl + '</div>' + chatTextSnd + 
 }

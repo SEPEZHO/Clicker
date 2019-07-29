@@ -30,6 +30,30 @@ while (true){
 
     $connectionACK = $chat->newConnectionACK($client_ip_address);
     $chat->send($connectionACK, $clientSocketArray);
+
+    $newSocketArrayIndex = array_search($socket, $newSocketArray);
+    unset($newSocketArray[$newSocketArrayIndex]);
+  }
+
+  foreach ($newSocketArray as $newSocketArrayResource) {
+    
+    while(@socket_recv($newSocketArrayResource, $socketData, 1024, 0) >= 1){
+      $socketMessage = $chat->unseal($socketData);
+      $messageObj = json_decode($socketMessage);
+
+      $chatMessage = $chat->createChatMeassage($messageObj->chat_user, $messageObj->chat_lvl, $messageObj->chat_message);
+      $chat->send($chatMessage, $clientSocketArray);
+      break 2;
+    }
+
+    $socketData = @socket_read($newSocketArrayResource, 1024, PHP_NORMAL_READ);
+    if($socketData === false){
+      socket_getpeername($newSocketArrayResource, $client_ip_address);
+      $connectionACK = $chat->newDisconectedACK($client_ip_address);
+      $chat->send($connectionACK, $clientSocketArray);
+      $newSocketArrayIndex = array_search($newSocketArrayResource, $clientSocketArray);
+      unset($clientSocketArray[$newSocketArrayIndex]);
+    }
   }
 }
 
