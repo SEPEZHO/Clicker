@@ -8,14 +8,11 @@ function chatBegin() {
         })
     });
 
-
-
     var socket = new WebSocket('ws://localhost:8080/clicker 8.2.4/php/chat.php');
 
     socket.onopen = function() {
         message("Соединение установлено.");
     };
-
 
     socket.onclose = function(event) {
         if (event.wasClean) {
@@ -27,8 +24,9 @@ function chatBegin() {
     };
 
     socket.onmessage = function(event) {
-    	var data = JSON.parse(event.data);
-        message("Получены данные " + data.type +'/'+data.message+'/'+data.lvl+'/'+data.login+'/'+data.time);
+        var data = JSON.parse(event.data);
+        message("Получены данные " + data.type + '/' + data.message);
+        //+ '/' + data.lvl + '/' + data.login + '/' + data.time
     };
 
     socket.onerror = function(error) {

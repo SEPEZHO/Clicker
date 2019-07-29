@@ -12,10 +12,25 @@ socket_bind($socket, 0, PORT);
 
 socket_listen($socket);
 
+$clientSocketArray = array($socket);
+
 while (true){
-  $newSocket = socket_accept($socket);
-  $header = socket_read($newSocket, 1024);
-  $chat -> sendHeaders($header, $newSocket, 'localhost/clicker 8.2.4', PORT);
+  $newSocketArray = $clientSocketArray;
+  $nullA = [];
+  socket_select($newSocketArray, $nullA, $nullA, 0, 10);
+
+  if(in_array($socket, $newSocketArray)){
+    $newSocket = socket_accept($socket);
+    $clientSocketArray[]=$newSocket;
+    
+    $header = socket_read($newSocket, 1024);
+    $chat -> sendHeaders($header, $newSocket, 'localhost/clicker 8.2.4', PORT);
+
+    socket_getpeername($newSocket, $client_ip_address);
+
+    $connectionACK = $chat->newConnectionACK($client_ip_address);
+    $chat->send($connectionACK, $clientSocketArray);
+  }
 }
 
 socket_close($socket);

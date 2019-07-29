@@ -14,6 +14,39 @@ class chat{
 
 		$strHeader = "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nWebSocket-Origin: $host\r\nWebSocket-Location: ws://$host:$port/clicker 8.2.4/php/chat.php\r\nSec-WebSocket-Accept:$sKey\r\n\r\n";
 		socket_write($newSocket, $strHeader, strlen($strHeader));
-	} 
+	}
+
+	public function newConnectionACK($client_ip_address){
+		$message = 'New client, ip: '. $client_ip_address;
+		$messageArray = [
+			'message' => $message,
+			'type' => "newConnectionACK"
+		];
+		$ask=$this->seal(json_encode($messageArray));
+		return $ask;
+	}
+	public function seal($socketData){
+		$b1 = 0x81;
+		$length = strlen($socketData);
+		$header = "";
+
+		if($length <=125){
+			$header = pack('CC', $b1, $length);
+		}elseif($length < 65536){
+			$header = pack('CCn', $b1, 126, $length);
+		}else{
+			$header = pack('CCNN', $b1, 127, $length);
+		}
+
+		return $header.$socketData;
+	}
+	public function send($message, $clientSocketArray){
+		$messageLength = strlen($message);
+
+		foreach($clientSocketArray as $clientSocket){
+			@socket_write($clientSocket, $message, $messageLength);
+		}
+		return true;
+	}
 }
 ?>
