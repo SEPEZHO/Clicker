@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    </meta>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    </meta>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    </meta>
+    <title>
+        Clicker
+    </title>
+    <!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+    <script src="JavaScript/jquery-v3.4.1.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/EnemyScript.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/MenuScript.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/itemScript.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/settingsBegin.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/form.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/loginForm.js" type="text/javascript">
+    </script>
+    <script src="JavaScript/chat.js" type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet">
+    </link>
+    <link href="styles/styleSwich.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <div id="cAlert"></div>
+    <header>
+        <section id="menu">
+            <div id="menuInventory">
+                INVENTORY
+            </div>
+            <div id="menuShop">
+                SHOP
+            </div>
+            <div id="menuSettings">
+                SETTINGS
+            </div>
+        </section>
+        <section id="subMenu">
+            <div id="subInventory">
+                <span id="subInvetoryLink">
+                    SUBINVENTORYLINK
+                </span>
+            </div>
+            <div id="subShop">
+                <span id="subShopLink">
+                    SUBSHOP
+                </span>
+            </div>
+            <div id="subSettings">
+                <span id="subSettingsLink">
+                    SUBSETTINGS
+                </span>
+                <br />
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="login">
+            <form name="loginForm" action="" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Введите ваш login: </label>
+                    <input id='loginLog' class="form-control" type="text" placeholder="login" value="">
+                    <span id='error_login' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Введите ваш пароль: </label>
+                    <input id='passLog' type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="">
+                    <span id='error_pass' class='errors'></span>
+                </div>
+                <button id='submitLogin' type='button' class="btn btn-outline-light">Войти</button>
+            </form>
+            <span id='textReg'>Еще нет <span id='linkReg'>аккаунта</span>?</span>
+        </div>
+        <div id='registration'>
+            <form name="regForm" action="" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Введите ваш email: </label>
+                    <input id='mailReg' name="mailReg" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="">
+                    <span id='error_mailReg' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Введите ваш login: </label>
+                    <input id='loginReg' name='loginReg' class="form-control" type="text" placeholder="login" value="">
+                    <span id='error_loginReg' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Введите ваш пароль: </label>
+                    <input id='pass1Reg' name="pass1" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="">
+                    <span id='error_pass1Reg' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Подтвердите ваш пароль: </label>
+                    <input id='pass2Reg' name="pass2" type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" value="">
+                    <span id='error_pass2Reg' class='errors'></span>
+                </div>
+                <button id='submitRegistr' type='button' class="btn btn-outline-light">Зарегистрироваться</button>
+            </form>
+        </div>
+        <div id="sendMailForm">
+            <form name="feedBack" action="" method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">От кого: </label>
+                    <input id='mailForm' name="MailFrom" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="">
+                    <span id='error_mailSnd' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Тема: </label>
+                    <input id='subjectForm' name="subject" type="text" class="form-control" id="exampleFormControlInput1" value="">
+                    <span id='error_sub' class='errors'></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Сообщение: </label>
+                    <textarea id='messageForm' name="message" class="form-control" id="exampleFormControlTextarea1" cols="2" rows="5"></textarea>
+                    <span id='error_mess' class='errors'></span>
+                </div>
+                <button id='sendMailSubmit' type='button' class="btn btn-outline-light">Отправить</button>
+            </form>
+        </div>
+        <div id='regulations'></div>
+        <div id='signIn' class='button'>Войти</div>
+        <div id='sendMail' class='button'>Отправить отзыв</div>
+        <div id='save' class='button'>Сохранить</div>
+        <div id='chatButtonBegin' class='button'>Чатик :з</div>
+        <div id="info">
+            <div id="numberOfClicks">
+                NOC: 0
+            </div>
+            <div id="level">
+                Level: 1
+            </div>
+            <div id="dps">
+                Dps: 0
+            </div>
+        </div>
+        <div id='helthPoint'>
+            <div id="damage">
+            </div>
+            <div id="hpBar">
+                <div id="hp"></div>
+            </div>
+        </div>
+        <div id="enemyBox">
+            <div id="enemy">
+                <div id="window">
+                </div>
+            </div>
+        </div>
+        <div id="ground">
+        </div>
+    </main>
+    <footer>
+        <section id="description">
+            <div class="itemDescriptionAll" id="itemScrollDescription">
+                <img alt="" class="itemDescriptionPicture" src="Enemy`s/Scroll.png">
+                <span class="itemDescriptionName">
+                    Scroll
+                </span>
+                <span class="itemDescriptionCost">
+                    Цена: Free
+                </span>
+                <span class="itemDescription">
+                    Странного вида бумажка, которую всунули в DNS при покупке пк.
+                    <hr>
+                    Хранит в себе тайны великих мудрецов - full stack developers.
+                </span>
+                </img>
+            </div>
+            <div class="itemDescriptionAll" id="itemUphoneDescription">
+                <img alt="" class="itemDescriptionPicture" src="Enemy`s/MobilePhone.png">
+                <span class="itemDescriptionName">
+                    Uphone
+                </span>
+                <span class="itemDescriptionCost">
+                    <span class="costForItemUphone">
+                        Цена: 100
+                    </span>
+                    NOC
+                </span>
+                <span class="itemDescription">
+                    Телефон фрилансеру необходим как негру вода. На него приходят все уведомления о падении курса эфира. Мобила такого бренда дает +30 к статусу. Позволяет получать NOC в свободное от пк время.
+                    <hr>
+                    Кликает за тебя, пока твоя рука отдыхает. (+1 NOC/sec)
+                </span>
+                </img>
+            </div>
+            <div class="itemDescriptionAll" id="itemWinbookAirDescription">
+                <img alt="" class="itemDescriptionPicture" src="Enemy`s/Laptop.png">
+                <span class="itemDescriptionName">
+                    WinBook Air
+                </span>
+                <span class="itemDescriptionCost">
+                    <span class="costForItemWinbookAir">
+                        Цена: 500
+                    </span>
+                    NOC
+                </span>
+                <span class="itemDescription">
+                    Эта вещица стоит значительно дороже любого другого ноута. Почему?. Хороший вопрос. Он просто от pear, а у них товар, хоть и качественный, но дорогой. Можно поставить рядом с основным пк и работать сразу за двумя машинами.
+                    <hr>
+                    Клики приносят на 1 NOC больше. (+1 NOC/click)
+                </span>
+                </img>
+            </div>
+            <div class="itemDescriptionAll" id="itemWinProDescription">
+                <img alt="" class="itemDescriptionPicture" src="Enemy`s/WinPro.png">
+                <span class="itemDescriptionName">
+                    Win Pro
+                </span>
+                <span class="itemDescriptionCost">
+                    <span class="costForItemWinPro">
+                        Цена: 1000
+                    </span>
+                    NOC
+                </span>
+                <span class="itemDescription">
+                    Этот пк достаточно слабый для свооей стоимости. Можно подключить несколько мониторов и сомотреть японские мультиики на большой диагонали. Но для крупных заказов он годиться как нельзя лучше.
+                    <hr>
+                    Делает некоторые клики критическими. (Шанс 10%)
+                </span>
+                </img>
+            </div>
+        </section>
+        <section id="chat">
+            Chat
+            <div id='messageBox'>
+            </div>
+            <div id="chatApi">
+                <input id='chatTextSnd' class="form-control" type="text" placeholder="Ur text">
+                <span id='error_textChat' class='errors'></span>
+                <div id='chatButtonSnd' class='button'>Отрпавить</div>
+            </div>
+            <div class="exit">
+            </div>
+        </section>
+        <section id="inventory">
+            Inventory
+            <div class="exit">
+            </div>
+        </section>
+        <section id="shop">
+            ItemShop.
+            <div class="exit">
+            </div>
+            <div class="itemScrollClass items" id="itemScroll">
+                <span class="itemId">
+                    Scroll
+                </span>
+                <span class="itemCost">
+                    Цена: Free
+                </span>
+                <img alt="" class="itemPicture" src="Enemy`s/Scroll.png">
+                </img>
+            </div>
+            <div class="itemUphoneClass items" id="itemUphone">
+                <span class="itemId">
+                    Uphone
+                </span>
+                <span class="itemCost">
+                    <span class="costForItemUphone">
+                        Цена: 100
+                    </span>
+                    NOC
+                </span>
+                <img alt="" class="itemPicture" src="Enemy`s/MobilePhone.png">
+                </img>
+            </div>
+            <div class="itemWinbookAirClass items" id="itemWinbookAir">
+                <span class="itemId">
+                    WinBook Air
+                </span>
+                <span class="itemCost">
+                    <span class="costForItemWinbookAir">
+                        Цена: 500
+                    </span>
+                    NOC
+                </span>
+                <img alt="" class="itemPicture" src="Enemy`s/Laptop.png">
+                </img>
+            </div>
+            <div class="itemWinProClass items" id="itemWinPro">
+                <span class="itemId">
+                    Win Pro
+                </span>
+                <span class="itemCost">
+                    <span class="costForItemWinPro">
+                        Цена: 1000
+                    </span>
+                    NOC
+                </span>
+                <img alt="" class="itemPicture" src="Enemy`s/WinPro.png">
+                </img>
+            </div>
+        </section>
+        <section id="settings">
+            Settings
+            <div class="exit">
+            </div>
+            <div class="center">
+                Swich с click на mousemove:
+                <input id="clickOrMousemove" onclick="beginClick()" type="checkbox">
+                </input>
+                <br>
+                Swich для transform:
+                <input checked="" id="transformOnOrOff" onclick="transformOnOrOff()" type="checkbox">
+                </input>
+                </br>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
