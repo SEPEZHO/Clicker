@@ -13,6 +13,9 @@ function logFunc(login, numCl, inv, settings) {
     if (inventory.itemUphone != 0) {
         loginForItemUphone();
     }
+    if (inventory.itemKeyBoard != 0) {
+        loginForItemKeyBoard();
+    }
 
     if (inventory.itemWinbookAir != 0) {
         loginForItemWinbookAir();
@@ -47,6 +50,20 @@ function loginForItemUphone() {
     }
     $('.costForItemUphone').text('Update: '+costForItemUphone);
     itemUphoneDescription();
+}
+
+function loginForItemKeyBoard() {
+    firstAppendForKeyBoard = false;
+    clone = $('#itemKeyBoard').clone().appendTo('#inventory');
+    clone.removeAttr('id');
+    $(clone).append("<span class='firstAppend' id='KeyBoardFirstAppend'> </span>");
+    $('#KeyBoardFirstAppend').text('x' + inventory.itemKeyBoard);
+    for (var i = 0; i <= inventory.itemKeyBoard; i++) {
+        costForItemKeyBoard = (costForItemKeyBoard * 1.5).toFixed();
+    }
+    includeItemKeyBoard();
+    $('.costForItemKeyBoard').text('Update: '+costForItemKeyBoard);
+    itemDescription('itemKeyBoard');
 }
 
 function loginForItemWinbookAir() {

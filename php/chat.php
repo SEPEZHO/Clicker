@@ -1,70 +1,61 @@
+<?php 
+define('PORT', 8080);
 
-<?php
-require_once '../vendor/autoload.php';
-use Workerman\Worker;
-use Workerman\Connection\AsyncTcpConnection;
-// массив для связи соединения пользователя и необходимого нам параметра
-$users = [];
+require_once ('classes/classChat.php');
 
-// создаём локальный tcp-сервер, чтобы отправлять на него сообщения из кода нашего сайта
-$tcp_worker = new Worker("tcp://127.0.0.1:1234");
-// создаём обработчик сообщений, который будет срабатывать,
-// когда на локальный tcp-сокет приходит сообщение
-$tcp_worker->onMessage = function($connection, $data) use ($tcp_worker)
-{
-    // пересылаем сообщение во все остальные соединения - это 4 ws-сервера, код которых будет ниже
-    foreach ($tcp_worker->connections as $id => $webconnection) {
-        if ($connection->id != $id) {
-            $webconnection->send($data);
-        }
+$chat = new chat();
+
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+
+socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1);
+socket_bind($socket, 0, PORT);
+
+socket_listen($socket);
+
+$clientSocketArray = array($socket);
+
+while (true){
+  $newSocketArray = $clientSocketArray;
+  $nullA = [];
+  socket_select($newSocketArray, $nullA, $nullA, 0, 10);
+
+  if(in_array($socket, $newSocketArray)){
+    $newSocket = socket_accept($socket);
+    $clientSocketArray[]=$newSocket;
+    
+    $header = socket_read($newSocket, 1024);
+    $chat -> sendHeaders($header, $newSocket, 'clicker/', PORT);
+
+    socket_getpeername($newSocket, $client_ip_address);
+
+    $connectionACK = $chat->newConnectionACK($client_ip_address);
+    $chat->send($connectionACK, $clientSocketArray);
+
+    $newSocketArrayIndex = array_search($socket, $newSocketArray);
+    unset($newSocketArray[$newSocketArrayIndex]);
+  }
+
+  foreach ($newSocketArray as $newSocketArrayResource) {
+    
+    while(@socket_recv($newSocketArrayResource, $socketData, 1024, 0) >= 1){
+      $socketMessage = $chat->unseal($socketData);
+      $messageObj = json_decode($socketMessage);
+
+      $chatMessage = $chat->createChatMeassage($messageObj->chat_user, $messageObj->chat_lvl, $messageObj->chat_message);
+      $chat->send($chatMessage, $clientSocketArray);
+      break 2;
     }
-};
-$context = array(
-    'ssl' => array(
-        'local_cert' => '../ssl_keys/cert.pem',
-        'local_pk'   => '../ssl_keys/key.key',
-    )
-);
 
-// Create a Websocket server with ssl context.
-$ws_worker = new Worker("websocket://0.0.0.0:8000", $context);
-// создаём ws-сервер, к которому будут подключаться все наши пользователи
-// $ws_worker = new Worker("websocket://0.0.0.0:8000");
-$ws_worker->count = 4;
-// создаём обработчик, который будет выполняться при запуске каждого из 4-х ws-серверов
-$ws_worker->onWorkerStart = function() use (&$users)
-{
-    //подключаемся из каждого экземпляра ws-сервера к локальному tcp-серверу
-    $connection = new AsyncTcpConnection("tcp://0.0.0.0:1234");
-    $connection->onMessage = function($connection, $data) use (&$users) {
-        $data = json_decode($data);
-        // отправляем сообщение пользователю по userId
-        if (isset($users[$data->user])) {
-            $webconnection = $users[$data->user];
-            $webconnection->send($data->message);
-        }
-    };
-    $connection->connect();
-};
-
-$ws_worker->onConnect = function($connection) use (&$users)
-{
-    $connection->onWebSocketConnect = function($connection) use (&$users)
-    {
-        // при подключении нового пользователя сохраняем get-параметр, который же сами и передали со страницы сайта
-        $users[$_GET['user']] = $connection;
-        // вместо get-параметра можно также использовать параметр из cookie, например $_COOKIE['PHPSESSID']
-    };
-};
-
-$ws_worker->onClose = function($connection) use(&$users)
-{
-    if(isset($users[$connection->uid]))
-    {
-        // удаляем параметр при отключении пользователя
-        unset($users[$connection->uid]);
+    $socketData = @socket_read($newSocketArrayResource, 1024, PHP_NORMAL_READ);
+    if($socketData === false){
+      socket_getpeername($newSocketArrayResource, $client_ip_address);
+      $connectionACK = $chat->newDisconectedACK($client_ip_address);
+      $chat->send($connectionACK, $clientSocketArray);
+      $newSocketArrayIndex = array_search($newSocketArrayResource, $clientSocketArray);
+      unset($clientSocketArray[$newSocketArrayIndex]);
     }
-};
+  }
+}
 
-// Run worker
-Worker::runAll();
+socket_close($socket);
+?>

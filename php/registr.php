@@ -51,7 +51,8 @@ if(isset($_POST["mail"]) && isset($_POST["login"]) && isset($_POST["pass"]) && i
   $result = array(
     'error_mail' => $error_mail,
     'error_login' => $error_login,
-    'error_pass' => $error_pass
+    'error_pass' => $error_pass,
+    'id' => $lastId
   );
   echo json_encode($result);
 

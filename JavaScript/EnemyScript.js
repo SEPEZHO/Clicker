@@ -81,12 +81,12 @@ function levelChange() {
         case numberOfClicks < 100:
             // первый лвл меняется картинка enemy
             $('#enemy').css({
-                background: 'url(../app/Enemy`s/Slime.png) 100% no-repeat',
+                background: 'url(../Enemy`s/HelloWorld.png) 100% no-repeat',
                 backgroundSize: 'cover'
             });
             //меняется background
             $('#ground').css({
-                background: 'url(../app/Enemy`s/ground.png) no-repeat',
+                background: 'url(../Enemy`s/ground.png) no-repeat',
                 backgroundSize: '100%',
             });
             //меняется надпись уровня
@@ -97,11 +97,11 @@ function levelChange() {
             break;
         case numberOfClicks < 500:
             $('#enemy').css({
-                background: 'url(../app/Enemy`s/Laptop.png) 100% no-repeat',
+                background: 'url(../Enemy`s/FirstSite.png) 100% no-repeat',
                 backgroundSize: 'cover'
             });
             $('#ground').css({
-                background: 'url(../app/Enemy`s/space.png) no-repeat',
+                background: 'url(../Enemy`s/space.png) no-repeat',
                 backgroundSize: '100%',
             });
             lvl = 2;

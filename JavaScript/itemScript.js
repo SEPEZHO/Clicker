@@ -1,26 +1,31 @@
 var inventory = {
     itemScroll: 0,
     itemUphone: 0,
+    itemKeyBoard: 0,
     itemWinbookAir: 0,
     itemWinPro: 0,
 };
 let WinbookAirAdd = false;
 let firstAppendForUphone = true;
+let firstAppendForKeyBoard = true;
 let firstAppendForWinbookAir = true;
 let firstAppendForWinPro = true;
 var costForItemUphone = 100;
+var costForItemKeyBoard = 250;
 var costForItemWinbookAir = 500;
 var costForItemWinPro = 1000;
 
 function shopItem() {
-    $('#itemUphone').click(buyUphone);
     $('#itemScroll').click(buyScroll);
+    $('#itemUphone').click(buyUphone);
+    $('#itemKeyBoard').click(buyKeyBoard);
     $('#itemWinbookAir').click(buyWinbookAir);
     $('#itemWinPro').click(buyWinPro);
-    itemScrollDescription();
-    itemUphoneDescription();
-    itemWinbookAirDescription();
-    itemWinProDescription();
+    itemDescription('itemScroll');
+    itemDescription('itemUphone');
+    itemDescription('itemKeyBoard');
+    itemDescription('itemWinbookAir');
+    itemDescription('itemWinPro');
 }
 
 function buyScroll() {
@@ -43,17 +48,17 @@ function buyUphone() {
         inventory.itemUphone++;
         numberOfClicks -= costForItemUphone;
         costForItemUphone = (costForItemUphone * 1.5).toFixed();
-        $('.costForItemUphone').text('Update: '+ costForItemUphone);
+        $('.costForItemUphone').text('Update: ' + costForItemUphone);
         if (firstAppendForUphone) {
             clone = $("#itemUphone").clone();
             $(clone).append('<span class="firstAppend" id="UphoneFirstAppend"> </span>');
             $("#inventory").append(clone);
-            itemUphoneDescription();
             firstAppendForUphone = false;
         } else {
             $('#UphoneFirstAppend').text('x' + inventory.itemUphone);
         }
         includeItemUphone();
+        itemDescription('itemUphone');
         reloadNumber();
     } else {
         cAlert('нет деняк, но вы держитесь');
@@ -71,23 +76,61 @@ function includeItemUphone() {
     }, 1000);
 }
 
+function buyKeyBoard() {
+    if (numberOfClicks >= costForItemKeyBoard) {
+        inventory.itemKeyBoard++;
+        numberOfClicks -= costForItemKeyBoard;
+        costForItemKeyBoard = (costForItemKeyBoard * 1.5).toFixed();
+        $('.costForItemKeyBoard').text('Update: ' + costForItemKeyBoard);
+        if (firstAppendForKeyBoard) {
+            clone = $("#itemKeyBoard").clone();
+            $(clone).append('<span class="firstAppend" id="KeyBoardFirstAppend"> </span>');
+            $("#inventory").append(clone);
+            firstAppendForKeyBoard = false;
+        } else {
+            $('#KeyBoardFirstAppend').text('x' + inventory.itemKeyBoard);
+        }
+        itemDescription('itemKeyBoard');
+        includeItemKeyBoard();
+        reloadNumber();
+    } else {
+        cAlert('нет деняк, но вы держитесь');
+        return;
+    }
+}
+
+function includeItemKeyBoard() {
+    if (inventory.itemWinPro != 0) {
+        $(window).keypress(function(e) {
+            if (e.keyCode === 32) {
+                clickWithPC();
+            }
+        })
+    } else {
+        $(window).keypress(function(e) {
+            if (e.keyCode === 32) {
+                click();
+            }
+        })
+    }
+}
 
 function buyWinbookAir() {
     if (numberOfClicks >= costForItemWinbookAir) {
         inventory.itemWinbookAir++;
         numberOfClicks -= costForItemWinbookAir;
         costForItemWinbookAir = (costForItemWinbookAir * 1.5).toFixed();
-        $('.costForItemWinbookAir').text('Update: '+ costForItemWinbookAir);
+        $('.costForItemWinbookAir').text('Update: ' + costForItemWinbookAir);
         if (firstAppendForWinbookAir) {
             clone = $("#itemWinbookAir").clone();
             $(clone).append('<span class="firstAppend" id="WinbookAirFirstAppend"> </span>');
             $("#inventory").append(clone);
-            itemWinbookAirDescription();
             firstAppendForWinbookAir = false;
         } else {
             $('#WinbookAirFirstAppend').text('x' + inventory.itemWinbookAir);
         }
         includeItemWinbookAir();
+        itemDescription('itemWinbookAir');
         reloadNumber();
     } else {
         cAlert('нет деняк, но вы держитесь');
@@ -104,17 +147,20 @@ function buyWinPro() {
         inventory.itemWinPro++;
         numberOfClicks -= costForItemWinPro;
         costForItemWinPro = (costForItemWinPro * 1.5).toFixed();
-        $('.costForItemWinPro').text('Update: '+ costForItemWinPro);
+        $('.costForItemWinPro').text('Update: ' + costForItemWinPro);
         if (firstAppendForWinPro) {
             clone = $("#itemWinPro").clone();
             $(clone).append('<span class="firstAppend" id="WinProAppend"> </span>');
             $("#inventory").append(clone);
             firstAppendForWinPro = false;
-            includeItemWinPro();
         } else {
             $('#WinProAppend').text('x' + inventory.itemWinPro);
         }
+        itemDescription('itemWinPro');
         reloadNumber();
+        if (inventory.itemKeyBoard != 0) {
+            includeItemKeyBoard();
+        }
     } else {
         cAlert('нет деняк, но вы держитесь');
         return;
@@ -139,42 +185,12 @@ function clickWithPC() {
     }
 }
 
-function itemScrollDescription() {
-    $('#itemScrollDescription').hide();
-    $('.itemScrollClass').mouseover(function() {
-        $('#itemScrollDescription').show();
+function itemDescription(item) {
+    $('#' + item + 'Description').hide();
+    $('.' + item + 'Class').mouseover(function() {
+        $('#' + item + 'Description').show();
     });
-    $('.itemScrollClass').mouseleave(function() {
-        $('#itemScrollDescription').hide();
-    });
-}
-
-function itemUphoneDescription() {
-    $('#itemUphoneDescription').hide();
-    $('.itemUphoneClass').mouseover(function() {
-        $('#itemUphoneDescription').show();
-    });
-    $('.itemUphoneClass').mouseleave(function() {
-        $('#itemUphoneDescription').hide();
-    });
-}
-
-function itemWinbookAirDescription() {
-    $('#itemWinbookAirDescription').hide();
-    $('.itemWinbookAirClass').mouseover(function() {
-        $('#itemWinbookAirDescription').show();
-    });
-    $('.itemWinbookAirClass').mouseleave(function() {
-        $('#itemWinbookAirDescription').hide();
-    });
-}
-
-function itemWinProDescription() {
-    $('#itemWinProDescription').hide();
-    $('.itemWinProClass').mouseover(function() {
-        $('#itemWinProDescription').show();
-    });
-    $('.itemWinProClass').mouseleave(function() {
-        $('#itemWinProDescription').hide();
+    $('.' + item + 'Class').mouseleave(function() {
+        $('#' + item + 'Description').hide();
     });
 }

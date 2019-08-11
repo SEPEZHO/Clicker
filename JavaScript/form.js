@@ -64,7 +64,7 @@ function ajaxA() {
             if (!error) {
                 $.ajax({
                     type: 'POST',
-                    url: '../app/php/login.php',
+                    url: '../php/login.php',
                     dataType: 'json',
                     cache: false,
                     data: { login: loginFun, pass: pass },
@@ -134,7 +134,7 @@ function ajaxA() {
                 var arr = JSON.stringify(setArr);
                 $.ajax({
                     type: 'POST',
-                    url: '../app/php/registr.php',
+                    url: '../php/registr.php',
                     dataType: 'json',
                     cache: false,
                     data: {
@@ -151,6 +151,8 @@ function ajaxA() {
                         console.log('login: ' + loginReg);
                         console.log('pass1: ' + pass1Reg);
                         console.log('pass2: ' + pass2Reg);
+                        console.log('id: ' + responce.id);
+
 
                         console.log('Error_mail: ' + responce.error_mail);
                         console.log('Error_login: ' + responce.error_login);
@@ -160,6 +162,8 @@ function ajaxA() {
 
                         if (responce.error_mail == '' && responce.error_login == '' && responce.error_pass == '') {
                             isLog = true;
+                            login = loginReg;
+                            id = responce.id;
                             cAlert('Вы успешно зарегестрированны, ' + loginReg);
                             $('#registration').css({ top: "45vh" }).hide();
                             $('#filter').remove();
@@ -190,7 +194,7 @@ function ajaxA() {
             var arr = JSON.stringify(setArr);
             $.ajax({
                 type: 'POST',
-                url: '../app/php/save.php',
+                url: '../php/save.php',
                 dataType: 'json',
                 cache: false,
                 data: {
@@ -248,7 +252,7 @@ function ajaxA() {
         if (!error) {
             $.ajax({
                 type: 'POST',
-                url: '../app/php/sendMail.php',
+                url: '../php/sendMail.php',
                 dataType: 'json',
                 cache: false,
                 data: {

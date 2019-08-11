@@ -8,7 +8,7 @@ function chatBegin() {
         })
     });
 
-    var socket = new WebSocket('wss://127.0.0.1:8000/?user=tester01/php/chat.php');
+    var socket = new WebSocket('ws://clicker:8080/php/chat.php');
     socket.onopen = function() {
         messageInfo("Соединение установлено.");
     };
@@ -56,16 +56,16 @@ function chatBegin() {
             cAlert('Вам следует войти или зарегестрироваться.')
         }
     })
-    var messages = 0;
-    setInterval(() => {
-        messages++;
-        var chatTextSndObj = {
-            chat_user: 'Bot',
-            chat_lvl: 1,
-            chat_message: 'Hello, im a chat messageBOT, im sending message number ' + messages + ' every 5 sec.'
-        };
-        socket.send(JSON.stringify(chatTextSndObj));
-    }, 5000)
+    // var messages = 0;
+    // setInterval(() => {
+    //     messages++;
+    //     var chatTextSndObj = {
+    //         chat_user: 'Bot',
+    //         chat_lvl: 1,
+    //         chat_message: 'Hello, im a chat messageBOT, im sending message number ' + messages + ' every 5 sec.'
+    //     };
+    //     socket.send(JSON.stringify(chatTextSndObj));
+    // }, 5000)
 }
 
 function message(text, name, lvl, time) {
