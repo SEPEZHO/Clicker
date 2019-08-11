@@ -1,0 +1,277 @@
+2019-08-11 12:22:11 pid:28183 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:26:39 pid:28183 Workerman[chat.php] stopping ...
+2019-08-11 12:26:39 pid:28183 Workerman[chat.php] has been stopped
+2019-08-11 12:27:20 pid:2523 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:30:22 pid:2523 Workerman[chat.php] stopping ...
+2019-08-11 12:30:22 pid:2523 Workerman[chat.php] has been stopped
+2019-08-11 12:30:23 pid:6615 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:30:51 pid:6615 Workerman[chat.php] stopping ...
+2019-08-11 12:30:51 pid:6615 Workerman[chat.php] has been stopped
+2019-08-11 12:31:26 pid:8465 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:31:57 pid:8465 Workerman[chat.php] stopping ...
+2019-08-11 12:31:57 pid:8465 Workerman[chat.php] has been stopped
+2019-08-11 12:31:59 pid:9220 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:32:10 pid:9220 Workerman[chat.php] stopping ...
+2019-08-11 12:32:11 pid:9220 Workerman[chat.php] has been stopped
+2019-08-11 12:32:14 pid:9693 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:32:45 pid:9693 Workerman[chat.php] stopping ...
+2019-08-11 12:32:45 pid:9693 Workerman[chat.php] has been stopped
+2019-08-11 12:32:49 pid:10393 Workerman[chat.php] status 
+2019-08-11 12:32:49 pid:10393 Workerman[chat.php] not run
+2019-08-11 12:33:37 pid:11390 Workerman[chat.php] status 
+2019-08-11 12:33:37 pid:11390 Workerman[chat.php] not run
+2019-08-11 12:33:38 pid:11418 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:35:25 pid:11418 Workerman[chat.php] stopping ...
+2019-08-11 12:35:25 pid:11418 Workerman[chat.php] has been stopped
+2019-08-11 12:35:26 pid:13760 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:36:39 pid:13760 Workerman[chat.php] stopping ...
+2019-08-11 12:36:39 pid:13760 Workerman[chat.php] has been stopped
+2019-08-11 12:36:40 pid:15422 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:38:20 pid:15422 Workerman[chat.php] stopping ...
+2019-08-11 12:38:20 pid:15422 Workerman[chat.php] has been stopped
+2019-08-11 12:38:20 pid:17253 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:38:38 pid:17253 Workerman[chat.php] stopping ...
+2019-08-11 12:38:38 pid:17253 Workerman[chat.php] has been stopped
+2019-08-11 12:38:39 pid:17538 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:39:40 pid:17538 Workerman[chat.php] stopping ...
+2019-08-11 12:39:40 pid:17538 Workerman[chat.php] has been stopped
+2019-08-11 13:22:20 pid:13293 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:23:45 pid:13293 Workerman[chat.php] stopping ...
+2019-08-11 13:23:45 pid:13293 Workerman[chat.php] has been stopped
+2019-08-11 13:23:45 pid:15202 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:27:30 pid:15202 Workerman[chat.php] stopping ...
+2019-08-11 13:27:30 pid:15202 Workerman[chat.php] has been stopped
+2019-08-11 13:27:32 pid:21100 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:29:15 pid:21100 Workerman[chat.php] stopping ...
+2019-08-11 13:29:15 pid:21100 Workerman[chat.php] has been stopped
+2019-08-11 13:29:15 pid:23431 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:32:28 pid:23431 Workerman[chat.php] stopping ...
+2019-08-11 13:32:28 pid:23431 Workerman[chat.php] has been stopped
+2019-08-11 13:32:29 pid:28507 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:37:17 pid:28507 Workerman[chat.php] stopping ...
+2019-08-11 13:37:17 pid:28507 Workerman[chat.php] has been stopped
+2019-08-11 13:37:17 pid:3939 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:43:04 pid:13039 Workerman[chat.php] status 
+2019-08-11 13:45:49 pid:17840 Workerman[chat.php] status 
+2019-08-11 13:46:08 pid:18360 Workerman[chat.php] status 
+2019-08-11 13:46:12 pid:18441 Workerman[chat.php] status 
+2019-08-11 13:47:36 pid:3939 Workerman[chat.php] stopping ...
+2019-08-11 13:47:36 pid:3939 Workerman[chat.php] has been stopped
+2019-08-11 13:47:37 pid:20616 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:47:45 pid:20777 Workerman[chat.php] status 
+2019-08-11 13:48:08 pid:21386 Workerman[chat.php] status 
+2019-08-11 13:49:41 pid:20616 Workerman[chat.php] stopping ...
+2019-08-11 13:49:41 pid:20616 Workerman[chat.php] has been stopped
+2019-08-11 13:49:42 pid:23652 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:49:51 pid:23838 Workerman[chat.php] status 
+2019-08-11 13:50:59 pid:23652 Workerman[chat.php] stopping ...
+2019-08-11 13:50:59 pid:23652 Workerman[chat.php] has been stopped
+2019-08-11 13:51:00 pid:26507 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:51:25 pid:27091 Workerman[chat.php] status 
+2019-08-11 13:51:55 pid:26507 Workerman[chat.php] stopping ...
+2019-08-11 13:51:55 pid:26507 Workerman[chat.php] has been stopped
+2019-08-11 13:51:56 pid:27676 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:52:03 pid:27895 Workerman[chat.php] status 
+2019-08-11 14:15:13 pid:27676 Workerman[chat.php] stopping ...
+2019-08-11 14:15:13 pid:27676 Workerman[chat.php] has been stopped
+2019-08-11 14:15:14 pid:1704 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:15:21 pid:1880 Workerman[chat.php] status 
+2019-08-11 14:16:07 pid:1704 Workerman[chat.php] stopping ...
+2019-08-11 14:16:08 pid:1704 Workerman[chat.php] has been stopped
+2019-08-11 14:16:08 pid:3261 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:16:35 pid:3918 Workerman[chat.php] status 
+2019-08-11 14:16:57 pid:4366 Workerman[chat.php] status 
+2019-08-11 14:17:25 pid:5199 Workerman[chat.php] status 
+2019-08-11 14:17:50 pid:3261 Workerman[chat.php] stopping ...
+2019-08-11 14:17:50 pid:3261 Workerman[chat.php] has been stopped
+2019-08-11 14:17:50 pid:5912 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:17:57 pid:6031 Workerman[chat.php] status 
+2019-08-11 14:18:33 pid:5912 Workerman[chat.php] stopping ...
+2019-08-11 14:18:33 pid:5912 Workerman[chat.php] has been stopped
+2019-08-11 14:18:34 pid:6798 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:18:51 pid:7200 Workerman[chat.php] status 
+2019-08-11 14:23:49 pid:6798 Workerman[chat.php] stopping ...
+2019-08-11 14:23:49 pid:6798 Workerman[chat.php] has been stopped
+2019-08-11 14:23:49 pid:13993 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:28:48 pid:13993 Workerman[chat.php] stopping ...
+2019-08-11 14:28:48 pid:13993 Workerman[chat.php] has been stopped
+2019-08-11 14:28:48 pid:20793 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:28:57 pid:21015 Workerman[chat.php] status 
+2019-08-11 14:30:07 pid:20793 Workerman[chat.php] stopping ...
+2019-08-11 14:30:07 pid:20793 Workerman[chat.php] has been stopped
+2019-08-11 14:30:07 pid:22939 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:03 pid:22939 Workerman[chat.php] stopping ...
+2019-08-11 14:32:03 pid:22939 Workerman[chat.php] has been stopped
+2019-08-11 14:32:03 pid:25730 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:24 pid:25730 Workerman[chat.php] stopping ...
+2019-08-11 14:32:24 pid:25730 Workerman[chat.php] has been stopped
+2019-08-11 14:32:26 pid:26150 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:56 pid:26150 Workerman[chat.php] stopping ...
+2019-08-11 14:32:56 pid:26150 Workerman[chat.php] has been stopped
+2019-08-11 14:32:56 pid:26694 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:27 pid:26694 Workerman[chat.php] stopping ...
+2019-08-11 14:33:27 pid:26694 Workerman[chat.php] has been stopped
+2019-08-11 14:33:28 pid:27346 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:37 pid:27346 Workerman[chat.php] stopping ...
+2019-08-11 14:33:37 pid:27346 Workerman[chat.php] has been stopped
+2019-08-11 14:33:39 pid:27547 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:53 pid:27776 Workerman[chat.php] status 
+2019-08-11 14:39:23 pid:27547 Workerman[chat.php] stopping ...
+2019-08-11 14:39:23 pid:27547 Workerman[chat.php] has been stopped
+2019-08-11 14:39:24 pid:3057 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:40:36 pid:5713 Workerman[chat.php] status 
+2019-08-11 14:41:53 pid:3057 Workerman[chat.php] stopping ...
+2019-08-11 14:41:53 pid:3057 Workerman[chat.php] has been stopped
+2019-08-11 14:42:31 pid:8186 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:43:16 pid:8186 Workerman[chat.php] stopping ...
+2019-08-11 14:43:16 pid:8186 Workerman[chat.php] has been stopped
+2019-08-11 14:46:31 pid:15066 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:46:58 pid:15066 Workerman[chat.php] stopping ...
+2019-08-11 14:46:58 pid:15066 Workerman[chat.php] has been stopped
+2019-08-11 14:46:58 pid:15956 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:47:42 pid:15956 Workerman[chat.php] stopping ...
+2019-08-11 14:47:42 pid:15956 Workerman[chat.php] has been stopped
+2019-08-11 14:48:01 pid:16903 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:54:18 pid:16903 Workerman[chat.php] stopping ...
+2019-08-11 14:54:18 pid:16903 Workerman[chat.php] has been stopped
+2019-08-11 14:54:19 pid:25314 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:54:21 pid:25314 Workerman[chat.php] stopping ...
+2019-08-11 14:54:21 pid:25314 Workerman[chat.php] has been stopped
+2019-08-11 14:56:12 pid:28164 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:59:35 pid:28164 Workerman[chat.php] stopping ...
+2019-08-11 14:59:36 pid:28164 Workerman[chat.php] has been stopped
+2019-08-11 14:59:37 pid:32472 Workerman[chat.php] start in DEBUG mode
+2019-08-11 15:00:14 pid:32472 Workerman[chat.php] stopping ...
+2019-08-11 15:00:14 pid:32472 Workerman[chat.php] has been stopped
+2019-08-11 15:00:15 pid:1739 Workerman[chat.php] start in DEBUG mode
+2019-08-11 15:00:42 pid:1739 Workerman[chat.php] stopping ...
+2019-08-11 15:00:42 pid:1739 Workerman[chat.php] has been stopped
+2019-08-11 15:00:45 pid:2921 Workerman[chat.php] start in DAEMON mode
+2019-08-11 15:01:27 pid:4086 Workerman[chat.php] status 
+2019-08-11 15:01:57 pid:4741 Workerman[chat.php] status 
+2019-08-11 16:55:46 pid:1156 Workerman[chat.php] start in DEBUG mode
+2019-08-11 16:58:16 pid:4301 Workerman[chat.php] start in DEBUG mode
+2019-08-11 16:59:14 pid:4301 Workerman[chat.php] stopping ...
+2019-08-11 16:59:14 pid:4301 Workerman[chat.php] has been stopped
+2019-08-11 16:59:15 pid:5315 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:12 pid:5315 Workerman[chat.php] stopping ...
+2019-08-11 17:00:12 pid:5315 Workerman[chat.php] has been stopped
+2019-08-11 17:00:13 pid:6873 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:29 pid:7134 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:51 pid:7134 Workerman[chat.php] stopping ...
+2019-08-11 17:00:51 pid:7134 Workerman[chat.php] has been stopped
+2019-08-11 17:00:52 pid:7825 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:03:17 pid:7825 Workerman[chat.php] stopping ...
+2019-08-11 17:03:17 pid:7825 Workerman[chat.php] has been stopped
+2019-08-11 17:03:18 pid:10738 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:06:24 pid:10738 Workerman[chat.php] stopping ...
+2019-08-11 17:06:24 pid:10738 Workerman[chat.php] has been stopped
+2019-08-11 17:06:25 pid:15118 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:07:02 pid:15118 Workerman[chat.php] stopping ...
+2019-08-11 17:07:02 pid:15118 Workerman[chat.php] has been stopped
+2019-08-11 17:07:02 pid:15742 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:07:46 pid:15742 Workerman[chat.php] stopping ...
+2019-08-11 17:07:46 pid:15742 Workerman[chat.php] has been stopped
+2019-08-11 17:07:46 pid:16473 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:08:02 pid:16821 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:08:02 pid:16821 Workerman[chat.php] already running
+2019-08-11 17:08:08 pid:16885 Workerman[chat.php] stop 
+2019-08-11 17:08:08 pid:16885 Workerman[chat.php] is stopping ...
+2019-08-11 17:08:13 pid:16885 Workerman[chat.php] stop fail
+2019-08-11 17:08:15 pid:17005 Workerman[chat.php] stop 
+2019-08-11 17:08:15 pid:17005 Workerman[chat.php] is stopping ...
+2019-08-11 17:08:20 pid:17005 Workerman[chat.php] stop fail
+2019-08-11 17:09:14 pid:18027 Workerman[chat.php] status 
+2019-08-11 17:09:21 pid:18110 Workerman[chat.php] stop 
+2019-08-11 17:09:21 pid:18110 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:26 pid:18110 Workerman[chat.php] stop fail
+2019-08-11 17:09:30 pid:18278 Workerman[chat.php] restart 
+2019-08-11 17:09:30 pid:18278 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:35 pid:18278 Workerman[chat.php] stop fail
+2019-08-11 17:09:42 pid:18426 Workerman[chat.php] reload 
+2019-08-11 17:09:47 pid:18561 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:09:47 pid:18561 Workerman[chat.php] already running
+2019-08-11 17:09:54 pid:18634 Workerman[chat.php] stop 
+2019-08-11 17:09:54 pid:18634 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:59 pid:18634 Workerman[chat.php] stop fail
+2019-08-11 17:10:05 pid:19205 Workerman[chat.php] status 
+2019-08-11 17:10:15 pid:19511 Workerman[chat.php] connections 
+2019-08-11 17:10:22 pid:19638 Workerman[chat.php] stop 
+2019-08-11 17:10:22 pid:19638 Workerman[chat.php] is stopping ...
+2019-08-11 17:10:27 pid:19638 Workerman[chat.php] stop fail
+2019-08-11 17:12:11 pid:21919 Workerman[chat.php] stop 
+2019-08-11 17:12:11 pid:21919 Workerman[chat.php] is stopping ...
+2019-08-11 17:12:16 pid:21919 Workerman[chat.php] stop fail
+2019-08-11 17:12:35 pid:22657 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:12:35 pid:22657 Workerman[chat.php] already running
+2019-08-11 17:13:53 pid:24174 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:15:36 pid:24174 Workerman[chat.php] stopping ...
+2019-08-11 17:15:36 pid:24174 Workerman[chat.php] has been stopped
+2019-08-11 17:15:39 pid:26872 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:16:05 pid:27365 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:16:35 pid:27365 Workerman[chat.php] stopping ...
+2019-08-11 17:16:35 pid:27365 Workerman[chat.php] has been stopped
+2019-08-11 17:16:36 pid:27891 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:03 pid:27891 Workerman[chat.php] stopping ...
+2019-08-11 17:17:03 pid:27891 Workerman[chat.php] has been stopped
+2019-08-11 17:17:04 pid:28380 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:30 pid:28380 Workerman[chat.php] stopping ...
+2019-08-11 17:17:30 pid:28380 Workerman[chat.php] has been stopped
+2019-08-11 17:17:31 pid:28817 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:47 pid:28817 Workerman[chat.php] stopping ...
+2019-08-11 17:17:47 pid:28817 Workerman[chat.php] has been stopped
+2019-08-11 17:17:47 pid:29414 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:59 pid:29414 Workerman[chat.php] stopping ...
+2019-08-11 17:17:59 pid:29414 Workerman[chat.php] has been stopped
+2019-08-11 17:18:00 pid:29616 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:18:27 pid:29616 Workerman[chat.php] stopping ...
+2019-08-11 17:18:27 pid:29616 Workerman[chat.php] has been stopped
+2019-08-11 17:18:28 pid:30301 Workerman[chat.php] start in DEBUG mode
+2019-08-11 18:21:31 pid:30301 Workerman[chat.php] stopping ...
+2019-08-11 18:21:31 pid:30301 Workerman[chat.php] has been stopped
+2019-08-11 18:38:55 pid:15049 Workerman[chat.php] start in DEBUG mode
+2019-08-11 18:39:47 pid:15049 Workerman[chat.php] stopping ...
+2019-08-11 18:39:47 pid:15049 Workerman[chat.php] has been stopped
+2019-08-11 18:39:50 pid:15969 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:40:09 pid:16804 Workerman[chat.php] status 
+2019-08-11 18:41:21 pid:18377 Workerman[chat.php] status 
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] restart 
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] is stopping ...
+2019-08-11 18:41:34 pid:15972 Workerman[chat.php] stopping ...
+2019-08-11 18:41:34 pid:15972 Workerman[chat.php] has been stopped
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] stop success
+2019-08-11 18:41:45 pid:18621 Workerman[chat.php] stopping ...
+2019-08-11 18:41:46 pid:18621 Workerman[chat.php] has been stopped
+2019-08-11 18:41:52 pid:18922 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:42:15 pid:19437 Workerman[chat.php] status 
+2019-08-11 18:42:58 pid:20088 Workerman[chat.php] connections 
+2019-08-11 18:43:24 pid:20889 Workerman[chat.php] connections 
+2019-08-11 18:43:31 pid:21081 Workerman[chat.php] connections 
+2019-08-11 18:43:37 pid:21217 Workerman[chat.php] connections 
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] stop 
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] is stopping ...
+2019-08-11 18:44:33 pid:18925 Workerman[chat.php] stopping ...
+2019-08-11 18:44:33 pid:18925 Workerman[chat.php] has been stopped
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] stop success
+2019-08-11 18:44:38 pid:22315 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:44:51 pid:22468 Workerman[chat.php] connections 
+2019-08-11 18:44:57 pid:22547 Workerman[chat.php] status 
+2019-08-11 18:45:11 pid:23291 Workerman[chat.php] status 
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] restart 
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] is stopping ...
+2019-08-11 18:46:11 pid:22319 Workerman[chat.php] stopping ...
+2019-08-11 18:46:11 pid:22319 Workerman[chat.php] has been stopped
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] stop success
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] restart 
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] is stopping ...
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] stop success
+2019-08-11 18:47:28 pid:25302 Workerman[chat.php] stopping ...
+2019-08-11 18:47:28 pid:25302 Workerman[chat.php] has been stopped
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] restart 
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] is stopping ...
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] stop success
+2019-08-11 18:48:23 pid:26241 Workerman[chat.php] stopping ...
+2019-08-11 18:48:23 pid:26241 Workerman[chat.php] has been stopped
+2019-08-11 18:48:32 pid:27367 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:48:35 pid:27426 Workerman[chat.php] connections 
+2019-08-11 18:48:41 pid:27497 Workerman[chat.php] connections 

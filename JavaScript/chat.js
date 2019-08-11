@@ -7,10 +7,12 @@ function chatBegin() {
             $('#chat').hide();
         })
     });
+        
+    var socket = new WebSocket('wss://sepezho.ru:8080/php/chat.php')
 
-    var socket = new WebSocket('ws://clicker:8080/php/chat.php');
     socket.onopen = function() {
-        messageInfo("Соединение установлено.");
+    socket.send('Shiiiit');
+    messageInfo("Соединение установлено.");
     };
     socket.onclose = function(event) {
         messageInfo('Соединение закрыто');
@@ -65,7 +67,7 @@ function chatBegin() {
     //         chat_message: 'Hello, im a chat messageBOT, im sending message number ' + messages + ' every 5 sec.'
     //     };
     //     socket.send(JSON.stringify(chatTextSndObj));
-    // }, 5000)
+    // }, 2500)
 }
 
 function message(text, name, lvl, time) {

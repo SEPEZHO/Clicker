@@ -1,0 +1,51 @@
+[11-Aug-2019 12:08:38 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:08:38 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:10:53 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:10:53 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:11:46 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:11:46 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:36 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:36 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:45 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:45 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:55 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:12:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:13:41 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:13:41 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:17:31 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:17:31 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:21:44 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php../vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:21:44 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 2
+[11-Aug-2019 12:26:46 Europe/Moscow] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/s50962/public_html/sepezho.ru/php/chat.php on line 30
+[11-Aug-2019 14:23:49 Europe/Moscow] PHP Notice:  Undefined variable: context in /home/s50962/public_html/sepezho.ru/php/chat.php on line 15
+[11-Aug-2019 14:41:53 Europe/Moscow] PHP Warning:  require_once(/home/s50962/public_html/sepezho.ru/php/../../vendor/autoload.php): failed to open stream: No such file or directory in /home/s50962/public_html/sepezho.ru/php/chat.php on line 92
+[11-Aug-2019 14:41:53 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/s50962/public_html/sepezho.ru/php/../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/s50962/public_html/sepezho.ru/php/chat.php on line 92
+[11-Aug-2019 14:47:42 Europe/Moscow] PHP Recoverable fatal error:  Object of class PHPSocketIO\SocketIO could not be converted to string in /home/s50962/public_html/sepezho.ru/php/chat.php on line 133
+[11-Aug-2019 16:55:46 Europe/Moscow] PHP Fatal error:  Uncaught Exception: Address already in use in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php:2216
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(646): Workerman\Worker->listen()
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(504): Workerman\Worker::initWorkers()
+#2 /home/s50962/public_html/sepezho.ru/php/chat.php(80): Workerman\Worker::runAll()
+#3 {main}
+  thrown in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php on line 2216
+[11-Aug-2019 17:00:13 Europe/Moscow] PHP Fatal error:  Uncaught Exception: Address already in use in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php:2216
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(646): Workerman\Worker->listen()
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(504): Workerman\Worker::initWorkers()
+#2 /home/s50962/public_html/sepezho.ru/php/chat.php(28): Workerman\Worker::runAll()
+#3 {main}
+  thrown in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php on line 2216
+[11-Aug-2019 17:15:39 Europe/Moscow] PHP Fatal error:  Uncaught Exception: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php:2216
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(646): Workerman\Worker->listen()
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(504): Workerman\Worker::initWorkers()
+#2 /home/s50962/public_html/sepezho.ru/php/chat.php(33): Workerman\Worker::runAll()
+#3 {main}
+  thrown in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php on line 2216
+[11-Aug-2019 18:46:11 Europe/Moscow] PHP Fatal error:  Uncaught Exception: Address already in use in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php:2216
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(646): Workerman\Worker->listen()
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(504): Workerman\Worker::initWorkers()
+#2 /home/s50962/public_html/sepezho.ru/php/chat.php(27): Workerman\Worker::runAll()
+#3 {main}
+  thrown in /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php on line 2216
