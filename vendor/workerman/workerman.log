@@ -1,0 +1,2037 @@
+2019-08-11 12:22:11 pid:28183 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:26:39 pid:28183 Workerman[chat.php] stopping ...
+2019-08-11 12:26:39 pid:28183 Workerman[chat.php] has been stopped
+2019-08-11 12:27:20 pid:2523 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:30:22 pid:2523 Workerman[chat.php] stopping ...
+2019-08-11 12:30:22 pid:2523 Workerman[chat.php] has been stopped
+2019-08-11 12:30:23 pid:6615 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:30:51 pid:6615 Workerman[chat.php] stopping ...
+2019-08-11 12:30:51 pid:6615 Workerman[chat.php] has been stopped
+2019-08-11 12:31:26 pid:8465 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:31:57 pid:8465 Workerman[chat.php] stopping ...
+2019-08-11 12:31:57 pid:8465 Workerman[chat.php] has been stopped
+2019-08-11 12:31:59 pid:9220 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:32:10 pid:9220 Workerman[chat.php] stopping ...
+2019-08-11 12:32:11 pid:9220 Workerman[chat.php] has been stopped
+2019-08-11 12:32:14 pid:9693 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:32:45 pid:9693 Workerman[chat.php] stopping ...
+2019-08-11 12:32:45 pid:9693 Workerman[chat.php] has been stopped
+2019-08-11 12:32:49 pid:10393 Workerman[chat.php] status 
+2019-08-11 12:32:49 pid:10393 Workerman[chat.php] not run
+2019-08-11 12:33:37 pid:11390 Workerman[chat.php] status 
+2019-08-11 12:33:37 pid:11390 Workerman[chat.php] not run
+2019-08-11 12:33:38 pid:11418 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:35:25 pid:11418 Workerman[chat.php] stopping ...
+2019-08-11 12:35:25 pid:11418 Workerman[chat.php] has been stopped
+2019-08-11 12:35:26 pid:13760 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:36:39 pid:13760 Workerman[chat.php] stopping ...
+2019-08-11 12:36:39 pid:13760 Workerman[chat.php] has been stopped
+2019-08-11 12:36:40 pid:15422 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:38:20 pid:15422 Workerman[chat.php] stopping ...
+2019-08-11 12:38:20 pid:15422 Workerman[chat.php] has been stopped
+2019-08-11 12:38:20 pid:17253 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:38:38 pid:17253 Workerman[chat.php] stopping ...
+2019-08-11 12:38:38 pid:17253 Workerman[chat.php] has been stopped
+2019-08-11 12:38:39 pid:17538 Workerman[chat.php] start in DEBUG mode
+2019-08-11 12:39:40 pid:17538 Workerman[chat.php] stopping ...
+2019-08-11 12:39:40 pid:17538 Workerman[chat.php] has been stopped
+2019-08-11 13:22:20 pid:13293 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:23:45 pid:13293 Workerman[chat.php] stopping ...
+2019-08-11 13:23:45 pid:13293 Workerman[chat.php] has been stopped
+2019-08-11 13:23:45 pid:15202 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:27:30 pid:15202 Workerman[chat.php] stopping ...
+2019-08-11 13:27:30 pid:15202 Workerman[chat.php] has been stopped
+2019-08-11 13:27:32 pid:21100 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:29:15 pid:21100 Workerman[chat.php] stopping ...
+2019-08-11 13:29:15 pid:21100 Workerman[chat.php] has been stopped
+2019-08-11 13:29:15 pid:23431 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:32:28 pid:23431 Workerman[chat.php] stopping ...
+2019-08-11 13:32:28 pid:23431 Workerman[chat.php] has been stopped
+2019-08-11 13:32:29 pid:28507 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:37:17 pid:28507 Workerman[chat.php] stopping ...
+2019-08-11 13:37:17 pid:28507 Workerman[chat.php] has been stopped
+2019-08-11 13:37:17 pid:3939 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:43:04 pid:13039 Workerman[chat.php] status 
+2019-08-11 13:45:49 pid:17840 Workerman[chat.php] status 
+2019-08-11 13:46:08 pid:18360 Workerman[chat.php] status 
+2019-08-11 13:46:12 pid:18441 Workerman[chat.php] status 
+2019-08-11 13:47:36 pid:3939 Workerman[chat.php] stopping ...
+2019-08-11 13:47:36 pid:3939 Workerman[chat.php] has been stopped
+2019-08-11 13:47:37 pid:20616 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:47:45 pid:20777 Workerman[chat.php] status 
+2019-08-11 13:48:08 pid:21386 Workerman[chat.php] status 
+2019-08-11 13:49:41 pid:20616 Workerman[chat.php] stopping ...
+2019-08-11 13:49:41 pid:20616 Workerman[chat.php] has been stopped
+2019-08-11 13:49:42 pid:23652 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:49:51 pid:23838 Workerman[chat.php] status 
+2019-08-11 13:50:59 pid:23652 Workerman[chat.php] stopping ...
+2019-08-11 13:50:59 pid:23652 Workerman[chat.php] has been stopped
+2019-08-11 13:51:00 pid:26507 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:51:25 pid:27091 Workerman[chat.php] status 
+2019-08-11 13:51:55 pid:26507 Workerman[chat.php] stopping ...
+2019-08-11 13:51:55 pid:26507 Workerman[chat.php] has been stopped
+2019-08-11 13:51:56 pid:27676 Workerman[chat.php] start in DEBUG mode
+2019-08-11 13:52:03 pid:27895 Workerman[chat.php] status 
+2019-08-11 14:15:13 pid:27676 Workerman[chat.php] stopping ...
+2019-08-11 14:15:13 pid:27676 Workerman[chat.php] has been stopped
+2019-08-11 14:15:14 pid:1704 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:15:21 pid:1880 Workerman[chat.php] status 
+2019-08-11 14:16:07 pid:1704 Workerman[chat.php] stopping ...
+2019-08-11 14:16:08 pid:1704 Workerman[chat.php] has been stopped
+2019-08-11 14:16:08 pid:3261 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:16:35 pid:3918 Workerman[chat.php] status 
+2019-08-11 14:16:57 pid:4366 Workerman[chat.php] status 
+2019-08-11 14:17:25 pid:5199 Workerman[chat.php] status 
+2019-08-11 14:17:50 pid:3261 Workerman[chat.php] stopping ...
+2019-08-11 14:17:50 pid:3261 Workerman[chat.php] has been stopped
+2019-08-11 14:17:50 pid:5912 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:17:57 pid:6031 Workerman[chat.php] status 
+2019-08-11 14:18:33 pid:5912 Workerman[chat.php] stopping ...
+2019-08-11 14:18:33 pid:5912 Workerman[chat.php] has been stopped
+2019-08-11 14:18:34 pid:6798 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:18:51 pid:7200 Workerman[chat.php] status 
+2019-08-11 14:23:49 pid:6798 Workerman[chat.php] stopping ...
+2019-08-11 14:23:49 pid:6798 Workerman[chat.php] has been stopped
+2019-08-11 14:23:49 pid:13993 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:28:48 pid:13993 Workerman[chat.php] stopping ...
+2019-08-11 14:28:48 pid:13993 Workerman[chat.php] has been stopped
+2019-08-11 14:28:48 pid:20793 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:28:57 pid:21015 Workerman[chat.php] status 
+2019-08-11 14:30:07 pid:20793 Workerman[chat.php] stopping ...
+2019-08-11 14:30:07 pid:20793 Workerman[chat.php] has been stopped
+2019-08-11 14:30:07 pid:22939 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:03 pid:22939 Workerman[chat.php] stopping ...
+2019-08-11 14:32:03 pid:22939 Workerman[chat.php] has been stopped
+2019-08-11 14:32:03 pid:25730 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:24 pid:25730 Workerman[chat.php] stopping ...
+2019-08-11 14:32:24 pid:25730 Workerman[chat.php] has been stopped
+2019-08-11 14:32:26 pid:26150 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:32:56 pid:26150 Workerman[chat.php] stopping ...
+2019-08-11 14:32:56 pid:26150 Workerman[chat.php] has been stopped
+2019-08-11 14:32:56 pid:26694 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:27 pid:26694 Workerman[chat.php] stopping ...
+2019-08-11 14:33:27 pid:26694 Workerman[chat.php] has been stopped
+2019-08-11 14:33:28 pid:27346 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:37 pid:27346 Workerman[chat.php] stopping ...
+2019-08-11 14:33:37 pid:27346 Workerman[chat.php] has been stopped
+2019-08-11 14:33:39 pid:27547 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:33:53 pid:27776 Workerman[chat.php] status 
+2019-08-11 14:39:23 pid:27547 Workerman[chat.php] stopping ...
+2019-08-11 14:39:23 pid:27547 Workerman[chat.php] has been stopped
+2019-08-11 14:39:24 pid:3057 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:40:36 pid:5713 Workerman[chat.php] status 
+2019-08-11 14:41:53 pid:3057 Workerman[chat.php] stopping ...
+2019-08-11 14:41:53 pid:3057 Workerman[chat.php] has been stopped
+2019-08-11 14:42:31 pid:8186 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:43:16 pid:8186 Workerman[chat.php] stopping ...
+2019-08-11 14:43:16 pid:8186 Workerman[chat.php] has been stopped
+2019-08-11 14:46:31 pid:15066 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:46:58 pid:15066 Workerman[chat.php] stopping ...
+2019-08-11 14:46:58 pid:15066 Workerman[chat.php] has been stopped
+2019-08-11 14:46:58 pid:15956 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:47:42 pid:15956 Workerman[chat.php] stopping ...
+2019-08-11 14:47:42 pid:15956 Workerman[chat.php] has been stopped
+2019-08-11 14:48:01 pid:16903 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:54:18 pid:16903 Workerman[chat.php] stopping ...
+2019-08-11 14:54:18 pid:16903 Workerman[chat.php] has been stopped
+2019-08-11 14:54:19 pid:25314 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:54:21 pid:25314 Workerman[chat.php] stopping ...
+2019-08-11 14:54:21 pid:25314 Workerman[chat.php] has been stopped
+2019-08-11 14:56:12 pid:28164 Workerman[chat.php] start in DEBUG mode
+2019-08-11 14:59:35 pid:28164 Workerman[chat.php] stopping ...
+2019-08-11 14:59:36 pid:28164 Workerman[chat.php] has been stopped
+2019-08-11 14:59:37 pid:32472 Workerman[chat.php] start in DEBUG mode
+2019-08-11 15:00:14 pid:32472 Workerman[chat.php] stopping ...
+2019-08-11 15:00:14 pid:32472 Workerman[chat.php] has been stopped
+2019-08-11 15:00:15 pid:1739 Workerman[chat.php] start in DEBUG mode
+2019-08-11 15:00:42 pid:1739 Workerman[chat.php] stopping ...
+2019-08-11 15:00:42 pid:1739 Workerman[chat.php] has been stopped
+2019-08-11 15:00:45 pid:2921 Workerman[chat.php] start in DAEMON mode
+2019-08-11 15:01:27 pid:4086 Workerman[chat.php] status 
+2019-08-11 15:01:57 pid:4741 Workerman[chat.php] status 
+2019-08-11 16:55:46 pid:1156 Workerman[chat.php] start in DEBUG mode
+2019-08-11 16:58:16 pid:4301 Workerman[chat.php] start in DEBUG mode
+2019-08-11 16:59:14 pid:4301 Workerman[chat.php] stopping ...
+2019-08-11 16:59:14 pid:4301 Workerman[chat.php] has been stopped
+2019-08-11 16:59:15 pid:5315 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:12 pid:5315 Workerman[chat.php] stopping ...
+2019-08-11 17:00:12 pid:5315 Workerman[chat.php] has been stopped
+2019-08-11 17:00:13 pid:6873 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:29 pid:7134 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:00:51 pid:7134 Workerman[chat.php] stopping ...
+2019-08-11 17:00:51 pid:7134 Workerman[chat.php] has been stopped
+2019-08-11 17:00:52 pid:7825 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:03:17 pid:7825 Workerman[chat.php] stopping ...
+2019-08-11 17:03:17 pid:7825 Workerman[chat.php] has been stopped
+2019-08-11 17:03:18 pid:10738 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:06:24 pid:10738 Workerman[chat.php] stopping ...
+2019-08-11 17:06:24 pid:10738 Workerman[chat.php] has been stopped
+2019-08-11 17:06:25 pid:15118 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:07:02 pid:15118 Workerman[chat.php] stopping ...
+2019-08-11 17:07:02 pid:15118 Workerman[chat.php] has been stopped
+2019-08-11 17:07:02 pid:15742 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:07:46 pid:15742 Workerman[chat.php] stopping ...
+2019-08-11 17:07:46 pid:15742 Workerman[chat.php] has been stopped
+2019-08-11 17:07:46 pid:16473 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:08:02 pid:16821 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:08:02 pid:16821 Workerman[chat.php] already running
+2019-08-11 17:08:08 pid:16885 Workerman[chat.php] stop 
+2019-08-11 17:08:08 pid:16885 Workerman[chat.php] is stopping ...
+2019-08-11 17:08:13 pid:16885 Workerman[chat.php] stop fail
+2019-08-11 17:08:15 pid:17005 Workerman[chat.php] stop 
+2019-08-11 17:08:15 pid:17005 Workerman[chat.php] is stopping ...
+2019-08-11 17:08:20 pid:17005 Workerman[chat.php] stop fail
+2019-08-11 17:09:14 pid:18027 Workerman[chat.php] status 
+2019-08-11 17:09:21 pid:18110 Workerman[chat.php] stop 
+2019-08-11 17:09:21 pid:18110 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:26 pid:18110 Workerman[chat.php] stop fail
+2019-08-11 17:09:30 pid:18278 Workerman[chat.php] restart 
+2019-08-11 17:09:30 pid:18278 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:35 pid:18278 Workerman[chat.php] stop fail
+2019-08-11 17:09:42 pid:18426 Workerman[chat.php] reload 
+2019-08-11 17:09:47 pid:18561 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:09:47 pid:18561 Workerman[chat.php] already running
+2019-08-11 17:09:54 pid:18634 Workerman[chat.php] stop 
+2019-08-11 17:09:54 pid:18634 Workerman[chat.php] is stopping ...
+2019-08-11 17:09:59 pid:18634 Workerman[chat.php] stop fail
+2019-08-11 17:10:05 pid:19205 Workerman[chat.php] status 
+2019-08-11 17:10:15 pid:19511 Workerman[chat.php] connections 
+2019-08-11 17:10:22 pid:19638 Workerman[chat.php] stop 
+2019-08-11 17:10:22 pid:19638 Workerman[chat.php] is stopping ...
+2019-08-11 17:10:27 pid:19638 Workerman[chat.php] stop fail
+2019-08-11 17:12:11 pid:21919 Workerman[chat.php] stop 
+2019-08-11 17:12:11 pid:21919 Workerman[chat.php] is stopping ...
+2019-08-11 17:12:16 pid:21919 Workerman[chat.php] stop fail
+2019-08-11 17:12:35 pid:22657 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:12:35 pid:22657 Workerman[chat.php] already running
+2019-08-11 17:13:53 pid:24174 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:15:36 pid:24174 Workerman[chat.php] stopping ...
+2019-08-11 17:15:36 pid:24174 Workerman[chat.php] has been stopped
+2019-08-11 17:15:39 pid:26872 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:16:05 pid:27365 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:16:35 pid:27365 Workerman[chat.php] stopping ...
+2019-08-11 17:16:35 pid:27365 Workerman[chat.php] has been stopped
+2019-08-11 17:16:36 pid:27891 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:03 pid:27891 Workerman[chat.php] stopping ...
+2019-08-11 17:17:03 pid:27891 Workerman[chat.php] has been stopped
+2019-08-11 17:17:04 pid:28380 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:30 pid:28380 Workerman[chat.php] stopping ...
+2019-08-11 17:17:30 pid:28380 Workerman[chat.php] has been stopped
+2019-08-11 17:17:31 pid:28817 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:47 pid:28817 Workerman[chat.php] stopping ...
+2019-08-11 17:17:47 pid:28817 Workerman[chat.php] has been stopped
+2019-08-11 17:17:47 pid:29414 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:17:59 pid:29414 Workerman[chat.php] stopping ...
+2019-08-11 17:17:59 pid:29414 Workerman[chat.php] has been stopped
+2019-08-11 17:18:00 pid:29616 Workerman[chat.php] start in DEBUG mode
+2019-08-11 17:18:27 pid:29616 Workerman[chat.php] stopping ...
+2019-08-11 17:18:27 pid:29616 Workerman[chat.php] has been stopped
+2019-08-11 17:18:28 pid:30301 Workerman[chat.php] start in DEBUG mode
+2019-08-11 18:21:31 pid:30301 Workerman[chat.php] stopping ...
+2019-08-11 18:21:31 pid:30301 Workerman[chat.php] has been stopped
+2019-08-11 18:38:55 pid:15049 Workerman[chat.php] start in DEBUG mode
+2019-08-11 18:39:47 pid:15049 Workerman[chat.php] stopping ...
+2019-08-11 18:39:47 pid:15049 Workerman[chat.php] has been stopped
+2019-08-11 18:39:50 pid:15969 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:40:09 pid:16804 Workerman[chat.php] status 
+2019-08-11 18:41:21 pid:18377 Workerman[chat.php] status 
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] restart 
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] is stopping ...
+2019-08-11 18:41:34 pid:15972 Workerman[chat.php] stopping ...
+2019-08-11 18:41:34 pid:15972 Workerman[chat.php] has been stopped
+2019-08-11 18:41:34 pid:18621 Workerman[chat.php] stop success
+2019-08-11 18:41:45 pid:18621 Workerman[chat.php] stopping ...
+2019-08-11 18:41:46 pid:18621 Workerman[chat.php] has been stopped
+2019-08-11 18:41:52 pid:18922 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:42:15 pid:19437 Workerman[chat.php] status 
+2019-08-11 18:42:58 pid:20088 Workerman[chat.php] connections 
+2019-08-11 18:43:24 pid:20889 Workerman[chat.php] connections 
+2019-08-11 18:43:31 pid:21081 Workerman[chat.php] connections 
+2019-08-11 18:43:37 pid:21217 Workerman[chat.php] connections 
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] stop 
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] is stopping ...
+2019-08-11 18:44:33 pid:18925 Workerman[chat.php] stopping ...
+2019-08-11 18:44:33 pid:18925 Workerman[chat.php] has been stopped
+2019-08-11 18:44:33 pid:22227 Workerman[chat.php] stop success
+2019-08-11 18:44:38 pid:22315 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:44:51 pid:22468 Workerman[chat.php] connections 
+2019-08-11 18:44:57 pid:22547 Workerman[chat.php] status 
+2019-08-11 18:45:11 pid:23291 Workerman[chat.php] status 
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] restart 
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] is stopping ...
+2019-08-11 18:46:11 pid:22319 Workerman[chat.php] stopping ...
+2019-08-11 18:46:11 pid:22319 Workerman[chat.php] has been stopped
+2019-08-11 18:46:11 pid:24724 Workerman[chat.php] stop success
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] restart 
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] is stopping ...
+2019-08-11 18:46:39 pid:25302 Workerman[chat.php] stop success
+2019-08-11 18:47:28 pid:25302 Workerman[chat.php] stopping ...
+2019-08-11 18:47:28 pid:25302 Workerman[chat.php] has been stopped
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] restart 
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] is stopping ...
+2019-08-11 18:47:29 pid:26241 Workerman[chat.php] stop success
+2019-08-11 18:48:23 pid:26241 Workerman[chat.php] stopping ...
+2019-08-11 18:48:23 pid:26241 Workerman[chat.php] has been stopped
+2019-08-11 18:48:32 pid:27367 Workerman[chat.php] start in DAEMON mode
+2019-08-11 18:48:35 pid:27426 Workerman[chat.php] connections 
+2019-08-11 18:48:41 pid:27497 Workerman[chat.php] connections 
+2019-08-11 18:55:57 pid:5940 Workerman[chat.php] connections 
+2019-08-11 18:57:28 pid:7932 Workerman[chat.php] start in DEBUG mode
+2019-08-11 18:57:28 pid:7932 Workerman[chat.php] already running
+2019-08-11 18:57:33 pid:8015 Workerman[chat.php] stop 
+2019-08-11 18:57:33 pid:8015 Workerman[chat.php] is stopping ...
+2019-08-11 18:57:33 pid:27369 Workerman[chat.php] stopping ...
+2019-08-11 18:57:33 pid:27369 Workerman[chat.php] has been stopped
+2019-08-11 18:57:33 pid:8015 Workerman[chat.php] stop success
+2019-08-11 18:57:39 pid:8107 Workerman[chat.php] start in DEBUG mode
+2019-08-11 19:07:33 pid:8107 Workerman[chat.php] stopping ...
+2019-08-11 19:07:33 pid:8107 Workerman[chat.php] has been stopped
+2019-08-12 12:17:29 pid:2191 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:17:41 pid:2191 Workerman[chat.php] stopping ...
+2019-08-12 12:17:41 pid:2191 Workerman[chat.php] has been stopped
+2019-08-12 12:17:42 pid:2322 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:18:19 pid:2322 Workerman[chat.php] stopping ...
+2019-08-12 12:18:19 pid:2322 Workerman[chat.php] has been stopped
+2019-08-12 12:18:25 pid:3077 Workerman[chat.php] start in DAEMON mode
+2019-08-12 12:18:45 pid:3674 Workerman[chat.php] status 
+2019-08-12 12:19:06 pid:4284 Workerman[chat.php] connections 
+2019-08-12 12:19:32 pid:4628 Workerman[chat.php] restart 
+2019-08-12 12:19:32 pid:4628 Workerman[chat.php] is stopping ...
+2019-08-12 12:19:32 pid:3085 Workerman[chat.php] stopping ...
+2019-08-12 12:19:32 pid:3085 Workerman[chat.php] has been stopped
+2019-08-12 12:19:32 pid:4628 Workerman[chat.php] stop success
+2019-08-12 12:24:37 pid:4628 Workerman[chat.php] stopping ...
+2019-08-12 12:24:37 pid:4628 Workerman[chat.php] has been stopped
+2019-08-12 12:24:55 pid:12338 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:25:43 pid:12338 Workerman[chat.php] stopping ...
+2019-08-12 12:25:43 pid:12338 Workerman[chat.php] has been stopped
+2019-08-12 12:25:44 pid:14408 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:26:39 pid:14408 Workerman[chat.php] stopping ...
+2019-08-12 12:26:39 pid:14408 Workerman[chat.php] has been stopped
+2019-08-12 12:26:40 pid:15490 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:34:41 pid:15490 Workerman[chat.php] stopping ...
+2019-08-12 12:34:41 pid:15490 Workerman[chat.php] has been stopped
+2019-08-12 12:34:41 pid:24851 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:34:44 pid:24852 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(46): Workerman\Worker::runAll()
+#10 {main}
+2019-08-12 12:34:44 pid:24852 Worker[24852] process terminated
+2019-08-12 12:34:44 pid:24851 worker[none:24852] exit with status 64000
+2019-08-12 12:36:07 pid:24888 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(46): Workerman\Worker::runAll()
+#12 {main}
+2019-08-12 12:36:07 pid:24888 Worker[24888] process terminated
+2019-08-12 12:36:07 pid:24851 worker[none:24888] exit with status 64000
+2019-08-12 12:37:04 pid:27141 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(46): Workerman\Worker::runAll()
+#12 {main}
+2019-08-12 12:37:04 pid:27141 Worker[27141] process terminated
+2019-08-12 12:37:04 pid:24851 worker[none:27141] exit with status 64000
+2019-08-12 12:37:04 pid:27929 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(46): Workerman\Worker::runAll()
+#12 {main}
+2019-08-12 12:37:04 pid:27929 Worker[27929] process terminated
+2019-08-12 12:37:04 pid:24851 worker[none:27929] exit with status 64000
+2019-08-12 12:37:36 pid:24851 Workerman[chat.php] stopping ...
+2019-08-12 12:37:36 pid:24851 Workerman[chat.php] has been stopped
+2019-08-12 12:37:37 pid:28443 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:37:41 pid:28447 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Workerman\Worker::runAll()
+#10 {main}
+2019-08-12 12:37:41 pid:28447 Worker[28447] process terminated
+2019-08-12 12:37:41 pid:28443 worker[none:28447] exit with status 64000
+2019-08-12 12:39:36 pid:28443 Workerman[chat.php] stopping ...
+2019-08-12 12:39:36 pid:28443 Workerman[chat.php] has been stopped
+2019-08-12 12:39:37 pid:30495 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:39:39 pid:30499 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/s50962/public_html/sepezho.ru/php/chat.php:25
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2424): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #18)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Workerman\Worker::runAll()
+#10 {main}
+2019-08-12 12:39:39 pid:30499 Worker[30499] process terminated
+2019-08-12 12:39:39 pid:30495 worker[none:30499] exit with status 64000
+2019-08-12 12:43:14 pid:30495 Workerman[chat.php] stopping ...
+2019-08-12 12:43:14 pid:30495 Workerman[chat.php] has been stopped
+2019-08-12 12:43:15 pid:2480 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:46:15 pid:2480 Workerman[chat.php] stopping ...
+2019-08-12 12:46:15 pid:2480 Workerman[chat.php] has been stopped
+2019-08-12 12:46:16 pid:6792 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:47:07 pid:6792 Workerman[chat.php] stopping ...
+2019-08-12 12:47:07 pid:6792 Workerman[chat.php] has been stopped
+2019-08-12 12:47:08 pid:8311 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:48:12 pid:8311 Workerman[chat.php] stopping ...
+2019-08-12 12:48:12 pid:8311 Workerman[chat.php] has been stopped
+2019-08-12 12:48:13 pid:9891 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:48:27 pid:9891 Workerman[chat.php] stopping ...
+2019-08-12 12:48:27 pid:9891 Workerman[chat.php] has been stopped
+2019-08-12 12:49:02 pid:10950 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:52:29 pid:10950 Workerman[chat.php] stopping ...
+2019-08-12 12:52:29 pid:10950 Workerman[chat.php] has been stopped
+2019-08-12 12:52:30 pid:16623 Workerman[chat.php] start in DEBUG mode
+2019-08-12 12:56:23 pid:16623 Workerman[chat.php] stopping ...
+2019-08-12 12:56:23 pid:16623 Workerman[chat.php] has been stopped
+2019-08-12 12:56:24 pid:23320 Workerman[chat.php] start in DEBUG mode
+2019-08-12 13:03:49 pid:23320 Workerman[chat.php] stopping ...
+2019-08-12 13:03:49 pid:23320 Workerman[chat.php] has been stopped
+2019-08-12 13:03:50 pid:1832 Workerman[chat.php] start in DEBUG mode
+2019-08-12 13:07:01 pid:1832 Workerman[chat.php] stopping ...
+2019-08-12 13:07:01 pid:1832 Workerman[chat.php] has been stopped
+2019-08-12 13:07:02 pid:7101 Workerman[chat.php] start in DEBUG mode
+2019-08-12 14:09:41 pid:7101 Workerman[chat.php] stopping ...
+2019-08-12 14:09:41 pid:7101 Workerman[chat.php] has been stopped
+2019-08-12 14:10:08 pid:10459 Workerman[chat.php] start in DEBUG mode
+2019-08-12 14:10:11 pid:10459 Workerman[chat.php] stopping ...
+2019-08-12 14:10:11 pid:10459 Workerman[chat.php] has been stopped
+2019-08-12 14:10:14 pid:10578 Workerman[chat.php] start in DEBUG mode
+2019-08-12 14:10:17 pid:10578 Workerman[chat.php] stopping ...
+2019-08-12 14:10:17 pid:10578 Workerman[chat.php] has been stopped
+2019-08-12 14:10:21 pid:10716 Workerman[chat.php] start in DAEMON mode
+2019-08-12 14:10:33 pid:11070 Workerman[chat.php] connections 
+2019-08-12 14:10:46 pid:11672 Workerman[chat.php] connections 
+2019-08-12 14:10:57 pid:11884 Workerman[chat.php] connections 
+2019-08-12 14:11:27 pid:12686 Workerman[chat.php] connections 
+2019-08-12 14:12:40 pid:14955 Workerman[chat.php] status 
+2019-08-12 14:13:17 pid:16370 Workerman[chat.php] status 
+2019-08-12 14:13:35 pid:16743 Workerman[chat.php] status 
+2019-08-14 21:04:26 pid:24967 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:05:06 pid:24969 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/php/chat.php:41
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"L...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(50): Workerman\Worker::runAll()
+#10 {main}
+2019-08-14 21:05:06 pid:24969 Worker[24969] process terminated
+2019-08-14 21:05:06 pid:24967 worker[none:24969] exit with status 64000
+2019-08-14 21:06:25 pid:24967 Workerman[chat.php] stopping ...
+2019-08-14 21:06:25 pid:24967 Workerman[chat.php] has been stopped
+2019-08-14 21:06:27 pid:28618 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:09:57 pid:28618 Workerman[chat.php] stopping ...
+2019-08-14 21:09:57 pid:28618 Workerman[chat.php] has been stopped
+2019-08-14 21:09:59 pid:525 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:10:57 pid:525 Workerman[chat.php] stopping ...
+2019-08-14 21:10:57 pid:525 Workerman[chat.php] has been stopped
+2019-08-14 21:10:59 pid:2984 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:12:12 pid:2984 Workerman[chat.php] stopping ...
+2019-08-14 21:12:12 pid:2984 Workerman[chat.php] has been stopped
+2019-08-14 21:12:14 pid:4839 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:12:54 pid:4839 Workerman[chat.php] stopping ...
+2019-08-14 21:12:54 pid:4839 Workerman[chat.php] has been stopped
+2019-08-14 21:12:55 pid:5769 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:13:35 pid:5769 Workerman[chat.php] stopping ...
+2019-08-14 21:13:35 pid:5769 Workerman[chat.php] has been stopped
+2019-08-14 21:13:36 pid:6696 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:13:53 pid:6696 Workerman[chat.php] stopping ...
+2019-08-14 21:13:53 pid:6696 Workerman[chat.php] has been stopped
+2019-08-14 21:13:54 pid:6996 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:43:14 pid:6996 Workerman[chat.php] stopping ...
+2019-08-14 21:43:14 pid:6996 Workerman[chat.php] has been stopped
+2019-08-14 21:43:15 pid:20634 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:47:47 pid:20634 Workerman[chat.php] stopping ...
+2019-08-14 21:47:47 pid:20634 Workerman[chat.php] has been stopped
+2019-08-14 21:47:47 pid:27103 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:48:13 pid:27103 Workerman[chat.php] stopping ...
+2019-08-14 21:48:13 pid:27103 Workerman[chat.php] has been stopped
+2019-08-14 21:48:13 pid:27705 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:49:19 pid:27705 Workerman[chat.php] stopping ...
+2019-08-14 21:49:19 pid:27705 Workerman[chat.php] has been stopped
+2019-08-14 21:49:20 pid:29193 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:49:40 pid:29193 Workerman[chat.php] stopping ...
+2019-08-14 21:49:40 pid:29193 Workerman[chat.php] has been stopped
+2019-08-14 21:49:41 pid:29591 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:50:43 pid:29591 Workerman[chat.php] stopping ...
+2019-08-14 21:50:44 pid:29591 Workerman[chat.php] has been stopped
+2019-08-14 21:50:44 pid:31856 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:54:14 pid:31856 Workerman[chat.php] stopping ...
+2019-08-14 21:54:14 pid:31856 Workerman[chat.php] has been stopped
+2019-08-14 21:54:15 pid:3582 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:56:18 pid:3582 Workerman[chat.php] stopping ...
+2019-08-14 21:56:18 pid:3582 Workerman[chat.php] has been stopped
+2019-08-14 21:56:19 pid:7388 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:56:44 pid:7388 Workerman[chat.php] stopping ...
+2019-08-14 21:56:44 pid:7388 Workerman[chat.php] has been stopped
+2019-08-14 21:56:46 pid:7883 Workerman[chat.php] start in DEBUG mode
+2019-08-14 21:58:17 pid:7883 Workerman[chat.php] stopping ...
+2019-08-14 21:58:17 pid:7883 Workerman[chat.php] has been stopped
+2019-08-14 21:58:18 pid:10162 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:04:45 pid:10162 Workerman[chat.php] stopping ...
+2019-08-14 22:04:45 pid:10162 Workerman[chat.php] has been stopped
+2019-08-14 22:04:46 pid:20504 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:18:05 pid:20504 Workerman[chat.php] stopping ...
+2019-08-14 22:18:05 pid:20504 Workerman[chat.php] has been stopped
+2019-08-14 22:18:05 pid:8406 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:18:48 pid:8406 Workerman[chat.php] stopping ...
+2019-08-14 22:18:48 pid:8406 Workerman[chat.php] has been stopped
+2019-08-14 22:18:48 pid:9455 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:19:17 pid:9455 Workerman[chat.php] stopping ...
+2019-08-14 22:19:17 pid:9455 Workerman[chat.php] has been stopped
+2019-08-14 22:21:05 pid:14372 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:28:15 pid:14372 Workerman[chat.php] stopping ...
+2019-08-14 22:28:15 pid:14372 Workerman[chat.php] has been stopped
+2019-08-14 22:28:15 pid:24472 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:28:30 pid:24473 Error: Call to a member function send() on array in /home/s50962/public_html/sepezho.ru/php/chat.php:45
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"L...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(54): Workerman\Worker::runAll()
+#10 {main}
+2019-08-14 22:28:30 pid:24473 Worker[24473] process terminated
+2019-08-14 22:28:30 pid:24472 worker[none:24473] exit with status 64000
+2019-08-14 22:29:54 pid:24472 Workerman[chat.php] stopping ...
+2019-08-14 22:29:54 pid:24472 Workerman[chat.php] has been stopped
+2019-08-14 22:29:55 pid:26488 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:30:25 pid:26488 Workerman[chat.php] stopping ...
+2019-08-14 22:30:25 pid:26488 Workerman[chat.php] has been stopped
+2019-08-14 22:31:58 pid:29968 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:43:24 pid:29968 Workerman[chat.php] stopping ...
+2019-08-14 22:43:24 pid:29968 Workerman[chat.php] has been stopped
+2019-08-14 22:43:24 pid:14525 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:43:57 pid:14525 Workerman[chat.php] stopping ...
+2019-08-14 22:43:57 pid:14525 Workerman[chat.php] has been stopped
+2019-08-14 22:43:57 pid:15261 Workerman[chat.php] start in DEBUG mode
+2019-08-14 22:46:05 pid:15261 Workerman[chat.php] stopping ...
+2019-08-14 22:46:05 pid:15261 Workerman[chat.php] has been stopped
+2019-08-14 23:11:02 pid:25142 Workerman[chat.php] start in DEBUG mode
+2019-08-14 23:12:01 pid:25148 Worker[25148] process terminated
+2019-08-14 23:13:14 pid:26180 Worker[26180] process terminated
+2019-08-14 23:13:35 pid:27773 Worker[27773] process terminated
+2019-08-14 23:14:00 pid:28084 Worker[28084] process terminated
+2019-08-14 23:17:49 pid:28467 Worker[28467] process terminated
+2019-08-14 23:19:26 pid:2420 Worker[2420] process terminated
+2019-08-14 23:20:46 pid:4282 Worker[4282] process terminated
+2019-08-14 23:21:44 pid:6722 Worker[6722] process terminated
+2019-08-14 23:22:12 pid:8199 Worker[8199] process terminated
+2019-08-14 23:23:26 pid:8818 Worker[8818] process terminated
+2019-08-14 23:29:38 pid:10386 Worker[10386] process terminated
+2019-08-14 23:29:50 pid:20239 Worker[20239] process terminated
+2019-08-14 23:34:07 pid:20509 Worker[20509] process terminated
+2019-08-14 23:34:07 pid:27110 Worker[27110] process terminated
+2019-08-14 23:34:34 pid:27112 Worker[27112] process terminated
+2019-08-14 23:34:34 pid:27534 Worker[27534] process terminated
+2019-08-14 23:35:33 pid:27535 Worker[27535] process terminated
+2019-08-14 23:37:07 pid:29403 Worker[29403] process terminated
+2019-08-14 23:39:35 pid:31860 Worker[31860] process terminated
+2019-08-14 23:40:20 pid:1952 Worker[1952] process terminated
+2019-08-14 23:40:20 pid:3327 Worker[3327] process terminated
+2019-08-14 23:40:20 pid:3328 Worker[3328] process terminated
+2019-08-14 23:41:46 pid:3329 Worker[3329] process terminated
+2019-08-14 23:41:46 pid:5481 Worker[5481] process terminated
+2019-08-14 23:43:28 pid:5482 Worker[5482] process terminated
+2019-08-14 23:45:47 pid:7524 Worker[7524] process terminated
+2019-08-14 23:45:47 pid:12027 Worker[12027] process terminated
+2019-08-14 23:47:36 pid:12035 Worker[12035] process terminated
+2019-08-14 23:48:42 pid:14983 Worker[14983] process terminated
+2019-08-14 23:48:43 pid:16514 Worker[16514] process terminated
+2019-08-14 23:49:57 pid:16515 Worker[16515] process terminated
+2019-08-14 23:57:41 pid:18021 Worker[18021] process terminated
+2019-08-14 23:58:28 pid:29039 Worker[29039] process terminated
+2019-08-14 23:59:25 pid:30134 Worker[30134] process terminated
+2019-08-14 23:59:40 pid:31135 Worker[31135] process terminated
+2019-08-15 00:00:00 pid:31370 Worker[31370] process terminated
+2019-08-15 00:00:30 pid:31642 Worker[31642] process terminated
+2019-08-15 00:00:50 pid:604 Worker[604] process terminated
+2019-08-15 00:01:35 pid:1287 Worker[1287] process terminated
+2019-08-15 00:06:21 pid:2559 Worker[2559] process terminated
+2019-08-15 00:09:22 pid:17910 Worker[17910] process terminated
+2019-08-15 00:10:16 pid:28827 Worker[28827] process terminated
+2019-08-15 00:10:44 pid:648 Worker[648] process terminated
+2019-08-15 00:20:25 pid:2754 Worker[2754] process terminated
+2019-08-15 00:24:08 pid:18821 Worker[18821] process terminated
+2019-08-15 00:25:43 pid:23288 Worker[23288] process terminated
+2019-08-15 00:29:20 pid:26006 Worker[26006] process terminated
+2019-08-15 00:29:29 pid:30665 Worker[30665] process terminated
+2019-08-15 00:29:29 pid:30846 Worker[30846] process terminated
+2019-08-15 00:29:57 pid:30848 Worker[30848] process terminated
+2019-08-15 00:30:05 pid:31270 Worker[31270] process terminated
+2019-08-15 00:30:09 pid:31950 Worker[31950] process terminated
+2019-08-15 00:32:36 pid:32166 Worker[32166] process terminated
+2019-08-15 00:35:49 pid:3912 Worker[3912] process terminated
+2019-08-15 00:35:49 pid:9686 Worker[9686] process terminated
+2019-08-15 00:36:00 pid:9687 Worker[9687] process terminated
+2019-08-15 00:36:00 pid:9914 Worker[9914] process terminated
+2019-08-15 00:36:00 pid:9915 Worker[9915] process terminated
+2019-08-15 00:40:34 pid:9916 Worker[9916] process terminated
+2019-08-15 00:41:06 pid:16400 Worker[16400] process terminated
+2019-08-15 00:41:06 pid:17961 Worker[17961] process terminated
+2019-08-15 00:41:50 pid:17962 Worker[17962] process terminated
+2019-08-15 00:44:48 pid:19190 Worker[19190] process terminated
+2019-08-15 00:44:48 pid:22446 Worker[22446] process terminated
+2019-08-15 00:44:48 pid:22447 Worker[22447] process terminated
+2019-08-15 00:48:49 pid:22448 Worker[22448] process terminated
+2019-08-15 00:51:31 pid:28198 Worker[28198] process terminated
+2019-08-15 00:53:33 pid:32393 Worker[32393] process terminated
+2019-08-15 00:57:28 pid:2512 Worker[2512] process terminated
+2019-08-15 00:57:28 pid:7812 Worker[7812] process terminated
+2019-08-15 00:57:28 pid:7813 Worker[7813] process terminated
+2019-08-15 01:00:34 pid:7814 Worker[7814] process terminated
+2019-08-15 01:00:34 pid:12966 Worker[12966] process terminated
+2019-08-15 01:01:41 pid:12969 Worker[12969] process terminated
+2019-08-15 01:01:43 pid:14404 Worker[14404] process terminated
+2019-08-15 01:02:31 pid:14450 Worker[14450] process terminated
+2019-08-15 01:02:54 pid:15374 Worker[15374] process terminated
+2019-08-15 01:02:54 pid:15717 Worker[15717] process terminated
+2019-08-15 01:04:28 pid:15718 Worker[15718] process terminated
+2019-08-15 01:04:39 pid:17487 Worker[17487] process terminated
+2019-08-15 01:04:41 pid:17620 Worker[17620] process terminated
+2019-08-15 01:04:52 pid:17638 Worker[17638] process terminated
+2019-08-15 01:05:11 pid:17772 Worker[17772] process terminated
+2019-08-15 01:05:38 pid:18727 Worker[18727] process terminated
+2019-08-15 01:06:10 pid:20008 Worker[20008] process terminated
+2019-08-15 01:07:53 pid:20604 Worker[20604] process terminated
+2019-08-15 01:07:53 pid:21990 Worker[21990] process terminated
+2019-08-15 01:08:25 pid:21991 Worker[21991] process terminated
+2019-08-15 01:09:47 pid:22617 Worker[22617] process terminated
+2019-08-15 01:12:00 pid:23761 Worker[23761] process terminated
+2019-08-15 01:13:02 pid:26700 Worker[26700] process terminated
+2019-08-15 01:13:12 pid:27836 Worker[27836] process terminated
+2019-08-15 01:13:12 pid:27992 Worker[27992] process terminated
+2019-08-15 01:14:19 pid:27993 Worker[27993] process terminated
+2019-08-15 01:14:43 pid:29072 Worker[29072] process terminated
+2019-08-15 01:15:03 pid:29795 Worker[29795] process terminated
+2019-08-15 01:15:03 pid:30675 Worker[30675] process terminated
+2019-08-15 01:18:18 pid:30677 Worker[30677] process terminated
+2019-08-15 01:18:18 pid:1895 Worker[1895] process terminated
+2019-08-15 01:18:18 pid:1896 Worker[1896] process terminated
+2019-08-15 01:18:18 pid:1897 Worker[1897] process terminated
+2019-08-15 01:18:46 pid:1898 Worker[1898] process terminated
+2019-08-15 01:21:14 pid:2383 Worker[2383] process terminated
+2019-08-15 01:21:36 pid:5812 Worker[5812] process terminated
+2019-08-15 01:21:49 pid:6034 Worker[6034] process terminated
+2019-08-15 01:22:42 pid:6196 Worker[6196] process terminated
+2019-08-15 01:23:03 pid:7086 Worker[7086] process terminated
+2019-08-15 01:23:25 pid:7502 Worker[7502] process terminated
+2019-08-15 01:23:57 pid:7907 Worker[7907] process terminated
+2019-08-15 01:24:37 pid:9367 Worker[9367] process terminated
+2019-08-15 01:30:02 pid:10162 Worker[10162] process terminated
+2019-08-15 01:30:02 pid:17190 Worker[17190] process terminated
+2019-08-15 01:30:36 pid:17335 Worker[17335] process terminated
+2019-08-15 01:31:29 pid:19026 Worker[19026] process terminated
+2019-08-15 01:33:08 pid:19836 Worker[19836] process terminated
+2019-08-15 01:39:05 pid:21332 Worker[21332] process terminated
+2019-08-15 01:39:45 pid:27710 Worker[27710] process terminated
+2019-08-15 01:42:57 pid:28133 Worker[28133] process terminated
+2019-08-15 01:43:58 pid:32497 Worker[32497] process terminated
+2019-08-15 01:44:29 pid:862 Worker[862] process terminated
+2019-08-15 01:46:36 pid:1330 Worker[1330] process terminated
+2019-08-15 01:46:57 pid:4085 Worker[4085] process terminated
+2019-08-15 01:50:14 pid:4355 Worker[4355] process terminated
+2019-08-15 01:50:19 pid:8089 Worker[8089] process terminated
+2019-08-15 01:52:43 pid:8148 Worker[8148] process terminated
+2019-08-15 01:52:43 pid:11525 Worker[11525] process terminated
+2019-08-15 01:53:34 pid:11526 Worker[11526] process terminated
+2019-08-15 01:54:00 pid:12488 Worker[12488] process terminated
+2019-08-15 01:54:07 pid:13091 Worker[13091] process terminated
+2019-08-15 01:54:24 pid:13409 Worker[13409] process terminated
+2019-08-15 01:54:30 pid:13691 Worker[13691] process terminated
+2019-08-15 01:55:44 pid:13794 Worker[13794] process terminated
+2019-08-15 01:55:44 pid:16267 Worker[16267] process terminated
+2019-08-15 01:59:31 pid:16268 Worker[16268] process terminated
+2019-08-15 02:00:48 pid:19909 Worker[19909] process terminated
+2019-08-15 02:04:04 pid:22264 Worker[22264] process terminated
+2019-08-15 02:04:29 pid:25244 Worker[25244] process terminated
+2019-08-15 02:04:29 pid:25672 Worker[25672] process terminated
+2019-08-15 02:04:29 pid:25673 Worker[25673] process terminated
+2019-08-15 02:05:34 pid:25674 Worker[25674] process terminated
+2019-08-15 02:08:12 pid:27311 Worker[27311] process terminated
+2019-08-15 02:09:58 pid:30255 Worker[30255] process terminated
+2019-08-15 02:09:59 pid:31776 Worker[31776] process terminated
+2019-08-15 02:13:04 pid:31790 Worker[31790] process terminated
+2019-08-15 02:14:33 pid:3447 Worker[3447] process terminated
+2019-08-15 02:14:33 pid:4803 Worker[4803] process terminated
+2019-08-15 02:17:24 pid:4805 Worker[4805] process terminated
+2019-08-15 02:17:26 pid:8730 Worker[8730] process terminated
+2019-08-15 02:19:53 pid:8753 Worker[8753] process terminated
+2019-08-15 02:22:04 pid:11242 Worker[11242] process terminated
+2019-08-15 02:22:04 pid:15032 Worker[15032] process terminated
+2019-08-15 02:23:21 pid:15034 Worker[15034] process terminated
+2019-08-15 02:23:34 pid:16159 Worker[16159] process terminated
+2019-08-15 02:23:54 pid:16338 Worker[16338] process terminated
+2019-08-15 02:25:17 pid:16646 Worker[16646] process terminated
+2019-08-15 02:25:47 pid:19644 Worker[19644] process terminated
+2019-08-15 02:26:07 pid:21526 Worker[21526] process terminated
+2019-08-15 02:26:07 pid:22409 Worker[22409] process terminated
+2019-08-15 02:32:36 pid:22410 Worker[22410] process terminated
+2019-08-15 02:33:31 pid:3542 Worker[3542] process terminated
+2019-08-15 02:33:56 pid:4469 Worker[4469] process terminated
+2019-08-15 02:34:38 pid:4751 Worker[4751] process terminated
+2019-08-15 02:35:47 pid:5419 Worker[5419] process terminated
+2019-08-15 02:36:10 pid:7673 Worker[7673] process terminated
+2019-08-15 02:40:00 pid:8721 Worker[8721] process terminated
+2019-08-15 02:41:22 pid:12470 Worker[12470] process terminated
+2019-08-15 02:41:30 pid:15416 Worker[15416] process terminated
+2019-08-15 02:42:04 pid:15550 Worker[15550] process terminated
+2019-08-15 02:43:27 pid:16343 Worker[16343] process terminated
+2019-08-15 02:44:27 pid:17893 Worker[17893] process terminated
+2019-08-15 02:45:21 pid:18879 Worker[18879] process terminated
+2019-08-15 02:45:22 pid:20720 Worker[20720] process terminated
+2019-08-15 02:45:22 pid:20742 Worker[20742] process terminated
+2019-08-15 02:45:55 pid:20743 Worker[20743] process terminated
+2019-08-15 02:46:37 pid:21526 Worker[21526] process terminated
+2019-08-15 02:53:05 pid:22170 Worker[22170] process terminated
+2019-08-15 02:54:07 pid:29810 Worker[29810] process terminated
+2019-08-15 02:57:42 pid:30965 Worker[30965] process terminated
+2019-08-15 02:58:24 pid:3024 Worker[3024] process terminated
+2019-08-15 02:59:10 pid:3769 Worker[3769] process terminated
+2019-08-15 02:59:55 pid:4572 Worker[4572] process terminated
+2019-08-15 02:59:55 pid:5195 Worker[5195] process terminated
+2019-08-15 03:01:44 pid:5197 Worker[5197] process terminated
+2019-08-15 03:02:50 pid:9236 Worker[9236] process terminated
+2019-08-15 03:03:28 pid:10627 Worker[10627] process terminated
+2019-08-15 03:04:54 pid:11480 Worker[11480] process terminated
+2019-08-15 03:05:20 pid:13094 Worker[13094] process terminated
+2019-08-15 03:06:01 pid:14811 Worker[14811] process terminated
+2019-08-15 03:07:10 pid:16171 Worker[16171] process terminated
+2019-08-15 03:07:12 pid:18056 Worker[18056] process terminated
+2019-08-15 03:07:28 pid:18077 Worker[18077] process terminated
+2019-08-15 03:12:15 pid:18342 Worker[18342] process terminated
+2019-08-15 03:12:46 pid:24842 Worker[24842] process terminated
+2019-08-15 03:14:21 pid:25175 Worker[25175] process terminated
+2019-08-15 03:14:21 pid:26478 Worker[26478] process terminated
+2019-08-15 03:17:00 pid:26479 Worker[26479] process terminated
+2019-08-15 03:17:07 pid:29490 Worker[29490] process terminated
+2019-08-15 03:18:27 pid:29691 Worker[29691] process terminated
+2019-08-15 03:20:26 pid:30628 Worker[30628] process terminated
+2019-08-15 03:20:26 pid:32668 Worker[32668] process terminated
+2019-08-15 03:20:28 pid:32669 Worker[32669] process terminated
+2019-08-15 03:21:36 pid:32692 Worker[32692] process terminated
+2019-08-15 03:22:23 pid:1731 Worker[1731] process terminated
+2019-08-15 03:25:51 pid:2401 Worker[2401] process terminated
+2019-08-15 03:26:17 pid:6169 Worker[6169] process terminated
+2019-08-15 03:28:07 pid:6598 Worker[6598] process terminated
+2019-08-15 03:28:41 pid:8263 Worker[8263] process terminated
+2019-08-15 03:29:02 pid:8652 Worker[8652] process terminated
+2019-08-15 03:29:56 pid:9080 Worker[9080] process terminated
+2019-08-15 03:29:56 pid:9825 Worker[9825] process terminated
+2019-08-15 03:29:57 pid:9827 Worker[9827] process terminated
+2019-08-15 03:35:50 pid:9840 Worker[9840] process terminated
+2019-08-15 03:36:03 pid:17784 Worker[17784] process terminated
+2019-08-15 03:39:46 pid:18129 Worker[18129] process terminated
+2019-08-15 03:46:53 pid:21011 Worker[21011] process terminated
+2019-08-15 03:46:53 pid:29377 Worker[29377] process terminated
+2019-08-15 03:47:13 pid:29378 Worker[29378] process terminated
+2019-08-15 03:48:14 pid:29700 Worker[29700] process terminated
+2019-08-15 03:48:40 pid:30361 Worker[30361] process terminated
+2019-08-15 03:50:25 pid:30562 Worker[30562] process terminated
+2019-08-15 03:50:39 pid:32109 Worker[32109] process terminated
+2019-08-15 03:51:31 pid:550 Worker[550] process terminated
+2019-08-15 03:52:34 pid:1205 Worker[1205] process terminated
+2019-08-15 03:52:34 pid:1817 Worker[1817] process terminated
+2019-08-15 03:52:47 pid:1818 Worker[1818] process terminated
+2019-08-15 03:52:47 pid:1928 Worker[1928] process terminated
+2019-08-15 03:52:47 pid:1931 Worker[1931] process terminated
+2019-08-15 03:53:20 pid:1932 Worker[1932] process terminated
+2019-08-15 03:54:52 pid:2289 Worker[2289] process terminated
+2019-08-15 03:58:06 pid:3169 Worker[3169] process terminated
+2019-08-15 03:59:52 pid:6589 Worker[6589] process terminated
+2019-08-15 03:59:52 pid:7694 Worker[7694] process terminated
+2019-08-15 03:59:54 pid:7696 Worker[7696] process terminated
+2019-08-15 04:02:42 pid:7710 Worker[7710] process terminated
+2019-08-15 04:03:39 pid:11867 Worker[11867] process terminated
+2019-08-15 04:05:40 pid:12532 Worker[12532] process terminated
+2019-08-15 04:05:40 pid:15348 Worker[15348] process terminated
+2019-08-15 04:06:01 pid:15349 Worker[15349] process terminated
+2019-08-15 04:07:02 pid:16200 Worker[16200] process terminated
+2019-08-15 04:11:54 pid:17593 Worker[17593] process terminated
+2019-08-15 04:15:10 pid:22522 Worker[22522] process terminated
+2019-08-15 04:15:35 pid:25077 Worker[25077] process terminated
+2019-08-15 04:15:35 pid:25954 Worker[25954] process terminated
+2019-08-15 04:17:17 pid:25955 Worker[25955] process terminated
+2019-08-15 04:18:45 pid:27302 Worker[27302] process terminated
+2019-08-15 04:18:45 pid:28192 Worker[28192] process terminated
+2019-08-15 04:18:45 pid:28193 Worker[28193] process terminated
+2019-08-15 04:19:23 pid:28194 Worker[28194] process terminated
+2019-08-15 04:20:34 pid:28613 Worker[28613] process terminated
+2019-08-15 04:28:47 pid:30426 Worker[30426] process terminated
+2019-08-15 04:28:47 pid:4624 Worker[4624] process terminated
+2019-08-15 04:29:06 pid:4625 Worker[4625] process terminated
+2019-08-15 04:30:09 pid:4892 Worker[4892] process terminated
+2019-08-15 04:30:47 pid:6088 Worker[6088] process terminated
+2019-08-15 04:34:28 pid:7362 Worker[7362] process terminated
+2019-08-15 04:35:41 pid:10370 Worker[10370] process terminated
+2019-08-15 04:39:34 pid:12321 Worker[12321] process terminated
+2019-08-15 04:39:41 pid:15439 Worker[15439] process terminated
+2019-08-15 04:40:26 pid:15503 Worker[15503] process terminated
+2019-08-15 04:40:26 pid:16863 Worker[16863] process terminated
+2019-08-15 04:41:27 pid:16864 Worker[16864] process terminated
+2019-08-15 04:42:16 pid:18588 Worker[18588] process terminated
+2019-08-15 04:42:25 pid:19300 Worker[19300] process terminated
+2019-08-15 04:43:51 pid:19386 Worker[19386] process terminated
+2019-08-15 04:43:51 pid:20253 Worker[20253] process terminated
+2019-08-15 04:45:50 pid:20254 Worker[20254] process terminated
+2019-08-15 04:45:50 pid:22730 Worker[22730] process terminated
+2019-08-15 04:48:14 pid:22731 Worker[22731] process terminated
+2019-08-15 04:48:32 pid:25005 Worker[25005] process terminated
+2019-08-15 04:50:04 pid:25202 Worker[25202] process terminated
+2019-08-15 04:51:06 pid:26753 Worker[26753] process terminated
+2019-08-15 04:51:57 pid:28521 Worker[28521] process terminated
+2019-08-15 04:52:02 pid:29182 Worker[29182] process terminated
+2019-08-15 04:53:56 pid:29310 Worker[29310] process terminated
+2019-08-15 04:53:57 pid:30610 Worker[30610] process terminated
+2019-08-15 04:55:32 pid:30625 Worker[30625] process terminated
+2019-08-15 05:00:53 pid:347 Worker[347] process terminated
+2019-08-15 05:01:33 pid:6266 Worker[6266] process terminated
+2019-08-15 05:02:55 pid:7155 Worker[7155] process terminated
+2019-08-15 05:02:55 pid:8746 Worker[8746] process terminated
+2019-08-15 05:03:38 pid:8747 Worker[8747] process terminated
+2019-08-15 05:09:05 pid:9423 Worker[9423] process terminated
+2019-08-15 05:10:36 pid:15754 Worker[15754] process terminated
+2019-08-15 05:12:40 pid:18491 Worker[18491] process terminated
+2019-08-15 05:12:40 pid:20913 Worker[20913] process terminated
+2019-08-15 05:12:40 pid:20915 Worker[20915] process terminated
+2019-08-15 05:19:43 pid:20916 Worker[20916] process terminated
+2019-08-15 05:19:43 pid:27240 Worker[27240] process terminated
+2019-08-15 05:23:42 pid:27241 Worker[27241] process terminated
+2019-08-15 05:23:42 pid:31458 Worker[31458] process terminated
+2019-08-15 05:25:37 pid:31459 Worker[31459] process terminated
+2019-08-15 05:31:23 pid:1481 Worker[1481] process terminated
+2019-08-15 05:32:15 pid:7156 Worker[7156] process terminated
+2019-08-15 05:32:40 pid:8117 Worker[8117] process terminated
+2019-08-15 05:35:10 pid:8488 Worker[8488] process terminated
+2019-08-15 05:35:15 pid:11192 Worker[11192] process terminated
+2019-08-15 05:35:15 pid:11232 Worker[11232] process terminated
+2019-08-15 05:35:16 pid:11233 Worker[11233] process terminated
+2019-08-15 05:41:30 pid:11243 Worker[11243] process terminated
+2019-08-15 05:41:50 pid:18920 Worker[18920] process terminated
+2019-08-15 05:41:50 pid:19178 Worker[19178] process terminated
+2019-08-15 05:41:54 pid:19179 Worker[19179] process terminated
+2019-08-15 05:44:33 pid:19194 Worker[19194] process terminated
+2019-08-15 05:46:07 pid:21261 Worker[21261] process terminated
+2019-08-15 05:49:27 pid:23503 Worker[23503] process terminated
+2019-08-15 05:49:27 pid:25585 Worker[25585] process terminated
+2019-08-15 05:49:47 pid:25587 Worker[25587] process terminated
+2019-08-15 05:52:04 pid:25721 Worker[25721] process terminated
+2019-08-15 05:53:31 pid:28504 Worker[28504] process terminated
+2019-08-15 05:53:34 pid:29418 Worker[29418] process terminated
+2019-08-15 05:54:14 pid:29438 Worker[29438] process terminated
+2019-08-15 05:55:53 pid:29945 Worker[29945] process terminated
+2019-08-15 05:57:23 pid:32111 Worker[32111] process terminated
+2019-08-15 05:57:23 pid:869 Worker[869] process terminated
+2019-08-15 05:58:59 pid:870 Worker[870] process terminated
+2019-08-15 06:00:08 pid:1932 Worker[1932] process terminated
+2019-08-15 06:00:08 pid:3403 Worker[3403] process terminated
+2019-08-15 06:04:04 pid:3405 Worker[3405] process terminated
+2019-08-15 06:04:04 pid:7423 Worker[7423] process terminated
+2019-08-15 06:04:57 pid:7425 Worker[7425] process terminated
+2019-08-15 06:04:58 pid:8017 Worker[8017] process terminated
+2019-08-15 06:05:06 pid:8034 Worker[8034] process terminated
+2019-08-15 06:09:23 pid:8977 Worker[8977] process terminated
+2019-08-15 06:09:23 pid:13699 Worker[13699] process terminated
+2019-08-15 06:09:50 pid:13700 Worker[13700] process terminated
+2019-08-15 06:10:45 pid:13991 Worker[13991] process terminated
+2019-08-15 06:11:56 pid:16065 Worker[16065] process terminated
+2019-08-15 06:14:29 pid:16948 Worker[16948] process terminated
+2019-08-15 06:14:29 pid:20211 Worker[20211] process terminated
+2019-08-15 06:14:29 pid:20214 Worker[20214] process terminated
+2019-08-15 06:15:15 pid:20215 Worker[20215] process terminated
+2019-08-15 06:15:19 pid:21564 Worker[21564] process terminated
+2019-08-15 06:15:23 pid:21791 Worker[21791] process terminated
+2019-08-15 06:15:45 pid:21831 Worker[21831] process terminated
+2019-08-15 06:18:25 pid:22483 Worker[22483] process terminated
+2019-08-15 06:18:26 pid:24981 Worker[24981] process terminated
+2019-08-15 06:19:11 pid:24982 Worker[24982] process terminated
+2019-08-15 06:21:33 pid:25760 Worker[25760] process terminated
+2019-08-15 06:23:07 pid:28801 Worker[28801] process terminated
+2019-08-15 06:25:36 pid:30365 Worker[30365] process terminated
+2019-08-15 06:27:04 pid:582 Worker[582] process terminated
+2019-08-15 06:27:32 pid:2336 Worker[2336] process terminated
+2019-08-15 06:27:32 pid:2637 Worker[2637] process terminated
+2019-08-15 06:31:25 pid:2638 Worker[2638] process terminated
+2019-08-15 06:31:25 pid:7282 Worker[7282] process terminated
+2019-08-15 06:35:51 pid:7283 Worker[7283] process terminated
+2019-08-15 06:35:51 pid:12626 Worker[12626] process terminated
+2019-08-15 06:36:11 pid:12627 Worker[12627] process terminated
+2019-08-15 06:36:13 pid:13064 Worker[13064] process terminated
+2019-08-15 06:36:13 pid:13078 Worker[13078] process terminated
+2019-08-15 06:40:39 pid:13079 Worker[13079] process terminated
+2019-08-15 06:40:39 pid:18442 Worker[18442] process terminated
+2019-08-15 06:40:39 pid:18443 Worker[18443] process terminated
+2019-08-15 06:43:24 pid:18446 Worker[18446] process terminated
+2019-08-15 06:45:58 pid:21239 Worker[21239] process terminated
+2019-08-15 06:46:05 pid:24588 Worker[24588] process terminated
+2019-08-15 06:47:16 pid:24772 Worker[24772] process terminated
+2019-08-15 06:48:30 pid:25779 Worker[25779] process terminated
+2019-08-15 06:54:19 pid:26893 Worker[26893] process terminated
+2019-08-15 06:56:35 pid:1163 Worker[1163] process terminated
+2019-08-15 06:57:45 pid:4051 Worker[4051] process terminated
+2019-08-15 06:58:33 pid:4903 Worker[4903] process terminated
+2019-08-15 07:00:32 pid:5480 Worker[5480] process terminated
+2019-08-15 07:01:57 pid:8212 Worker[8212] process terminated
+2019-08-15 07:02:12 pid:10379 Worker[10379] process terminated
+2019-08-15 07:02:32 pid:10733 Worker[10733] process terminated
+2019-08-15 07:03:07 pid:10971 Worker[10971] process terminated
+2019-08-15 07:03:07 pid:11631 Worker[11631] process terminated
+2019-08-15 07:04:02 pid:11632 Worker[11632] process terminated
+2019-08-15 07:05:42 pid:12654 Worker[12654] process terminated
+2019-08-15 07:06:11 pid:15231 Worker[15231] process terminated
+2019-08-15 07:06:11 pid:16312 Worker[16312] process terminated
+2019-08-15 07:06:25 pid:16313 Worker[16313] process terminated
+2019-08-15 07:06:35 pid:16490 Worker[16490] process terminated
+2019-08-15 07:08:59 pid:16588 Worker[16588] process terminated
+2019-08-15 07:08:59 pid:18657 Worker[18657] process terminated
+2019-08-15 07:09:16 pid:18658 Worker[18658] process terminated
+2019-08-15 07:09:52 pid:19134 Worker[19134] process terminated
+2019-08-15 07:10:23 pid:19568 Worker[19568] process terminated
+2019-08-15 07:12:14 pid:20893 Worker[20893] process terminated
+2019-08-15 07:15:04 pid:22785 Worker[22785] process terminated
+2019-08-15 07:16:44 pid:25293 Worker[25293] process terminated
+2019-08-15 07:17:05 pid:27476 Worker[27476] process terminated
+2019-08-15 07:18:26 pid:27842 Worker[27842] process terminated
+2019-08-15 07:18:52 pid:28871 Worker[28871] process terminated
+2019-08-15 07:19:45 pid:29111 Worker[29111] process terminated
+2019-08-15 07:20:40 pid:29764 Worker[29764] process terminated
+2019-08-15 07:21:11 pid:31560 Worker[31560] process terminated
+2019-08-15 07:22:17 pid:32221 Worker[32221] process terminated
+2019-08-15 07:24:31 pid:997 Worker[997] process terminated
+2019-08-15 07:25:41 pid:2900 Worker[2900] process terminated
+2019-08-15 07:26:15 pid:4899 Worker[4899] process terminated
+2019-08-15 07:26:15 pid:5814 Worker[5814] process terminated
+2019-08-15 07:27:56 pid:5815 Worker[5815] process terminated
+2019-08-15 07:28:29 pid:7739 Worker[7739] process terminated
+2019-08-15 07:28:29 pid:8682 Worker[8682] process terminated
+2019-08-15 07:28:51 pid:8683 Worker[8683] process terminated
+2019-08-15 07:28:56 pid:9210 Worker[9210] process terminated
+2019-08-15 07:29:56 pid:9355 Worker[9355] process terminated
+2019-08-15 07:30:05 pid:10873 Worker[10873] process terminated
+2019-08-15 07:31:39 pid:11751 Worker[11751] process terminated
+2019-08-15 07:34:36 pid:15019 Worker[15019] process terminated
+2019-08-15 07:34:36 pid:19833 Worker[19833] process terminated
+2019-08-15 07:34:36 pid:19834 Worker[19834] process terminated
+2019-08-15 07:34:41 pid:19836 Worker[19836] process terminated
+2019-08-15 07:34:41 pid:19901 Worker[19901] process terminated
+2019-08-15 07:34:48 pid:19902 Worker[19902] process terminated
+2019-08-15 07:39:16 pid:20057 Worker[20057] process terminated
+2019-08-15 07:40:18 pid:27198 Worker[27198] process terminated
+2019-08-15 07:40:41 pid:29200 Worker[29200] process terminated
+2019-08-15 07:41:28 pid:30127 Worker[30127] process terminated
+2019-08-15 07:41:28 pid:31180 Worker[31180] process terminated
+2019-08-15 07:41:28 pid:31181 Worker[31181] process terminated
+2019-08-15 07:41:29 pid:31182 Worker[31182] process terminated
+2019-08-15 07:41:37 pid:31192 Worker[31192] process terminated
+2019-08-15 07:41:42 pid:31340 Worker[31340] process terminated
+2019-08-15 07:44:44 pid:31447 Worker[31447] process terminated
+2019-08-15 07:46:03 pid:2862 Worker[2862] process terminated
+2019-08-15 07:47:29 pid:5925 Worker[5925] process terminated
+2019-08-15 07:48:28 pid:8179 Worker[8179] process terminated
+2019-08-15 07:48:38 pid:9676 Worker[9676] process terminated
+2019-08-15 07:51:50 pid:9916 Worker[9916] process terminated
+2019-08-15 07:54:02 pid:20701 Worker[20701] process terminated
+2019-08-15 07:54:04 pid:27861 Worker[27861] process terminated
+2019-08-15 07:55:06 pid:27979 Worker[27979] process terminated
+2019-08-15 07:55:27 pid:31371 Worker[31371] process terminated
+2019-08-15 07:55:36 pid:311 Worker[311] process terminated
+2019-08-15 07:55:44 pid:1100 Worker[1100] process terminated
+2019-08-15 07:57:35 pid:1604 Worker[1604] process terminated
+2019-08-15 08:00:31 pid:7427 Worker[7427] process terminated
+2019-08-15 08:00:51 pid:18722 Worker[18722] process terminated
+2019-08-15 08:00:57 pid:20196 Worker[20196] process terminated
+2019-08-15 08:02:15 pid:20516 Worker[20516] process terminated
+2019-08-15 08:02:15 pid:24339 Worker[24339] process terminated
+2019-08-15 08:02:35 pid:24340 Worker[24340] process terminated
+2019-08-15 08:04:31 pid:25179 Worker[25179] process terminated
+2019-08-15 08:08:17 pid:30714 Worker[30714] process terminated
+2019-08-15 08:09:42 pid:11312 Worker[11312] process terminated
+2019-08-15 08:11:24 pid:15972 Worker[15972] process terminated
+2019-08-15 08:12:11 pid:23076 Worker[23076] process terminated
+2019-08-15 08:13:21 pid:25434 Worker[25434] process terminated
+2019-08-15 08:19:34 pid:28598 Worker[28598] process terminated
+2019-08-15 08:20:40 pid:16091 Worker[16091] process terminated
+2019-08-15 08:20:49 pid:21130 Worker[21130] process terminated
+2019-08-15 08:21:24 pid:21584 Worker[21584] process terminated
+2019-08-15 08:21:40 pid:23235 Worker[23235] process terminated
+2019-08-15 08:21:45 pid:23964 Worker[23964] process terminated
+2019-08-15 08:21:56 pid:24170 Worker[24170] process terminated
+2019-08-15 08:22:05 pid:24672 Worker[24672] process terminated
+2019-08-15 08:22:05 pid:25221 Worker[25221] process terminated
+2019-08-15 08:22:05 pid:25222 Worker[25222] process terminated
+2019-08-15 08:22:54 pid:25223 Worker[25223] process terminated
+2019-08-15 08:25:55 pid:27389 Worker[27389] process terminated
+2019-08-15 08:29:21 pid:4798 Worker[4798] process terminated
+2019-08-15 08:29:29 pid:15929 Worker[15929] process terminated
+2019-08-15 08:29:29 pid:16324 Worker[16324] process terminated
+2019-08-15 08:33:20 pid:16325 Worker[16325] process terminated
+2019-08-15 08:33:55 pid:28785 Worker[28785] process terminated
+2019-08-15 08:34:43 pid:30345 Worker[30345] process terminated
+2019-08-15 08:34:48 pid:32582 Worker[32582] process terminated
+2019-08-15 08:35:23 pid:32759 Worker[32759] process terminated
+2019-08-15 08:35:23 pid:2387 Worker[2387] process terminated
+2019-08-15 08:35:34 pid:2388 Worker[2388] process terminated
+2019-08-15 08:35:34 pid:3263 Worker[3263] process terminated
+2019-08-15 08:41:43 pid:3267 Worker[3267] process terminated
+2019-08-15 08:41:48 pid:24520 Worker[24520] process terminated
+2019-08-15 08:42:56 pid:24748 Worker[24748] process terminated
+2019-08-15 08:44:29 pid:27821 Worker[27821] process terminated
+2019-08-15 08:47:59 pid:32200 Worker[32200] process terminated
+2019-08-15 08:51:03 pid:11806 Worker[11806] process terminated
+2019-08-15 08:51:03 pid:23011 Worker[23011] process terminated
+2019-08-15 08:52:12 pid:23012 Worker[23012] process terminated
+2019-08-15 08:52:12 pid:26298 Worker[26298] process terminated
+2019-08-15 08:53:51 pid:26305 Worker[26305] process terminated
+2019-08-15 08:53:51 pid:31052 Worker[31052] process terminated
+2019-08-15 08:59:07 pid:31053 Worker[31053] process terminated
+2019-08-15 09:00:56 pid:17087 Worker[17087] process terminated
+2019-08-15 09:04:08 pid:24196 Worker[24196] process terminated
+2019-08-15 09:04:09 pid:1732 Worker[1732] process terminated
+2019-08-15 09:04:41 pid:1798 Worker[1798] process terminated
+2019-08-15 09:05:22 pid:3245 Worker[3245] process terminated
+2019-08-15 09:06:05 pid:6130 Worker[6130] process terminated
+2019-08-15 09:07:26 pid:9205 Worker[9205] process terminated
+2019-08-15 09:08:11 pid:13746 Worker[13746] process terminated
+2019-08-15 09:11:32 pid:16164 Worker[16164] process terminated
+2019-08-15 09:11:51 pid:27414 Worker[27414] process terminated
+2019-08-15 09:12:03 pid:28261 Worker[28261] process terminated
+2019-08-15 09:12:03 pid:28949 Worker[28949] process terminated
+2019-08-15 09:12:13 pid:28950 Worker[28950] process terminated
+2019-08-15 09:13:04 pid:29408 Worker[29408] process terminated
+2019-08-15 09:13:04 pid:31868 Worker[31868] process terminated
+2019-08-15 09:14:32 pid:31869 Worker[31869] process terminated
+2019-08-15 09:15:24 pid:3688 Worker[3688] process terminated
+2019-08-15 09:15:24 pid:7164 Worker[7164] process terminated
+2019-08-15 09:16:36 pid:7165 Worker[7165] process terminated
+2019-08-15 09:17:31 pid:12214 Worker[12214] process terminated
+2019-08-15 09:22:12 pid:15379 Worker[15379] process terminated
+2019-08-15 09:24:11 pid:30357 Worker[30357] process terminated
+2019-08-15 09:24:11 pid:3595 Worker[3595] process terminated
+2019-08-15 09:24:40 pid:3596 Worker[3596] process terminated
+2019-08-15 09:25:47 pid:4900 Worker[4900] process terminated
+2019-08-15 09:33:11 pid:9651 Worker[9651] process terminated
+2019-08-15 09:33:11 pid:1971 Worker[1971] process terminated
+2019-08-15 09:33:32 pid:1972 Worker[1972] process terminated
+2019-08-15 09:33:32 pid:2905 Worker[2905] process terminated
+2019-08-15 09:34:52 pid:2907 Worker[2907] process terminated
+2019-08-15 09:36:04 pid:6974 Worker[6974] process terminated
+2019-08-15 09:36:04 pid:12626 Worker[12626] process terminated
+2019-08-15 09:36:04 pid:12628 Worker[12628] process terminated
+2019-08-15 09:37:20 pid:12630 Worker[12630] process terminated
+2019-08-15 09:37:47 pid:17000 Worker[17000] process terminated
+2019-08-15 09:37:47 pid:18466 Worker[18466] process terminated
+2019-08-15 09:38:37 pid:18468 Worker[18468] process terminated
+2019-08-15 09:38:37 pid:21086 Worker[21086] process terminated
+2019-08-15 09:38:37 pid:21088 Worker[21088] process terminated
+2019-08-15 09:42:37 pid:21090 Worker[21090] process terminated
+2019-08-15 09:45:20 pid:1264 Worker[1264] process terminated
+2019-08-15 09:45:20 pid:10116 Worker[10116] process terminated
+2019-08-15 09:45:20 pid:10117 Worker[10117] process terminated
+2019-08-15 09:46:19 pid:10118 Worker[10118] process terminated
+2019-08-15 09:46:39 pid:13861 Worker[13861] process terminated
+2019-08-15 09:47:19 pid:15014 Worker[15014] process terminated
+2019-08-15 09:47:26 pid:17447 Worker[17447] process terminated
+2019-08-15 09:50:56 pid:17845 Worker[17845] process terminated
+2019-08-15 09:51:02 pid:29350 Worker[29350] process terminated
+2019-08-15 09:52:06 pid:29604 Worker[29604] process terminated
+2019-08-15 09:53:40 pid:32725 Worker[32725] process terminated
+2019-08-15 09:54:32 pid:4550 Worker[4550] process terminated
+2019-08-15 09:56:57 pid:7324 Worker[7324] process terminated
+2019-08-15 09:57:12 pid:16823 Worker[16823] process terminated
+2019-08-15 09:57:12 pid:17920 Worker[17920] process terminated
+2019-08-15 09:57:12 pid:17943 Worker[17943] process terminated
+2019-08-15 09:57:12 pid:17947 Worker[17947] process terminated
+2019-08-15 09:57:12 pid:17964 Worker[17964] process terminated
+2019-08-15 09:57:13 pid:17968 Worker[17968] process terminated
+2019-08-15 09:57:13 pid:17983 Worker[17983] process terminated
+2019-08-15 09:57:13 pid:17993 Worker[17993] process terminated
+2019-08-15 09:57:13 pid:17996 Worker[17996] process terminated
+2019-08-15 09:57:13 pid:18018 Worker[18018] process terminated
+2019-08-15 09:57:13 pid:18024 Worker[18024] process terminated
+2019-08-15 09:59:02 pid:18045 Worker[18045] process terminated
+2019-08-15 10:02:12 pid:23708 Worker[23708] process terminated
+2019-08-15 10:02:12 pid:2153 Worker[2153] process terminated
+2019-08-15 10:02:16 pid:2154 Worker[2154] process terminated
+2019-08-15 10:03:22 pid:2336 Worker[2336] process terminated
+2019-08-15 10:04:08 pid:5708 Worker[5708] process terminated
+2019-08-15 10:06:04 pid:8265 Worker[8265] process terminated
+2019-08-15 10:06:46 pid:16218 Worker[16218] process terminated
+2019-08-15 10:07:28 pid:18594 Worker[18594] process terminated
+2019-08-15 10:09:22 pid:20991 Worker[20991] process terminated
+2019-08-15 10:10:52 pid:26419 Worker[26419] process terminated
+2019-08-15 10:10:53 pid:31771 Worker[31771] process terminated
+2019-08-15 10:13:42 pid:31795 Worker[31795] process terminated
+2019-08-15 10:13:54 pid:7957 Worker[7957] process terminated
+2019-08-15 10:14:34 pid:8741 Worker[8741] process terminated
+2019-08-15 10:15:06 pid:11055 Worker[11055] process terminated
+2019-08-15 10:15:53 pid:13104 Worker[13104] process terminated
+2019-08-15 10:17:27 pid:16523 Worker[16523] process terminated
+2019-08-15 10:19:44 pid:21545 Worker[21545] process terminated
+2019-08-15 10:19:44 pid:28172 Worker[28172] process terminated
+2019-08-15 10:19:44 pid:28173 Worker[28173] process terminated
+2019-08-15 10:24:34 pid:28176 Worker[28176] process terminated
+2019-08-15 10:24:34 pid:11466 Worker[11466] process terminated
+2019-08-15 10:24:34 pid:11467 Worker[11467] process terminated
+2019-08-15 10:24:50 pid:11470 Worker[11470] process terminated
+2019-08-15 10:26:34 pid:12300 Worker[12300] process terminated
+2019-08-15 10:26:36 pid:19697 Worker[19697] process terminated
+2019-08-15 10:26:36 pid:19767 Worker[19767] process terminated
+2019-08-15 10:27:08 pid:19776 Worker[19776] process terminated
+2019-08-15 10:27:09 pid:21354 Worker[21354] process terminated
+2019-08-15 10:27:34 pid:21355 Worker[21355] process terminated
+2019-08-15 10:28:18 pid:22682 Worker[22682] process terminated
+2019-08-15 10:30:05 pid:24836 Worker[24836] process terminated
+2019-08-15 10:32:55 pid:30599 Worker[30599] process terminated
+2019-08-15 10:33:20 pid:10348 Worker[10348] process terminated
+2019-08-15 10:33:42 pid:12322 Worker[12322] process terminated
+2019-08-15 10:33:48 pid:14540 Worker[14540] process terminated
+2019-08-15 10:34:11 pid:15063 Worker[15063] process terminated
+2019-08-15 10:34:14 pid:17038 Worker[17038] process terminated
+2019-08-15 10:34:14 pid:17340 Worker[17340] process terminated
+2019-08-15 10:34:21 pid:17341 Worker[17341] process terminated
+2019-08-15 10:34:27 pid:17734 Worker[17734] process terminated
+2019-08-15 10:35:15 pid:18105 Worker[18105] process terminated
+2019-08-15 10:35:27 pid:22269 Worker[22269] process terminated
+2019-08-15 10:36:19 pid:23006 Worker[23006] process terminated
+2019-08-15 10:36:31 pid:27179 Worker[27179] process terminated
+2019-08-15 10:38:07 pid:28111 Worker[28111] process terminated
+2019-08-15 10:40:16 pid:3081 Worker[3081] process terminated
+2019-08-15 10:40:16 pid:10627 Worker[10627] process terminated
+2019-08-15 10:42:10 pid:10629 Worker[10629] process terminated
+2019-08-15 10:44:26 pid:18693 Worker[18693] process terminated
+2019-08-15 10:45:07 pid:27416 Worker[27416] process terminated
+2019-08-15 10:45:07 pid:30312 Worker[30312] process terminated
+2019-08-15 10:46:51 pid:30313 Worker[30313] process terminated
+2019-08-15 10:47:27 pid:4686 Worker[4686] process terminated
+2019-08-15 10:48:19 pid:6579 Worker[6579] process terminated
+2019-08-15 10:48:37 pid:10784 Worker[10784] process terminated
+2019-08-15 10:49:47 pid:12145 Worker[12145] process terminated
+2019-08-15 10:50:13 pid:16648 Worker[16648] process terminated
+2019-08-15 10:50:37 pid:19073 Worker[19073] process terminated
+2019-08-15 10:52:03 pid:21162 Worker[21162] process terminated
+2019-08-15 10:52:07 pid:26889 Worker[26889] process terminated
+2019-08-15 10:56:52 pid:27135 Worker[27135] process terminated
+2019-08-15 10:56:52 pid:14152 Worker[14152] process terminated
+2019-08-15 10:57:25 pid:14153 Worker[14153] process terminated
+2019-08-15 10:58:08 pid:16332 Worker[16332] process terminated
+2019-08-15 10:58:16 pid:19166 Worker[19166] process terminated
+2019-08-15 10:58:52 pid:19790 Worker[19790] process terminated
+2019-08-15 10:58:52 pid:22111 Worker[22111] process terminated
+2019-08-15 10:59:03 pid:22113 Worker[22113] process terminated
+2019-08-15 11:00:02 pid:23003 Worker[23003] process terminated
+2019-08-15 11:02:08 pid:25872 Worker[25872] process terminated
+2019-08-15 11:05:25 pid:1277 Worker[1277] process terminated
+2019-08-15 11:07:12 pid:12080 Worker[12080] process terminated
+2019-08-15 11:07:23 pid:18776 Worker[18776] process terminated
+2019-08-15 11:07:39 pid:19400 Worker[19400] process terminated
+2019-08-15 11:07:39 pid:20123 Worker[20123] process terminated
+2019-08-15 11:07:52 pid:20125 Worker[20125] process terminated
+2019-08-15 11:10:04 pid:20814 Worker[20814] process terminated
+2019-08-15 11:10:04 pid:27383 Worker[27383] process terminated
+2019-08-15 11:11:58 pid:27386 Worker[27386] process terminated
+2019-08-15 11:13:22 pid:1091 Worker[1091] process terminated
+2019-08-15 11:13:44 pid:5850 Worker[5850] process terminated
+2019-08-15 11:13:44 pid:6845 Worker[6845] process terminated
+2019-08-15 11:16:25 pid:6846 Worker[6846] process terminated
+2019-08-15 11:17:27 pid:17138 Worker[17138] process terminated
+2019-08-15 11:18:21 pid:20235 Worker[20235] process terminated
+2019-08-15 11:19:03 pid:23088 Worker[23088] process terminated
+2019-08-15 11:20:22 pid:25343 Worker[25343] process terminated
+2019-08-15 11:20:34 pid:30018 Worker[30018] process terminated
+2019-08-15 11:20:34 pid:30666 Worker[30666] process terminated
+2019-08-15 11:22:18 pid:30667 Worker[30667] process terminated
+2019-08-15 11:24:57 pid:3584 Worker[3584] process terminated
+2019-08-15 11:24:57 pid:15472 Worker[15472] process terminated
+2019-08-15 11:24:59 pid:15478 Worker[15478] process terminated
+2019-08-15 11:27:44 pid:15747 Worker[15747] process terminated
+2019-08-15 11:27:44 pid:29384 Worker[29384] process terminated
+2019-08-15 11:28:16 pid:29386 Worker[29386] process terminated
+2019-08-15 11:28:40 pid:31481 Worker[31481] process terminated
+2019-08-15 11:29:36 pid:562 Worker[562] process terminated
+2019-08-15 11:30:37 pid:3897 Worker[3897] process terminated
+2019-08-15 11:30:55 pid:8641 Worker[8641] process terminated
+2019-08-15 11:31:25 pid:10302 Worker[10302] process terminated
+2019-08-15 11:31:25 pid:12799 Worker[12799] process terminated
+2019-08-15 11:32:40 pid:12801 Worker[12801] process terminated
+2019-08-15 11:32:43 pid:17442 Worker[17442] process terminated
+2019-08-15 11:34:05 pid:17605 Worker[17605] process terminated
+2019-08-15 11:34:40 pid:21962 Worker[21962] process terminated
+2019-08-15 11:36:46 pid:23621 Worker[23621] process terminated
+2019-08-15 11:36:58 pid:32060 Worker[32060] process terminated
+2019-08-15 11:37:00 pid:32645 Worker[32645] process terminated
+2019-08-15 11:38:03 pid:32716 Worker[32716] process terminated
+2019-08-15 11:38:03 pid:3290 Worker[3290] process terminated
+2019-08-15 11:41:37 pid:3291 Worker[3291] process terminated
+2019-08-15 11:42:42 pid:15533 Worker[15533] process terminated
+2019-08-15 11:42:58 pid:18983 Worker[18983] process terminated
+2019-08-15 11:42:59 pid:19837 Worker[19837] process terminated
+2019-08-15 11:43:10 pid:19842 Worker[19842] process terminated
+2019-08-15 11:43:41 pid:20485 Worker[20485] process terminated
+2019-08-15 11:45:25 pid:21938 Worker[21938] process terminated
+2019-08-15 11:47:29 pid:27202 Worker[27202] process terminated
+2019-08-15 11:47:44 pid:1429 Worker[1429] process terminated
+2019-08-15 11:47:45 pid:2206 Worker[2206] process terminated
+2019-08-15 11:47:45 pid:2208 Worker[2208] process terminated
+2019-08-15 11:48:53 pid:2236 Worker[2236] process terminated
+2019-08-15 11:48:53 pid:5685 Worker[5685] process terminated
+2019-08-15 11:49:06 pid:5686 Worker[5686] process terminated
+2019-08-15 11:49:12 pid:6546 Worker[6546] process terminated
+2019-08-15 11:49:12 pid:6859 Worker[6859] process terminated
+2019-08-15 11:50:40 pid:6860 Worker[6860] process terminated
+2019-08-15 11:51:01 pid:13232 Worker[13232] process terminated
+2019-08-15 11:51:04 pid:14468 Worker[14468] process terminated
+2019-08-15 11:51:51 pid:14957 Worker[14957] process terminated
+2019-08-15 11:52:02 pid:18454 Worker[18454] process terminated
+2019-08-15 11:53:50 pid:19110 Worker[19110] process terminated
+2019-08-15 11:54:43 pid:24425 Worker[24425] process terminated
+2019-08-15 11:55:58 pid:27122 Worker[27122] process terminated
+2019-08-15 11:55:58 pid:32102 Worker[32102] process terminated
+2019-08-15 11:57:39 pid:32103 Worker[32103] process terminated
+2019-08-15 11:57:53 pid:4874 Worker[4874] process terminated
+2019-08-15 11:57:53 pid:5553 Worker[5553] process terminated
+2019-08-15 11:58:45 pid:5554 Worker[5554] process terminated
+2019-08-15 11:59:06 pid:8564 Worker[8564] process terminated
+2019-08-15 11:59:06 pid:9911 Worker[9911] process terminated
+2019-08-15 11:59:44 pid:9912 Worker[9912] process terminated
+2019-08-15 12:01:16 pid:11982 Worker[11982] process terminated
+2019-08-15 12:02:50 pid:19080 Worker[19080] process terminated
+2019-08-15 12:03:17 pid:24025 Worker[24025] process terminated
+2019-08-15 12:03:48 pid:25404 Worker[25404] process terminated
+2019-08-15 12:03:58 pid:26842 Worker[26842] process terminated
+2019-08-15 12:04:29 pid:27412 Worker[27412] process terminated
+2019-08-15 12:06:01 pid:29099 Worker[29099] process terminated
+2019-08-15 12:06:57 pid:2158 Worker[2158] process terminated
+2019-08-15 12:07:20 pid:5076 Worker[5076] process terminated
+2019-08-15 12:07:20 pid:6321 Worker[6321] process terminated
+2019-08-15 12:12:21 pid:6322 Worker[6322] process terminated
+2019-08-15 12:12:36 pid:24236 Worker[24236] process terminated
+2019-08-15 12:13:08 pid:26726 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:13:08 pid:26726 Workerman[chat.php] already running
+2019-08-15 12:13:16 pid:27034 Workerman[chat.php] status 
+2019-08-15 12:13:22 pid:27351 Workerman[chat.php] status 
+2019-08-15 12:13:52 pid:24890 Worker[24890] process terminated
+2019-08-15 12:14:07 pid:30243 Workerman[chat.php] stop 
+2019-08-15 12:14:07 pid:30243 Workerman[chat.php] is stopping ...
+2019-08-15 12:14:07 pid:25142 Workerman[chat.php] stopping ...
+2019-08-15 12:14:07 pid:25142 Workerman[chat.php] has been stopped
+2019-08-15 12:14:07 pid:30243 Workerman[chat.php] stop success
+2019-08-15 12:14:11 pid:30521 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:14:59 pid:30521 Workerman[chat.php] stopping ...
+2019-08-15 12:14:59 pid:30521 Workerman[chat.php] has been stopped
+2019-08-15 12:15:00 pid:356 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:17:27 pid:356 Workerman[chat.php] stopping ...
+2019-08-15 12:17:27 pid:356 Workerman[chat.php] has been stopped
+2019-08-15 12:17:28 pid:9693 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:18:40 pid:9693 Workerman[chat.php] stopping ...
+2019-08-15 12:18:40 pid:9693 Workerman[chat.php] has been stopped
+2019-08-15 12:18:41 pid:13549 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:19:19 pid:13549 Workerman[chat.php] stopping ...
+2019-08-15 12:19:19 pid:13549 Workerman[chat.php] has been stopped
+2019-08-15 12:19:20 pid:15914 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:26:14 pid:15914 Workerman[chat.php] stopping ...
+2019-08-15 12:26:14 pid:15914 Workerman[chat.php] has been stopped
+2019-08-15 12:26:15 pid:7016 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:26:15 pid:7017 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#7 {main}
+2019-08-15 12:26:16 pid:7017 Worker[7017] process terminated
+2019-08-15 12:26:16 pid:7016 worker[none:7017] exit with status 64000
+2019-08-15 12:26:16 pid:7074 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:17 pid:7074 Worker[7074] process terminated
+2019-08-15 12:26:17 pid:7016 worker[none:7074] exit with status 64000
+2019-08-15 12:26:17 pid:7107 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:18 pid:7107 Worker[7107] process terminated
+2019-08-15 12:26:18 pid:7016 worker[none:7107] exit with status 64000
+2019-08-15 12:26:18 pid:7150 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:19 pid:7150 Worker[7150] process terminated
+2019-08-15 12:26:19 pid:7016 worker[none:7150] exit with status 64000
+2019-08-15 12:26:19 pid:7201 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:20 pid:7201 Worker[7201] process terminated
+2019-08-15 12:26:20 pid:7016 worker[none:7201] exit with status 64000
+2019-08-15 12:26:20 pid:7263 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:21 pid:7263 Worker[7263] process terminated
+2019-08-15 12:26:21 pid:7016 worker[none:7263] exit with status 64000
+2019-08-15 12:26:21 pid:7322 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:22 pid:7322 Worker[7322] process terminated
+2019-08-15 12:26:22 pid:7016 worker[none:7322] exit with status 64000
+2019-08-15 12:26:22 pid:7376 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:23 pid:7376 Worker[7376] process terminated
+2019-08-15 12:26:23 pid:7016 worker[none:7376] exit with status 64000
+2019-08-15 12:26:23 pid:7455 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:24 pid:7455 Worker[7455] process terminated
+2019-08-15 12:26:24 pid:7016 worker[none:7455] exit with status 64000
+2019-08-15 12:26:24 pid:7508 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:25 pid:7508 Worker[7508] process terminated
+2019-08-15 12:26:25 pid:7016 worker[none:7508] exit with status 64000
+2019-08-15 12:26:25 pid:7573 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:26 pid:7573 Worker[7573] process terminated
+2019-08-15 12:26:26 pid:7016 worker[none:7573] exit with status 64000
+2019-08-15 12:26:26 pid:7647 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:27 pid:7647 Worker[7647] process terminated
+2019-08-15 12:26:27 pid:7016 worker[none:7647] exit with status 64000
+2019-08-15 12:26:27 pid:7696 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:28 pid:7696 Worker[7696] process terminated
+2019-08-15 12:26:28 pid:7016 worker[none:7696] exit with status 64000
+2019-08-15 12:26:28 pid:7771 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:29 pid:7771 Worker[7771] process terminated
+2019-08-15 12:26:29 pid:7016 worker[none:7771] exit with status 64000
+2019-08-15 12:26:29 pid:7812 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:30 pid:7812 Worker[7812] process terminated
+2019-08-15 12:26:30 pid:7016 worker[none:7812] exit with status 64000
+2019-08-15 12:26:30 pid:7873 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:31 pid:7873 Worker[7873] process terminated
+2019-08-15 12:26:31 pid:7016 worker[none:7873] exit with status 64000
+2019-08-15 12:26:31 pid:7926 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:32 pid:7926 Worker[7926] process terminated
+2019-08-15 12:26:32 pid:7016 worker[none:7926] exit with status 64000
+2019-08-15 12:26:32 pid:7985 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:33 pid:7985 Worker[7985] process terminated
+2019-08-15 12:26:33 pid:7016 worker[none:7985] exit with status 64000
+2019-08-15 12:26:33 pid:8044 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:34 pid:8044 Worker[8044] process terminated
+2019-08-15 12:26:34 pid:7016 worker[none:8044] exit with status 64000
+2019-08-15 12:26:34 pid:8115 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:35 pid:8115 Worker[8115] process terminated
+2019-08-15 12:26:35 pid:7016 worker[none:8115] exit with status 64000
+2019-08-15 12:26:35 pid:8200 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:36 pid:8200 Worker[8200] process terminated
+2019-08-15 12:26:36 pid:7016 worker[none:8200] exit with status 64000
+2019-08-15 12:26:36 pid:8248 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:37 pid:8248 Worker[8248] process terminated
+2019-08-15 12:26:37 pid:7016 worker[none:8248] exit with status 64000
+2019-08-15 12:26:37 pid:8309 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:38 pid:8309 Worker[8309] process terminated
+2019-08-15 12:26:38 pid:7016 worker[none:8309] exit with status 64000
+2019-08-15 12:26:38 pid:8391 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:39 pid:8391 Worker[8391] process terminated
+2019-08-15 12:26:39 pid:7016 worker[none:8391] exit with status 64000
+2019-08-15 12:26:39 pid:8450 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:40 pid:8450 Worker[8450] process terminated
+2019-08-15 12:26:40 pid:7016 worker[none:8450] exit with status 64000
+2019-08-15 12:26:40 pid:8505 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:41 pid:8505 Worker[8505] process terminated
+2019-08-15 12:26:41 pid:7016 worker[none:8505] exit with status 64000
+2019-08-15 12:26:41 pid:8557 Error: Call to undefined method stdClass::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:42 pid:8557 Worker[8557] process terminated
+2019-08-15 12:26:42 pid:7016 Workerman[chat.php] stopping ...
+2019-08-15 12:26:42 pid:7016 worker[none:8557] exit with status 64000
+2019-08-15 12:26:42 pid:7016 Workerman[chat.php] has been stopped
+2019-08-15 12:26:56 pid:9435 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:26:56 pid:9459 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#7 {main}
+2019-08-15 12:26:57 pid:9459 Worker[9459] process terminated
+2019-08-15 12:26:57 pid:9435 worker[none:9459] exit with status 64000
+2019-08-15 12:26:57 pid:9523 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:58 pid:9523 Worker[9523] process terminated
+2019-08-15 12:26:58 pid:9435 worker[none:9523] exit with status 64000
+2019-08-15 12:26:58 pid:9568 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:26:59 pid:9568 Worker[9568] process terminated
+2019-08-15 12:26:59 pid:9435 worker[none:9568] exit with status 64000
+2019-08-15 12:26:59 pid:9615 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:00 pid:9615 Worker[9615] process terminated
+2019-08-15 12:27:00 pid:9435 worker[none:9615] exit with status 64000
+2019-08-15 12:27:00 pid:9681 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:01 pid:9681 Worker[9681] process terminated
+2019-08-15 12:27:01 pid:9435 worker[none:9681] exit with status 64000
+2019-08-15 12:27:01 pid:9724 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:02 pid:9724 Worker[9724] process terminated
+2019-08-15 12:27:02 pid:9435 worker[none:9724] exit with status 64000
+2019-08-15 12:27:02 pid:9846 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:03 pid:9846 Worker[9846] process terminated
+2019-08-15 12:27:03 pid:9435 worker[none:9846] exit with status 64000
+2019-08-15 12:27:03 pid:10000 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:04 pid:10000 Worker[10000] process terminated
+2019-08-15 12:27:04 pid:9435 worker[none:10000] exit with status 64000
+2019-08-15 12:27:04 pid:10079 Error: Call to undefined method Workerman\Worker::connect() in /home/s50962/public_html/sepezho.ru/php/chat.php:86
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2342): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#8 /home/s50962/public_html/sepezho.ru/php/chat.php(88): Workerman\Worker::runAll()
+#9 {main}
+2019-08-15 12:27:04 pid:10079 Worker[10079] process terminated
+2019-08-15 12:27:04 pid:9435 Workerman[chat.php] stopping ...
+2019-08-15 12:27:04 pid:9435 worker[none:10079] exit with status 64000
+2019-08-15 12:27:04 pid:9435 Workerman[chat.php] has been stopped
+2019-08-15 12:27:25 pid:11134 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:27:40 pid:11134 Workerman[chat.php] stopping ...
+2019-08-15 12:27:40 pid:11134 Workerman[chat.php] has been stopped
+2019-08-15 12:27:56 pid:12605 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:28:35 pid:12605 Workerman[chat.php] stopping ...
+2019-08-15 12:28:35 pid:12605 Workerman[chat.php] has been stopped
+2019-08-15 12:29:51 pid:19107 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:29:59 pid:19107 Workerman[chat.php] stopping ...
+2019-08-15 12:29:59 pid:19107 Workerman[chat.php] has been stopped
+2019-08-15 12:29:59 pid:19522 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:30:37 pid:19522 Workerman[chat.php] stopping ...
+2019-08-15 12:30:37 pid:19522 Workerman[chat.php] has been stopped
+2019-08-15 12:30:38 pid:22773 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:30:44 pid:22773 Workerman[chat.php] stopping ...
+2019-08-15 12:30:44 pid:22773 Workerman[chat.php] has been stopped
+2019-08-15 12:30:50 pid:23323 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:33:15 pid:23323 Workerman[chat.php] stopping ...
+2019-08-15 12:33:15 pid:23323 Workerman[chat.php] has been stopped
+2019-08-15 12:33:15 pid:29073 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:37:46 pid:29073 Workerman[chat.php] stopping ...
+2019-08-15 12:37:46 pid:29073 Workerman[chat.php] has been stopped
+2019-08-15 12:37:47 pid:6757 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:38:11 pid:6757 Workerman[chat.php] stopping ...
+2019-08-15 12:38:11 pid:6757 Workerman[chat.php] has been stopped
+2019-08-15 12:38:13 pid:7645 Workerman[chat.php] start in DEBUG mode
+2019-08-15 12:40:49 pid:7645 Workerman[chat.php] stopping ...
+2019-08-15 12:40:49 pid:7645 Workerman[chat.php] has been stopped
+2019-08-15 12:40:52 pid:14108 Workerman[chat.php] start in DAEMON mode
+2019-08-15 12:41:11 pid:14792 Workerman[chat.php] status 
+2019-08-15 12:41:37 pid:15530 Workerman[chat.php] status 
+2019-08-15 12:41:49 pid:15895 Workerman[chat.php] connections 
+2019-08-15 12:42:48 pid:17483 Workerman[chat.php] restart 
+2019-08-15 12:42:48 pid:17483 Workerman[chat.php] is stopping ...
+2019-08-15 12:42:48 pid:14121 Workerman[chat.php] stopping ...
+2019-08-15 12:42:48 pid:14121 Workerman[chat.php] has been stopped
+2019-08-15 12:42:48 pid:17483 Workerman[chat.php] stop success
+2019-08-15 12:54:34 pid:17483 Workerman[chat.php] stopping ...
+2019-08-15 12:54:34 pid:17483 Workerman[chat.php] has been stopped
+2019-08-15 12:54:35 pid:6174 Workerman[chat.php] restart 
+2019-08-15 12:54:35 pid:6174 Workerman[chat.php] is stopping ...
+2019-08-15 12:54:35 pid:6174 Workerman[chat.php] stop success
+2019-08-15 13:04:09 pid:6174 Workerman[chat.php] stopping ...
+2019-08-15 13:04:09 pid:6174 Workerman[chat.php] has been stopped
+2019-08-15 13:04:09 pid:24980 Workerman[chat.php] restart 
+2019-08-15 13:04:09 pid:24980 Workerman[chat.php] is stopping ...
+2019-08-15 13:04:09 pid:24980 Workerman[chat.php] stop success
+2019-08-15 13:04:27 pid:25572 Workerman[chat.php] restart 
+2019-08-15 13:04:27 pid:25572 Workerman[chat.php] is stopping ...
+2019-08-15 13:04:27 pid:25572 Workerman[chat.php] stop success
+2019-08-15 13:06:38 pid:25572 Workerman[chat.php] stopping ...
+2019-08-15 13:06:38 pid:25572 Workerman[chat.php] has been stopped
+2019-08-15 13:06:39 pid:31208 Workerman[chat.php] restart 
+2019-08-15 13:06:39 pid:31208 Workerman[chat.php] is stopping ...
+2019-08-15 13:06:39 pid:31208 Workerman[chat.php] stop success
+2019-08-15 15:40:17 pid:2680 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:40:45 pid:2680 Workerman[chat.php] stopping ...
+2019-08-15 15:40:45 pid:2680 Workerman[chat.php] has been stopped
+2019-08-15 15:40:45 pid:4481 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:41:11 pid:4481 Workerman[chat.php] stopping ...
+2019-08-15 15:41:11 pid:4481 Workerman[chat.php] has been stopped
+2019-08-15 15:42:14 pid:9396 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:42:17 pid:9397 Error: Call to a member function send() on array in /home/s50962/public_html/sepezho.ru/php/chat.php:44
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(52): Workerman\Worker::runAll()
+#10 {main}
+2019-08-15 15:42:17 pid:9397 Worker[9397] process terminated
+2019-08-15 15:42:17 pid:9396 worker[none:9397] exit with status 64000
+2019-08-15 15:42:44 pid:9396 Workerman[chat.php] stopping ...
+2019-08-15 15:42:44 pid:9396 Workerman[chat.php] has been stopped
+2019-08-15 15:42:44 pid:10639 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:42:46 pid:10651 Error: Call to a member function send() on array in /home/s50962/public_html/sepezho.ru/php/chat.php:44
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(52): Workerman\Worker::runAll()
+#10 {main}
+2019-08-15 15:42:46 pid:10651 Worker[10651] process terminated
+2019-08-15 15:42:46 pid:10639 worker[none:10651] exit with status 64000
+2019-08-15 15:44:02 pid:10639 Workerman[chat.php] stopping ...
+2019-08-15 15:44:02 pid:10639 Workerman[chat.php] has been stopped
+2019-08-15 15:44:03 pid:13915 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:45:42 pid:13915 Workerman[chat.php] stopping ...
+2019-08-15 15:45:42 pid:13915 Workerman[chat.php] has been stopped
+2019-08-15 15:45:43 pid:20019 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:46:29 pid:20019 Workerman[chat.php] stopping ...
+2019-08-15 15:46:29 pid:20019 Workerman[chat.php] has been stopped
+2019-08-15 15:48:44 pid:29398 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:48:46 pid:29402 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/php/chat.php:48
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(58): Workerman\Worker::runAll()
+#10 {main}
+2019-08-15 15:48:46 pid:29402 Worker[29402] process terminated
+2019-08-15 15:48:46 pid:29398 worker[none:29402] exit with status 64000
+2019-08-15 15:49:12 pid:29398 Workerman[chat.php] stopping ...
+2019-08-15 15:49:12 pid:29398 Workerman[chat.php] has been stopped
+2019-08-15 15:49:13 pid:30992 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:49:16 pid:30995 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/php/chat.php:48
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(58): Workerman\Worker::runAll()
+#10 {main}
+2019-08-15 15:49:16 pid:30995 Worker[30995] process terminated
+2019-08-15 15:49:16 pid:30992 worker[none:30995] exit with status 64000
+2019-08-15 15:49:53 pid:30992 Workerman[chat.php] stopping ...
+2019-08-15 15:49:53 pid:30992 Workerman[chat.php] has been stopped
+2019-08-15 15:49:53 pid:385 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:49:56 pid:391 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/php/chat.php:48
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#9 /home/s50962/public_html/sepezho.ru/php/chat.php(58): Workerman\Worker::runAll()
+#10 {main}
+2019-08-15 15:49:56 pid:391 Worker[391] process terminated
+2019-08-15 15:49:56 pid:385 worker[none:391] exit with status 64000
+2019-08-15 15:53:02 pid:385 Workerman[chat.php] stopping ...
+2019-08-15 15:53:02 pid:385 Workerman[chat.php] has been stopped
+2019-08-15 15:53:03 pid:11884 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:53:05 pid:11893 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php:237
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php(215): Channel\Client::subscribe(Array)
+#1 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Channel\Client::on(NULL, Object(Closure))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(57): Workerman\Worker::runAll()
+#12 {main}
+2019-08-15 15:53:05 pid:11893 Worker[11893] process terminated
+2019-08-15 15:53:05 pid:11884 worker[none:11893] exit with status 64000
+2019-08-15 15:53:38 pid:11884 Workerman[chat.php] stopping ...
+2019-08-15 15:53:38 pid:11884 Workerman[chat.php] has been stopped
+2019-08-15 15:53:39 pid:14236 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:53:50 pid:14237 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php:237
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php(215): Channel\Client::subscribe(Array)
+#1 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Channel\Client::on(NULL, Object(Closure))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(57): Workerman\Worker::runAll()
+#12 {main}
+2019-08-15 15:53:50 pid:14237 Worker[14237] process terminated
+2019-08-15 15:53:50 pid:14236 worker[none:14237] exit with status 64000
+2019-08-15 15:53:52 pid:14926 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php:237
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php(215): Channel\Client::subscribe(Array)
+#1 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Channel\Client::on(NULL, Object(Closure))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1622): Workerman\Worker::forkWorkers()
+#11 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1571): Workerman\Worker::monitorWorkersForLinux()
+#12 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(511): Workerman\Worker::monitorWorkers()
+#13 /home/s50962/public_html/sepezho.ru/php/chat.php(57): Workerman\Worker::runAll()
+#14 {main}
+2019-08-15 15:53:52 pid:14926 Worker[14926] process terminated
+2019-08-15 15:53:52 pid:14236 worker[none:14926] exit with status 64000
+2019-08-15 15:54:15 pid:14236 Workerman[chat.php] stopping ...
+2019-08-15 15:54:15 pid:14236 Workerman[chat.php] has been stopped
+2019-08-15 15:54:16 pid:16326 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:54:18 pid:16328 Error: Call to a member function send() on null in /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php:237
+Stack trace:
+#0 /home/s50962/public_html/sepezho.ru/vendor/workerman/channel/src/Client.php(215): Channel\Client::subscribe(Array)
+#1 /home/s50962/public_html/sepezho.ru/php/chat.php(47): Channel\Client::on(0, Object(Closure))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#3 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"chat_user":"l...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(2357): Workerman\Events\Select->loop()
+#7 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1488): Workerman\Worker->run()
+#8 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1318): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(1292): Workerman\Worker::forkWorkersForLinux()
+#10 /home/s50962/public_html/sepezho.ru/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::forkWorkers()
+#11 /home/s50962/public_html/sepezho.ru/php/chat.php(57): Workerman\Worker::runAll()
+#12 {main}
+2019-08-15 15:54:18 pid:16328 Worker[16328] process terminated
+2019-08-15 15:54:18 pid:16326 worker[none:16328] exit with status 64000
+2019-08-15 15:55:10 pid:16326 Workerman[chat.php] stopping ...
+2019-08-15 15:55:10 pid:16326 Workerman[chat.php] has been stopped
+2019-08-15 15:55:11 pid:18544 Workerman[chat.php] start in DEBUG mode
+2019-08-15 15:58:43 pid:18544 Workerman[chat.php] stopping ...
+2019-08-15 15:58:43 pid:18544 Workerman[chat.php] has been stopped
